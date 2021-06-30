@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:03,480
+Oi galera meu nome é Rafael Pimenta eu
+
+2
+00:00:03,480 --> 00:00:06,210
+sou desenvolvedor mazup uma empresa que
+
+3
+00:00:06,210 --> 00:00:07,770
+tem revolucionado o mercado de
+
+4
+00:00:07,770 --> 00:00:10,019
+tecnologia nos seus projetos opensource
+
+5
+00:00:10,019 --> 00:00:13,170
+e um desses projetos é o Bilú nesse
+
+6
+00:00:13,170 --> 00:00:15,630
+vídeo eu vou te mostrar como instalar
+
+7
+00:00:15,630 --> 00:00:17,880
+biblioteca do beagle em um projeto riet
+
+8
+00:00:17,880 --> 00:00:22,289
+vamos lá ó
+
+9
+00:00:22,289 --> 00:00:25,980
+e para instalar o Realtek do Big Project
+
+10
+00:00:25,980 --> 00:00:27,989
+é bem simples primeira coisa que nós
+
+11
+00:00:27,989 --> 00:00:30,480
+vamos fazer é iniciar um novo projeto
+
+12
+00:00:30,480 --> 00:00:33,660
+viet nesse caso utilizado cliente o hexa
+
+13
+00:00:33,660 --> 00:00:36,030
+então no seu terminal digite e área
+
+14
+00:00:36,030 --> 00:00:39,690
+cliente e at e vamos chamar esse ep de
+
+15
+00:00:39,690 --> 00:00:42,750
+my first Big Hair Execute Esse comando e
+
+16
+00:00:42,750 --> 00:00:45,149
+vamos esperar com que o iett crime para
+
+17
+00:00:45,149 --> 00:00:47,909
+nós aplicação só após ele criar
+
+18
+00:00:47,909 --> 00:00:50,850
+aplicação Vamos então até a documentação
+
+19
+00:00:50,850 --> 00:00:52,949
+oficial do Vigo na documentação ou na
+
+20
+00:00:52,949 --> 00:00:55,949
+seção instalando Bigo Você pode achar a
+
+21
+00:00:55,949 --> 00:00:59,909
+opção web e dentro da Opção web acesse a
+
+22
+00:00:59,909 --> 00:01:02,430
+seção cliente quando você acessar sessão
+
+23
+00:01:02,430 --> 00:01:04,949
+iett podemos ver já os dois comandos
+
+24
+00:01:04,949 --> 00:01:08,009
+para instalar o karateca do Vigo o nosso
+
+25
+00:01:08,009 --> 00:01:10,740
+projeto derrete tão utilizando we are ou
+
+26
+00:01:10,740 --> 00:01:12,810
+RPM seu gerenciador de pacotes de
+
+27
+00:01:12,810 --> 00:01:15,450
+preferência nesse caso utilizar Aguiar
+
+28
+00:01:15,450 --> 00:01:18,329
+foi um pouquinho comando e vamos de novo
+
+29
+00:01:18,329 --> 00:01:20,700
+ao terminal vamos entrar na fase do
+
+30
+00:01:20,700 --> 00:01:22,300
+projeto que acabamos de que
+
+31
+00:01:22,300 --> 00:01:26,550
+E então digite CD my first bigou app
+
+32
+00:01:26,550 --> 00:01:30,330
+entra na pasta pode comando e Execute
+
+33
+00:01:30,330 --> 00:01:33,490
+Esse comando então instalar a biblioteca
+
+34
+00:01:33,490 --> 00:01:35,620
+do Vigo no seu projeto riet um só
+
+35
+00:01:35,620 --> 00:01:38,710
+esperar que ele está Prontinho você já
+
+36
+00:01:38,710 --> 00:01:40,660
+tende a tecla do bico instalada no seu
+
+37
+00:01:40,660 --> 00:01:42,550
+projeto ambiente e fica ligado porque
+
+38
+00:01:42,550 --> 00:01:44,140
+nos próximos vídeos eu vou te ensinar
+
+39
+00:01:44,140 --> 00:01:46,810
+como configurar o Vigo e realizar a sua
+
+40
+00:01:46,810 --> 00:01:49,570
+primeira tela e um projeto riet assine
+
+41
+00:01:49,570 --> 00:01:50,770
+nosso canal para você receber as
+
+42
+00:01:50,770 --> 00:01:54,090
+notificações até a próxima
+

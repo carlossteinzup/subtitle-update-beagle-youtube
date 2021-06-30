@@ -1,0 +1,324 @@
+1
+00:00:00,000 --> 00:00:03,000
+e fala galera meu nome é Lucas Fonseca e
+
+2
+00:00:03,000 --> 00:00:05,790
+eu sou desenvolvedor na Zupi na empresa
+
+3
+00:00:05,790 --> 00:00:07,490
+de tecnologia que tá literalmente
+
+4
+00:00:07,490 --> 00:00:09,450
+revolucionando o mercado com essas
+
+5
+00:00:09,450 --> 00:00:11,880
+aplicações Open Sans e uma delas é um
+
+6
+00:00:11,880 --> 00:00:14,340
+brilho e nesse vídeo aqui eu vou te
+
+7
+00:00:14,340 --> 00:00:16,020
+ensinar a instalar o bico na sua
+
+8
+00:00:16,020 --> 00:00:19,199
+aplicação iOS utilizando tanto cocoapods
+
+9
+00:00:19,199 --> 00:00:23,850
+quanto o cartaz e
+
+10
+00:00:23,850 --> 00:00:27,600
+e pra instalar o bico utilizando o
+
+11
+00:00:27,600 --> 00:00:30,420
+cocoapods é muito fácil você precisa
+
+12
+00:00:30,420 --> 00:00:33,230
+inicializar
+
+13
+00:00:35,760 --> 00:00:40,219
+a voz dentro do seu arquivo do projeto
+
+14
+00:00:40,219 --> 00:00:43,170
+tão pelo terminal você vai até a pasta
+
+15
+00:00:43,170 --> 00:00:45,780
+Onde está o seu projeto e roda o comando
+
+16
+00:00:45,780 --> 00:00:49,050
+Pode emitir com esse comando ele vai
+
+17
+00:00:49,050 --> 00:00:51,539
+gerar para você um arquivo chamado pote
+
+18
+00:00:51,539 --> 00:00:54,030
+fire on
+
+19
+00:00:54,030 --> 00:01:01,270
+de dentro do pote files
+
+20
+00:01:01,270 --> 00:01:05,290
+se você precisa colocar todas as suas
+
+21
+00:01:05,290 --> 00:01:07,409
+dependências
+
+22
+00:01:07,409 --> 00:01:11,819
+bom então pro bico poder funcionar ele
+
+23
+00:01:11,819 --> 00:01:15,119
+utiliza o yoga Kids que é uma ferramenta
+
+24
+00:01:15,119 --> 00:01:18,750
+de renderização crosslaps ter como eu
+
+25
+00:01:18,750 --> 00:01:20,700
+expliquei nesse vídeo falando sobre
+
+26
+00:01:20,700 --> 00:01:23,189
+beagle aqui em cima depois que a gente
+
+27
+00:01:23,189 --> 00:01:25,649
+colocou as nossas dependências dentro do
+
+28
+00:01:25,649 --> 00:01:27,569
+pote Fire a única coisa que a gente
+
+29
+00:01:27,569 --> 00:01:33,220
+precisa fazer é dar um pode Pistol
+
+30
+00:01:33,220 --> 00:01:35,890
+é com esse comando ele vai gerar para a
+
+31
+00:01:35,890 --> 00:01:38,860
+gente work Space aonde todas as nossas
+
+32
+00:01:38,860 --> 00:01:41,440
+dependências estarão resolvidas e a
+
+33
+00:01:41,440 --> 00:01:44,140
+partir daí a gente passa a trabalhar no
+
+34
+00:01:44,140 --> 00:01:47,890
+workspace e não mais no Project depois
+
+35
+00:01:47,890 --> 00:01:50,200
+que você rodar o comando podem sal o
+
+36
+00:01:50,200 --> 00:01:52,030
+Bico já vai estar pronto para ser
+
+37
+00:01:52,030 --> 00:01:55,180
+utilizado dentro do seu workspace para
+
+38
+00:01:55,180 --> 00:01:57,460
+instalar o beagle utilizando cartas
+
+39
+00:01:57,460 --> 00:02:01,260
+também é muito fácil
+
+40
+00:02:03,520 --> 00:02:07,270
+e nós precisamos criar então um teste
+
+41
+00:02:07,270 --> 00:02:09,098
+Fire para isso utilizamos o comando
+
+42
+00:02:09,098 --> 00:02:11,500
+touch
+
+43
+00:02:11,500 --> 00:02:14,560
+a parte Fire
+
+44
+00:02:14,560 --> 00:02:17,020
+de dentro do skate Fire é a única coisa
+
+45
+00:02:17,020 --> 00:02:19,450
+que a gente precisa colocar é a
+
+46
+00:02:19,450 --> 00:02:21,140
+dependência do Bigo
+
+47
+00:02:21,140 --> 00:02:24,550
+e aqui a gente vai utilizar a versão
+
+48
+00:02:24,550 --> 00:02:28,130
+1.0.1 que a versão atual do Bilu então
+
+49
+00:02:28,130 --> 00:02:29,959
+vai lá no nosso site que vai estar aqui
+
+50
+00:02:29,959 --> 00:02:31,790
+na descrição confere Qual que é a última
+
+51
+00:02:31,790 --> 00:02:33,980
+versão do bico para você utilizar a
+
+52
+00:02:33,980 --> 00:02:37,160
+versão mais atualizada Beleza Eu salvei
+
+53
+00:02:37,160 --> 00:02:41,770
+então meu Kart frio eu dou um
+
+54
+00:02:41,770 --> 00:02:46,200
+as cartas bilhetes e
+
+55
+00:02:47,630 --> 00:02:49,700
+e esse processo aqui pode ser um
+
+56
+00:02:49,700 --> 00:02:51,350
+pouquinho mais demorado do que não cocô
+
+57
+00:02:51,350 --> 00:02:54,530
+pode e ele vai fazer o download de todas
+
+58
+00:02:54,530 --> 00:02:57,230
+as dependências e vai gerar para nós os
+
+59
+00:02:57,230 --> 00:03:00,340
+prêmios já compilado
+
+60
+00:03:00,340 --> 00:03:06,970
+a f Moments later roupa todos os
+
+61
+00:03:06,970 --> 00:03:09,849
+Esquilos do beagle a gente precisa
+
+62
+00:03:09,849 --> 00:03:15,030
+adicionar todos os tremores que gerou
+
+63
+00:03:15,030 --> 00:03:17,900
+de dentro do nosso projeto é
+
+64
+00:03:17,900 --> 00:03:21,440
+e a gente vai copiar as Patinhas e
+
+65
+00:03:21,440 --> 00:03:25,810
+O que são com tremor
+
+66
+00:03:26,540 --> 00:03:30,939
+Oh e vamos colocar aqui nessa sessão
+
+67
+00:03:30,939 --> 00:03:34,650
+fremax Liars a
+
+68
+00:03:34,650 --> 00:03:37,290
+e para você acessar esta sessão aqui
+
+69
+00:03:37,290 --> 00:03:39,780
+você precisa aquele cara são pro gente e
+
+70
+00:03:39,780 --> 00:03:43,620
+quem target e gênero você consegue
+
+71
+00:03:43,620 --> 00:03:45,930
+acessar esta sessão e você para poder
+
+72
+00:03:45,930 --> 00:03:47,519
+utilizar o beagle dentro da sua
+
+73
+00:03:47,519 --> 00:03:49,920
+aplicação com cartas todos os parâmetros
+
+74
+00:03:49,920 --> 00:03:52,799
+gerados precisam estar aqui pronto
+
+75
+00:03:52,799 --> 00:03:55,379
+galera Você já tem o beagle instalado e
+
+76
+00:03:55,379 --> 00:03:57,569
+pronto para ser utilizado dentro das
+
+77
+00:03:57,569 --> 00:04:00,329
+suas aplicações a IOS fica ligado Porque
+
+78
+00:04:00,329 --> 00:04:02,970
+no próximo vídeo eu vou te ensinar a
+
+79
+00:04:02,970 --> 00:04:05,730
+fazer uma tela declarativa no iOS
+
+80
+00:04:05,730 --> 00:04:08,549
+utilizando o beagle até a próxima
+
+81
+00:04:08,549 --> 00:04:10,670
+pessoal
+
