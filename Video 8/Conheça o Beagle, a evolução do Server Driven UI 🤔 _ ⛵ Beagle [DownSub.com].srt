@@ -1,444 +1,443 @@
 1
-00:00:00,130 --> 00:00:03,009
-e fala galera prazer meu nome é Lucas
+00:00:00,130 --> 00:00:05,350
+Fala galera, prazer meu nome é Lucas Fonseca 
 
 2
-00:00:03,009 --> 00:00:05,350
-Fonseca e o seu desenvolvedor na Zupi
+00:00:03,009 --> 00:00:07,540
+e o seu desenvolvedor na Zup,
 
 3
-00:00:05,350 --> 00:00:07,540
+00:00:05,350 --> 00:00:09,700
 uma empresa de tecnologia que está
 
 4
-00:00:07,540 --> 00:00:09,700
+00:00:07,540 --> 00:00:12,070
 revolucionando o mercado com as suas
 
 5
-00:00:09,700 --> 00:00:12,070
+00:00:09,700 --> 00:00:14,860
 aplicações open source e uma dessas
 
 6
-00:00:12,070 --> 00:00:14,860
-aplicações é o bico vou ferramenta que
+00:00:12,070 --> 00:00:16,810
+aplicações é o Beagle, uma ferramenta que
 
 7
-00:00:14,860 --> 00:00:16,810
-ele é vou servem dividir wi-fi para
+00:00:14,860 --> 00:00:19,689
+elevou o Server-Driven UI para
 
 8
-00:00:16,810 --> 00:00:19,689
-outro patamar ela tá disponível para
+00:00:16,810 --> 00:00:23,289
+outro patamar. Ela tá disponível para
 
 9
-00:00:19,689 --> 00:00:23,289
-Android aí o s e u l com ela você é
+00:00:19,689 --> 00:00:25,749
+Android iOS e WEB com ela você é
 
 10
-00:00:23,289 --> 00:00:25,749
+00:00:23,289 --> 00:00:28,179
 capaz de alterar telas e fluxos pelo
 
 11
-00:00:25,749 --> 00:00:28,179
-Beck and apenas fazendo alterações
+00:00:25,749 --> 00:00:30,669
+Backend apenas fazendo alterações
 
 12
-00:00:28,179 --> 00:00:30,669
-edição quer saber mais sobre esse frango
+00:00:28,179 --> 00:00:32,800
+em um JSON. Quer saber mais sobre esse framework?
 
 13
-00:00:30,669 --> 00:00:32,800
-fica ligado aqui nesse vídeo que eu vou
+00:00:30,669 --> 00:00:34,780
+Fica ligado aqui nesse vídeo, que eu vou
 
 14
-00:00:32,800 --> 00:00:34,780
-te falar o que tem por trás do beagle e
+00:00:32,800 --> 00:00:36,820
+te falar o que tem por trás do Beagle e
 
 15
-00:00:34,780 --> 00:00:36,820
+00:00:34,780 --> 00:00:41,910
 como essa ferramenta pode revolucionar
 
 16
 00:00:36,820 --> 00:00:41,910
-as suas aplicações e
+as suas aplicações. 
 
 17
-00:00:43,720 --> 00:00:47,080
-e a ferramenta atua como facilitador do
+00:00:43,720 --> 00:00:49,870
+A ferramenta atua como facilitador do
 
 18
-00:00:47,080 --> 00:00:49,870
-BFF e por mais que a sua relação comigo
+00:00:47,080 --> 00:00:51,790
+BFF, e por mais que a sua relação com o Beagle
 
 19
-00:00:49,870 --> 00:00:51,790
-possa realmente se tornar the best
+00:00:49,870 --> 00:00:53,980
+possa realmente se tornar de "best
 
 20
-00:00:51,790 --> 00:00:53,980
-friend forever aqui vamos utilizar o
+00:00:51,790 --> 00:00:56,950
+friend forever", aqui vamos utilizar o
 
 21
-00:00:53,980 --> 00:00:56,950
-conceito de back-end front-end que nada
+00:00:53,980 --> 00:00:59,530
+conceito de backend for frontend, que nada
 
 22
-00:00:56,950 --> 00:00:59,530
+00:00:56,950 --> 00:01:01,390
 mais é que o micro serviço que customiza
 
 23
-00:00:59,530 --> 00:01:01,390
-as entregas do Mcqueen para cada
+00:00:59,530 --> 00:01:04,180
+as entregas do backend para cada
 
 24
-00:01:01,390 --> 00:01:04,180
-interface e experiência de usuário esse
+00:01:01,390 --> 00:01:05,860
+interface e experiência de usuário, esse
 
 25
-00:01:04,180 --> 00:01:05,860
+00:01:04,180 --> 00:01:09,280
 padrão foi descrito pela primeira vez
 
 26
-00:01:05,860 --> 00:01:09,280
-por sem nenhuma lá em 2015 quando ele
+00:01:05,860 --> 00:01:11,830
+por Sam Newman lá em 2015, quando ele
 
 27
-00:01:09,280 --> 00:01:11,830
+00:01:09,280 --> 00:01:13,660
 observou a utilização de micro serviços
 
 28
-00:01:11,830 --> 00:01:13,660
-pelo pessoal do salto alto é uma
+00:01:11,830 --> 00:01:16,300
+pelo pessoal do SoundCloud, que é uma
 
 29
-00:01:13,660 --> 00:01:16,300
+00:01:13,660 --> 00:01:18,820
 plataforma de distribuição de música e
 
 30
-00:01:16,300 --> 00:01:18,820
-áudio no início a plataforma do
+00:01:16,300 --> 00:01:21,850
+áudio. No início a plataforma do
 
 31
-00:01:18,820 --> 00:01:21,850
-SoundCloud era Centralizado ou seja uma
+00:01:18,820 --> 00:01:25,630
+SoundCloud era centralizada, ou seja, uma
 
 32
-00:01:21,850 --> 00:01:25,630
-única bi100 via os aplicativos Android e
+00:01:21,850 --> 00:01:28,720
+única API servia os aplicativos Android, 
 
 33
-00:01:25,630 --> 00:01:28,720
-IOS as interfaces web e vários outros
+00:01:25,630 --> 00:01:31,390
+IOS, as interfaces web e vários outros
 
 34
-00:01:28,720 --> 00:01:31,390
-pais essa centralização depois de um
+00:01:28,720 --> 00:01:33,390
+clients, essa centralização depois de um
 
 35
-00:01:31,390 --> 00:01:33,390
-tempo começou a Gerar alguns problemas
+00:01:31,390 --> 00:01:36,580
+tempo começou a gerar alguns problemas.
 
 36
-00:01:33,390 --> 00:01:36,580
-como por exemplo o tempo que demorava
+00:01:33,390 --> 00:01:38,220
+Como por exemplo o tempo que demorava
 
 37
-00:01:36,580 --> 00:01:38,220
-para adicionar novas funcionalidades
+00:01:36,580 --> 00:01:40,530
+para adicionar novas funcionalidades,
 
 38
-00:01:38,220 --> 00:01:40,530
-Assim como as diferentes necessidades
+00:01:38,220 --> 00:01:43,730
+assim como as diferentes necessidades
 
 39
-00:01:40,530 --> 00:01:43,730
-que cada plataforma tinha e é aí
+00:01:40,530 --> 00:01:46,430
+que cada plataforma tinha. E é aí
 
 40
-00:01:43,730 --> 00:01:46,430
-um beagle e ele consegue fazer
+00:01:43,730 --> 00:01:49,400
+que o Beagle entra, ele consegue fazer
 
 41
-00:01:46,430 --> 00:01:49,400
+00:01:46,430 --> 00:01:52,220
 alterações na interface das aplicações
 
 42
-00:01:49,400 --> 00:01:52,220
-Fontes retornando para o sistema o
+00:01:49,400 --> 00:01:55,910
+frontend retornando para o sistema um
 
 43
-00:01:52,220 --> 00:01:55,910
-arquivo de som indica onde quando e como
+00:01:52,220 --> 00:01:59,050
+arquivo JSON que indica onde, quando e como
 
 44
-00:01:55,910 --> 00:01:59,050
+00:01:55,910 --> 00:02:01,970
 cada componente visual deve ser
 
 45
-00:01:59,050 --> 00:02:01,970
-renderizado comigo consegue fazer isso
+00:01:59,050 --> 00:02:03,740
+renderizado. O Beagle consegue fazer isso
 
 46
-00:02:01,970 --> 00:02:03,740
+00:02:01,970 --> 00:02:06,710
 porque a sua arquitetura está
 
 47
-00:02:03,740 --> 00:02:06,710
-estruturada e servem preveniu é o
+00:02:03,740 --> 00:02:08,960
+estruturada em Server-Driven UI. O
 
 48
-00:02:06,710 --> 00:02:08,960
-servidor que utiliza umbigão consegue se
+00:02:06,710 --> 00:02:11,600
+servidor que utiliza o Beagle consegue se
 
 49
-00:02:08,960 --> 00:02:11,600
-comunicar com os cães front entes que
+00:02:08,960 --> 00:02:14,300
+comunicar com os clients frontends que
 
 50
-00:02:11,600 --> 00:02:14,300
-também utilizam o Vigo com isso esses
+00:02:11,600 --> 00:02:17,000
+também utilizam o Beagle, com isso esses
 
 51
-00:02:14,300 --> 00:02:17,000
-clientes conseguem compreender Hudson e
+00:02:14,300 --> 00:02:19,490
+clientes conseguem compreender o JSON e
 
 52
-00:02:17,000 --> 00:02:19,490
+00:02:17,000 --> 00:02:22,250
 renderizar os componentes visuais e as
 
 53
-00:02:19,490 --> 00:02:22,250
-tomadas de ação declaradas pelo servidor
+00:02:19,490 --> 00:02:24,470
+tomadas de ação declaradas pelo servidor.
 
 54
-00:02:22,250 --> 00:02:24,470
+00:02:22,250 --> 00:02:26,870
 Isso quer dizer no final das contas que
 
 55
-00:02:24,470 --> 00:02:26,870
+00:02:24,470 --> 00:02:29,360
 com uma única aplicação e uma única
 
 56
-00:02:26,870 --> 00:02:29,360
+00:02:26,870 --> 00:02:32,540
 versão na loja nós conseguimos ter um
 
 57
-00:02:29,360 --> 00:02:32,540
+00:02:29,360 --> 00:02:35,540
 aplicativo diferente todos os dias da
 
 58
-00:02:32,540 --> 00:02:35,540
-maneira como quisermos e isso é lindo
+00:02:32,540 --> 00:02:36,950
+maneira como quisermos, e isso é lindo
 
 59
-00:02:35,540 --> 00:02:36,950
+00:02:35,540 --> 00:02:39,020
 quando queremos testar novas
 
 60
-00:02:36,950 --> 00:02:39,020
-funcionalidades conseguimos adicionar
+00:02:36,950 --> 00:02:43,130
+funcionalidades, conseguimos adicionar
 
 61
-00:02:39,020 --> 00:02:43,130
-fluxos e alterar telas apenas trocando o
+00:02:39,020 --> 00:02:43,740
+fluxos e alterar telas apenas trocando
 
 62
-00:02:43,130 --> 00:02:43,740
-código
+00:02:43,130 --> 00:02:47,190
+código no servidor.
 
 63
-00:02:43,740 --> 00:02:47,190
-e sem necessidade nenhuma de subir uma
+00:02:43,740 --> 00:02:49,410
+Sem necessidade nenhuma de subir uma
 
 64
-00:02:47,190 --> 00:02:49,410
-nova versão na loja da aplicação pra
+00:02:47,190 --> 00:02:52,020
+nova versão na loja da aplicação. Pra 
 
 65
-00:02:49,410 --> 00:02:52,020
+00:02:49,410 --> 00:02:54,840
 conseguir renderizar os componentes que
 
 66
-00:02:52,020 --> 00:02:54,840
-chegando de som o beagle utiliza um
+00:02:52,020 --> 00:02:57,690
+chegando do JSON, o bBeagle utiliza um
 
 67
-00:02:54,840 --> 00:02:57,690
+00:02:54,840 --> 00:02:59,700
 conceito muito legal de organização de
 
 68
-00:02:57,690 --> 00:02:59,700
+00:02:57,690 --> 00:03:03,090
 componentes em tela que se chama
 
 69
-00:02:59,700 --> 00:03:03,090
-flex-box com esse conceito é possível
+00:02:59,700 --> 00:03:06,000
+flex-box, com esse conceito é possível
 
 70
-00:03:03,090 --> 00:03:06,000
+00:03:03,090 --> 00:03:08,580
 renderizar os mesmos componentes em
 
 71
-00:03:06,000 --> 00:03:08,580
-tamanhos de telas diferentes de maneira
+00:03:06,000 --> 00:03:11,910
+tamanhos de telas diferentes, de maneira
 
 72
-00:03:08,580 --> 00:03:11,910
-automática ou seja independente das
+00:03:08,580 --> 00:03:14,430
+automática. Ou seja, independente das
 
 73
-00:03:11,910 --> 00:03:14,430
-proporções dos componentes manterão seu
+00:03:11,910 --> 00:03:17,430
+proporções, os componentes manterão seu
 
 74
-00:03:14,430 --> 00:03:17,430
+00:03:14,430 --> 00:03:20,130
 layout flexível ajustando-se de acordo
 
 75
-00:03:17,430 --> 00:03:20,130
-com as necessidades mas Lucas isso não
+00:03:17,430 --> 00:03:22,020
+com as necessidades. Mas Lucas isso não
 
 76
-00:03:20,130 --> 00:03:22,020
-deixa as minhas aplicações menos para
+00:03:20,130 --> 00:03:24,360
+deixa as minhas aplicações menos 
 
 77
-00:03:22,020 --> 00:03:24,360
-informáticas joga layout foi
+00:03:22,020 --> 00:03:26,730
+performáticas? O Yoga layout foi
 
 78
-00:03:24,360 --> 00:03:26,730
-implementado em ser a utilizar o seu
+00:03:24,360 --> 00:03:28,830
+implementado em C, para otimizar o seu
 
 79
-00:03:26,730 --> 00:03:28,830
-desempenho isso possibilita para nós
+00:03:26,730 --> 00:03:31,140
+desempenho, isso possibilita para nós
 
 80
-00:03:28,830 --> 00:03:31,140
+00:03:28,830 --> 00:03:34,590
 ainda tratarmos coisas de layouts em
 
 81
-00:03:31,140 --> 00:03:34,590
-degrau crédito ou seja Fique tranquilo
+00:03:31,140 --> 00:03:37,110
+background thread, ou seja, fique tranquilo
 
 82
-00:03:34,590 --> 00:03:37,110
+00:03:34,590 --> 00:03:39,300
 você não terá perda de eficiência na sua
 
 83
-00:03:37,110 --> 00:03:39,300
-aplicação se você utilizar o melhor
+00:03:37,110 --> 00:03:42,420
+aplicação se você utilizar o Yoga
 
 84
-00:03:39,300 --> 00:03:42,420
-layout já que o beagle utiliza o yoga
+00:03:39,300 --> 00:03:43,720
+layout. Já que o beagle utiliza o yoga
 
 85
-00:03:42,420 --> 00:03:43,720
-layout para
+00:03:42,420 --> 00:03:46,390
+layout para implementar 
 
 86
-00:03:43,720 --> 00:03:46,390
+00:03:43,720 --> 00:03:49,870
 o conceito de flex-box na renderização
 
 87
-00:03:46,390 --> 00:03:49,870
-das Telas podemos escrever um único
+00:03:46,390 --> 00:03:52,210
+das telas, podemos escrever um único
 
 88
-00:03:49,870 --> 00:03:52,210
-código de descrição de tela nos nossos
+00:03:49,870 --> 00:03:54,520
+código de descrição de tela no nosso
 
 89
-00:03:52,210 --> 00:03:54,520
-servidor enviar para todas as aplicações
+00:03:52,210 --> 00:03:59,040
+servidor e enviar para todas as aplicações,
 
 90
-00:03:54,520 --> 00:03:59,040
-Android e IOS you bebe e podemos ficar
+00:03:54,520 --> 00:04:01,330
+Android, IOS, WEB e podemos ficar
 
 91
-00:03:59,040 --> 00:04:01,330
-despreocupados pois sabemos que
+00:03:59,040 --> 00:04:03,940
+despreocupados, pois sabemos que
 
 92
-00:04:01,330 --> 00:04:03,940
+00:04:01,330 --> 00:04:06,540
 independente do tamanho ou formato das
 
 93
-00:04:03,940 --> 00:04:06,540
-Telas veremos as mesmas informações
+00:04:03,940 --> 00:04:10,120
+telas, veremos as mesmas informações
 
 94
-00:04:06,540 --> 00:04:10,120
-distribuídas de maneira flexível para a
+00:04:06,540 --> 00:04:12,310
+distribuídas de maneira flexível. Para pra
 
 95
-00:04:10,120 --> 00:04:12,310
+00:04:10,120 --> 00:04:14,560
 pensar em todas as possibilidades que o
 
 96
-00:04:12,310 --> 00:04:14,560
-beagle pode trazer para o seu projeto já
+00:04:12,310 --> 00:04:17,019
+Beagle pode trazer para o seu projeto, já
 
 97
-00:04:14,560 --> 00:04:17,019
-imaginou de todo e o ar e padronizada
+00:04:14,560 --> 00:04:19,120
+imaginou ter todo e o UI e padronizada
 
 98
-00:04:17,019 --> 00:04:19,120
-entre todas as suas plataformas Já
+00:04:17,019 --> 00:04:20,830
+entre todas as suas plataformas? Já
 
 99
-00:04:19,120 --> 00:04:20,829
+00:04:19,120 --> 00:04:22,690
 pensou em diminuir o tempo de feedback
 
 100
-00:04:20,829 --> 00:04:22,690
-dos seus usuários já que todas as
+00:04:20,830 --> 00:04:24,700
+dos seus usuários, já que todas as
 
 101
-00:04:22,690 --> 00:04:24,700
-alterações são rapidamente de entradas
+00:04:22,690 --> 00:04:27,130
+alterações são rapidamente testadas
 
 102
-00:04:24,700 --> 00:04:27,130
-inválidas e já pensou em consegui dar
+00:04:24,700 --> 00:04:29,410
+e validas? Já pensou em conseguir dar
 
 103
-00:04:27,130 --> 00:04:29,410
+00:04:27,130 --> 00:04:32,980
 manutenção em todas as plataformas em um
 
 104
-00:04:29,410 --> 00:04:32,980
-só lugar com Bigo faz isso e muito mais
+00:04:29,410 --> 00:04:35,770
+só lugar ? O Beagle faz isso e muito mais
 
 105
-00:04:32,980 --> 00:04:35,770
-com você se você ficou interessado em
+00:04:32,980 --> 00:04:37,540
+por você! Se você ficou interessado em
 
 106
-00:04:35,770 --> 00:04:37,540
+00:04:35,770 --> 00:04:39,370
 conhecer um pouquinho melhor eu vou
 
 107
-00:04:37,540 --> 00:04:39,370
-deixar as documentações e o nosso 20
+00:04:37,540 --> 00:04:41,350
+deixar as documentações e o nosso GitHub
 
 108
-00:04:39,370 --> 00:04:41,350
-Rubi aqui embaixo para você dar uma
+00:04:39,370 --> 00:04:43,729
+aqui embaixo para você dar uma
 
 109
-00:04:41,350 --> 00:04:43,729
-conferida conversa utilizar
+00:04:41,350 --> 00:04:47,150
+conferida. Começe a utilizar
 
 110
-00:04:43,729 --> 00:04:47,150
-o quanto é muito obrigado por Acompanhar
+00:04:43,729 --> 00:04:51,490
+o Beague o quanto antes! Muito obrigado por acompanhar
 
 111
 00:04:47,150 --> 00:04:51,490
-até aqui e até a próxima pessoal
-
+até aqui e até a próxima pessoal!
