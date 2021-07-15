@@ -1,0 +1,371 @@
+1
+00:00:00,350 --> 00:00:04,910
+What's up guys, my name is João Jacó and
+
+2
+00:00:02,719 --> 00:00:06,379
+I am an iOS developer at Zup, a company
+
+3
+00:00:04,910 --> 00:00:08,390
+that has been investing a lot in Open-Source
+
+4
+00:00:06,379 --> 00:00:09,740
+products and one of them is Beagle. Today, I am
+
+5
+00:00:08,390 --> 00:00:11,570
+going to teach you how to install Beagle in your
+
+6
+00:00:09,740 --> 00:00:19,130
+iOS application using Cocoapods,
+
+7
+00:00:11,570 --> 00:00:20,750
+Carthage and SPM. Man, to install
+
+8
+00:00:19,130 --> 00:00:22,670
+Beagle on Cocoapods is very
+
+9
+00:00:20,750 --> 00:00:25,700
+simple, you will browse to your project's 
+
+10
+00:00:22,670 --> 00:00:28,039
+folder and you have to use the pod init command
+
+11
+00:00:25,700 --> 00:00:31,130
+This command will generate a file
+
+12
+00:00:28,039 --> 00:00:33,109
+a podfile for us and in this file
+
+13
+00:00:31,130 --> 00:00:35,359
+we will insert the project's
+
+14
+00:00:33,109 --> 00:00:37,690
+dependencies. In our case here only 
+
+15
+00:00:35,359 --> 00:00:44,379
+Beagle's dependency.
+
+16
+00:00:37,690 --> 00:00:47,769
+Save this file and now you will 
+
+17
+00:00:44,379 --> 00:00:48,850
+use the pod install command,
+
+18
+00:00:47,769 --> 00:00:51,519
+this command will solve the
+
+19
+00:00:48,850 --> 00:00:53,170
+dependencies and it will generate a workspace.
+
+20
+00:00:51,519 --> 00:00:55,540
+After this, you will only work
+
+21
+00:00:53,170 --> 00:00:57,969
+in the workspace and the installation is
+
+22
+00:00:55,540 --> 00:01:00,190
+completed and that's it. Guys, to make
+
+23
+00:00:57,969 --> 00:01:03,850
+the Carthage installation, you will
+
+24
+00:01:00,190 --> 00:01:07,090
+use the touch Cartfile command and it
+
+25
+00:01:03,850 --> 00:01:10,119
+generates a Cartfile for us, and
+
+26
+00:01:07,090 --> 00:01:14,950
+we will open this file and put 
+
+27
+00:01:10,119 --> 00:01:20,020
+our repository with the version you
+
+28
+00:01:14,950 --> 00:01:24,429
+want. Save the Cartfile and after that you will 
+
+29
+00:01:20,020 --> 00:01:26,170
+use the carthage update command
+
+30
+00:01:24,429 --> 00:01:28,630
+It can take a while, so
+
+31
+00:01:26,170 --> 00:01:30,340
+see you in a few minutes. Guys
+
+32
+00:01:28,630 --> 00:01:32,140
+I'm back and I did this on
+
+33
+00:01:30,340 --> 00:01:33,819
+purpose, now you are able to see 
+
+34
+00:01:32,140 --> 00:01:35,619
+you will have to pay attention to 
+
+35
+00:01:33,819 --> 00:01:37,700
+your xcode version, if you are 
+
+36
+00:01:35,619 --> 00:01:40,460
+using the version 12 or higher
+
+37
+00:01:37,700 --> 00:01:42,950
+you will need to use this Flag in your 
+
+38
+00:01:40,460 --> 00:01:44,780
+carthage update command, so we are
+
+39
+00:01:42,950 --> 00:01:47,390
+going to try to rebuild here because it is 
+
+40
+00:01:44,780 --> 00:01:52,630
+asking. So, we are going to rebuild 
+
+41
+00:01:47,390 --> 00:01:54,640
+the carthage update with this flag
+
+42
+00:01:52,630 --> 00:01:57,310
+and this command may take a while 
+
+43
+00:01:54,640 --> 00:02:00,369
+again. Ah it is important to remember your Carthage
+
+44
+00:01:57,310 --> 00:02:02,920
+must be in the 0.37 version or higher
+
+45
+00:02:00,369 --> 00:02:05,770
+in order to have support for this flag. Guys
+
+46
+00:02:02,920 --> 00:02:07,840
+finally we are back here with the 
+
+47
+00:02:05,770 --> 00:02:10,660
+carthage, it generated this time for us
+
+48
+00:02:07,840 --> 00:02:15,069
+without any errors, our frameworks and 
+
+49
+00:02:10,660 --> 00:02:19,360
+the next step is to open the folder
+
+50
+00:02:15,069 --> 00:02:23,019
+Carthage > Build and we will get Beagle's
+
+51
+00:02:19,360 --> 00:02:28,870
+framework and we will access the project 
+
+52
+00:02:23,019 --> 00:02:31,060
+you have to go to
+
+53
+00:02:28,870 --> 00:02:33,400
+our target and we will
+
+54
+00:02:31,060 --> 00:02:38,470
+add our framework in this section 
+
+55
+00:02:33,400 --> 00:02:40,690
+of  'Frameworks, Libraries and Embedded content'
+
+56
+00:02:38,470 --> 00:02:43,959
+Then, we will get it and drag it to here and
+
+57
+00:02:40,690 --> 00:02:46,090
+this way Beagle is already in with 
+
+58
+00:02:43,959 --> 00:02:48,280
+Carthage. But besides Beagle, we also
+
+59
+00:02:46,090 --> 00:02:51,440
+need Yoga Git, we are going to
+
+60
+00:02:48,280 --> 00:02:53,960
+use our cheat sheet here 
+
+61
+00:02:51,440 --> 00:02:57,860
+And Yoga Git we can insert 
+
+62
+00:02:53,960 --> 00:03:00,860
+through SPM, which is the package Manager
+
+63
+00:02:57,860 --> 00:03:05,360
+of Swift. So, you can access
+
+64
+00:03:00,860 --> 00:03:08,180
+File > 'Swift packages' and add a package and
+
+65
+00:03:05,360 --> 00:03:14,360
+put our repository's link 
+
+66
+00:03:08,180 --> 00:03:16,490
+Yoga, the 1.19 version, the last and click on next. It
+
+67
+00:03:14,360 --> 00:03:18,140
+will solve for us the dependencies
+
+68
+00:03:16,490 --> 00:03:20,330
+of Yoga. Now, after solving the
+
+69
+00:03:18,140 --> 00:03:23,840
+dependencies, select your target
+
+70
+00:03:20,330 --> 00:03:26,300
+and click on finish. It is done guys, now 
+
+71
+00:03:23,840 --> 00:03:28,820
+we need to build and see if it's working.
+
+72
+00:03:26,300 --> 00:03:31,250
+So, you select the simulator here 
+
+73
+00:03:28,820 --> 00:03:33,980
+and build the project. It's done guys
+
+74
+00:03:31,250 --> 00:03:35,210
+this was the Carthage's installation.
+
+75
+00:03:33,980 --> 00:03:37,340
+Guys, now we will install 
+
+76
+00:03:35,210 --> 00:03:38,810
+Beagle through SPM. This one is
+
+77
+00:03:37,340 --> 00:03:42,110
+simpler and you will use 
+
+78
+00:03:38,810 --> 00:03:46,280
+only your xcode files in the Swift packages
+
+79
+00:03:42,110 --> 00:03:48,920
+you will add an URL here of a 
+
+80
+00:03:46,280 --> 00:03:51,450
+package and we will get our 
+
+81
+00:03:48,920 --> 00:03:55,840
+cheat sheet. It is Beagle's
+
+82
+00:03:51,450 --> 00:03:58,950
+repository and we will insert it here
+
+83
+00:03:55,840 --> 00:03:58,950
+and click Next
+
+84
+00:04:00,380 --> 00:04:09,090
+We are using version 1.7
+
+85
+00:04:04,290 --> 00:04:12,180
+Choose the target and click on Finish. And it 
+
+86
+00:04:09,090 --> 00:04:13,829
+already comes with Beagle and Yoga Git.
+
+87
+00:04:12,180 --> 00:04:15,569
+Guys, that's all. After you've seen three
+
+88
+00:04:13,829 --> 00:04:16,680
+ways to install Beagle you won't 
+
+89
+00:04:15,569 --> 00:04:18,389
+miss this oportunity to 
+
+90
+00:04:16,680 --> 00:04:20,850
+play a little in the Server-Driven UI 
+
+91
+00:04:18,389 --> 00:04:22,530
+world, will you? So click the like button
+
+92
+00:04:20,850 --> 00:04:24,650
+and subscribe to our channel, see you
+
+93
+00:04:22,530 --> 00:04:24,650
+in the next videos. 
