@@ -1,0 +1,391 @@
+1
+00:00:00,220 --> 00:00:04,990
+Hi guys, my name is Hector and I am
+
+2
+00:00:02,889 --> 00:00:06,129
+a developer here at Zup and today I'm going to
+
+3
+00:00:04,990 --> 00:00:09,450
+teach you guys how to
+
+4
+00:00:06,129 --> 00:00:11,510
+use Beagle in an Angular project 
+
+5
+00:00:09,450 --> 00:00:11,510
+Then
+
+6
+00:00:11,900 --> 00:00:16,699
+But before we start, I need 
+
+7
+00:00:15,019 --> 00:00:18,410
+you to already have a project with 
+
+8
+00:00:16,699 --> 00:00:20,539
+the library installed. If you don't have it
+
+9
+00:00:18,410 --> 00:00:22,279
+yet, I left a link in the description
+
+10
+00:00:20,539 --> 00:00:23,990
+to the installation video. So, just 
+
+11
+00:00:22,279 --> 00:00:26,720
+go there and watch it quickly 
+
+12
+00:00:23,990 --> 00:00:29,449
+then come back here with me, ok? Now
+
+13
+00:00:26,720 --> 00:00:31,009
+with the project opened here and the library
+
+14
+00:00:29,449 --> 00:00:33,110
+already installed, we will start Beagle's
+
+15
+00:00:31,009 --> 00:00:34,670
+configuration. The first thing
+
+16
+00:00:33,110 --> 00:00:37,339
+you have to do is to use the
+
+17
+00:00:34,670 --> 00:00:41,540
+Beagle init command. So I will type
+
+18
+00:00:37,339 --> 00:00:43,250
+here yarn beagle init. This command
+
+19
+00:00:41,540 --> 00:00:45,650
+will ask which package 
+
+20
+00:00:43,250 --> 00:00:48,070
+manager you are using. I am using yarn
+
+21
+00:00:45,650 --> 00:00:50,570
+so I will type yarn and I'll confirm
+
+22
+00:00:48,070 --> 00:00:53,629
+After you finish running, we will
+
+23
+00:00:50,570 --> 00:00:56,299
+go to the source folder and check inside the
+
+24
+00:00:53,629 --> 00:00:58,760
+app folder, we can see two 
+
+25
+00:00:56,299 --> 00:01:00,730
+new files here and we will open 
+
+26
+00:00:58,760 --> 00:01:02,680
+the beagle.module.ts 
+
+27
+00:01:00,730 --> 00:01:05,110
+this file here, it is the main
+
+28
+00:01:02,680 --> 00:01:06,940
+file for Beagle's configuration. It
+
+29
+00:01:05,110 --> 00:01:08,740
+has several properties you can
+
+30
+00:01:06,940 --> 00:01:11,229
+change them in the way the library
+
+31
+00:01:08,740 --> 00:01:14,350
+behaves. But today we will only change this 
+
+32
+00:01:11,229 --> 00:01:17,110
+first file which it is the base URL. So I left in the
+
+33
+00:01:14,350 --> 00:01:20,140
+description a link you can use as 
+
+34
+00:01:17,110 --> 00:01:22,360
+example. So, just copy it here. This
+
+35
+00:01:20,140 --> 00:01:24,700
+propriety is the path
+
+36
+00:01:22,360 --> 00:01:26,830
+where our screens will come, if you
+
+37
+00:01:24,700 --> 00:01:28,780
+already have your server, you can use its
+
+38
+00:01:26,830 --> 00:01:30,340
+path here, but if you don't have one
+
+39
+00:01:28,780 --> 00:01:32,350
+and want to follow me in this
+
+40
+00:01:30,340 --> 00:01:35,200
+tutorial, just copy the link I 
+
+41
+00:01:32,350 --> 00:01:37,720
+left there. There are other proprieties, we 
+
+42
+00:01:35,200 --> 00:01:39,430
+won't work with them today, but if you want
+
+43
+00:01:37,720 --> 00:01:42,390
+know more about them, just check
+
+44
+00:01:39,430 --> 00:01:46,090
+the documentation, it is explained very well there 
+
+45
+00:01:42,390 --> 00:01:48,160
+After you've done that, we will save here. After
+
+46
+00:01:46,090 --> 00:01:50,649
+saving, we will go to the file  
+
+47
+00:01:48,160 --> 00:01:52,390
+web.module.ts, this file here it is the same 
+
+48
+00:01:50,649 --> 00:01:54,789
+Angular file and the only thing we 
+
+49
+00:01:52,390 --> 00:01:59,320
+have to do is to import our Beagle
+
+50
+00:01:54,789 --> 00:02:00,740
+module here and we will save. Well
+
+51
+00:01:59,320 --> 00:02:02,930
+the configuration is done.
+
+52
+00:02:00,740 --> 00:02:04,790
+Now, we will show to the project
+
+53
+00:02:02,930 --> 00:02:07,490
+where we want our loaded screen
+
+54
+00:02:04,790 --> 00:02:09,739
+Then, we will open the web component here 
+
+55
+00:02:07,490 --> 00:02:11,090
+and we will create a new variable. I will 
+
+56
+00:02:09,739 --> 00:02:12,980
+delete this one because I don't need 
+
+57
+00:02:11,090 --> 00:02:15,349
+it anymore, so I will create a new one here 
+
+58
+00:02:12,980 --> 00:02:17,890
+we called it endpoint and the value
+
+59
+00:02:15,349 --> 00:02:20,200
+will be /components
+
+60
+00:02:17,890 --> 00:02:23,050
+save and now we will go to the HTML.
+
+61
+00:02:20,200 --> 00:02:25,810
+I will replace all this
+
+62
+00:02:23,050 --> 00:02:30,280
+content here for a Beagle component
+
+63
+00:02:25,810 --> 00:02:32,620
+which it is beagle-remote-view, this
+
+64
+00:02:30,280 --> 00:02:35,770
+component accepts as input a
+
+65
+00:02:32,620 --> 00:02:37,690
+propriety called route and I
+
+66
+00:02:35,770 --> 00:02:39,340
+will pass the endpoint's value 
+
+67
+00:02:37,690 --> 00:02:40,780
+So what am I talking here? I am
+
+68
+00:02:39,340 --> 00:02:42,850
+saying to the project, in this point
+
+69
+00:02:40,780 --> 00:02:44,770
+I want to load a beagle screen and it will 
+
+70
+00:02:42,850 --> 00:02:47,260
+come from this endpoint. So it will
+
+71
+00:02:44,770 --> 00:02:49,180
+get this value/components and it
+
+72
+00:02:47,260 --> 00:02:50,770
+will concatenate with the base value 
+
+73
+00:02:49,180 --> 00:02:52,870
+we put there in the configuration
+
+74
+00:02:50,770 --> 00:02:55,090
+file. So everything here 
+
+75
+00:02:52,870 --> 00:02:57,250
+will become the path for our screen. After that,
+
+76
+00:02:55,090 --> 00:02:59,019
+save everything and we will run the project. Now
+
+77
+00:02:57,250 --> 00:03:00,640
+pay attention here, this is not
+
+78
+00:02:59,019 --> 00:03:01,930
+Angular and we will have to run the project
+
+79
+00:03:00,640 --> 00:03:03,730
+in a different way
+
+80
+00:03:01,930 --> 00:03:06,970
+We usually run an Angular 
+
+81
+00:03:03,730 --> 00:03:09,820
+project with ng server right? But in our case 
+
+82
+00:03:06,970 --> 00:03:11,440
+we will use yarn server, because I am
+
+83
+00:03:09,820 --> 00:03:14,769
+using yarn, but if your are using NPM
+
+84
+00:03:11,440 --> 00:03:16,300
+you just have to change it. And now I press enter
+
+85
+00:03:14,769 --> 00:03:17,870
+I use this command here because it generates
+
+86
+00:03:16,300 --> 00:03:21,019
+Beagle's files automatically for me
+
+87
+00:03:17,870 --> 00:03:22,849
+and it has a script behind all ready 
+
+88
+00:03:21,019 --> 00:03:25,730
+to work perfectly for you.
+
+89
+00:03:22,849 --> 00:03:29,170
+It has compiled successfully now we
+
+90
+00:03:25,730 --> 00:03:33,440
+go to our browser, let me open another tab here
+
+91
+00:03:29,170 --> 00:03:35,299
+and we will run. And that's it if you have
+
+92
+00:03:33,440 --> 00:03:37,519
+seen this screen it's because it worked and
+
+93
+00:03:35,299 --> 00:03:39,769
+you are already using Beagle and after using this 
+
+94
+00:03:37,519 --> 00:03:41,989
+video, that's all guys. Have you seen how easy it is
+
+95
+00:03:39,769 --> 00:03:43,610
+to use Beagle with Angular? Don't forget to 
+
+96
+00:03:41,989 --> 00:03:45,470
+like our video and subscribe to 
+
+97
+00:03:43,610 --> 00:03:48,400
+our channel. It will have more videos
+
+98
+00:03:45,470 --> 00:03:48,400
+for you. See you next time! 
