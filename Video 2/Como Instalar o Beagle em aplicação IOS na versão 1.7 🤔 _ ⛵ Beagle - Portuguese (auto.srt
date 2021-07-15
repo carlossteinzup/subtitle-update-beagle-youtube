@@ -1,6 +1,6 @@
 1
 00:00:00,350 --> 00:00:04,910
-e fala galera meu nome é João Jacobs e
+Fala galera meu nome é João Jacó e
 
 2
 00:00:02,719 --> 00:00:06,379
