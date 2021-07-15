@@ -1,50 +1,50 @@
 1
 00:00:00,350 --> 00:00:04,910
-e fala galera meu nome é João Jacobs o
+e fala galera meu nome é João Jacobs e
 
 2
 00:00:02,719 --> 00:00:06,379
-desenvolvedor aí o s na Zupi na empresa
+eu sou desenvolvedor iOS na Zup, uma empresa
 
 3
 00:00:04,910 --> 00:00:08,390
-que vem investindo pesado e produto
+que vem investindo pesado em produtos
 
 4
 00:00:06,379 --> 00:00:09,740
-abençoar e um deles é o beagle e hoje eu
+Open Source e um deles é o Beagle. E hoje eu
 
 5
 00:00:08,390 --> 00:00:11,570
-vou te ensinar a instalar o bico Nossa
+vou te ensinar a instalar o Beagle na sua
 
 6
 00:00:09,740 --> 00:00:19,130
-aplicação aí ó esse utilizando o cocô
+aplicação iOS, utilizando o Cocoapods,
 
 7
 00:00:11,570 --> 00:00:20,750
-potes o cartaz eo SPM cara para fazer a
+o Carthage e o SPM. Cara, para fazer a
 
 8
 00:00:19,130 --> 00:00:22,670
-instalação do bico pelo cocota é muito
+instalação do Beagle pelo cocoapods é muito
 
 9
 00:00:20,750 --> 00:00:25,700
-simples você vai navegar até a pasta e o
+simples, você vai navegar até a pasta do seu
 
 10
 00:00:22,670 --> 00:00:28,039
-projeto já que eles o comando pode init
+projeto e vai utilizar o comando pode init
 
 11
 00:00:25,700 --> 00:00:31,130
-Esse comando ele vai gerar um arquivo
+Esse comando, ele vai gerar um arquivo
 
 12
 00:00:28,039 --> 00:00:33,109
-pode falhou pra gente e é nesse arquivo
+podfile para a gente e é nesse arquivo
 
 13
 00:00:31,130 --> 00:00:35,359
@@ -52,19 +52,19 @@ que a gente vai inserir as dependências
 
 14
 00:00:33,109 --> 00:00:37,690
-do projeto no nosso caso aqui apenas a
+do projeto. No nosso caso aqui apenas a
 
 15
 00:00:35,359 --> 00:00:44,379
-dependência do bingo
+dependência do Beagle.
 
 16
 00:00:37,690 --> 00:00:47,769
-e salva o arquivo agora você vai
+Salva o arquivo e agora você vai
 
 17
 00:00:44,379 --> 00:00:48,850
-utilizar o comando pode install é onde
+utilizar o comando pod install, onde
 
 18
 00:00:47,769 --> 00:00:51,519
@@ -72,35 +72,35 @@ esse comando vai resolver as
 
 19
 00:00:48,850 --> 00:00:53,170
-dependências e vai gerar um work Space
+dependências e vai gerar um workspace
 
 20
 00:00:51,519 --> 00:00:55,540
-partir desse momento você vai trabalhar
+a partir desse momento você vai trabalhar
 
 21
 00:00:53,170 --> 00:00:57,969
-apenas no outro face e instalação está
+apenas no workspace e a instalação está
 
 22
 00:00:55,540 --> 00:01:00,190
-concluída é só isso galera para fazer a
+concluída e é só isso. Galera para fazer a
 
 23
 00:00:57,969 --> 00:01:03,850
-instalação pelo cartas vocês vão
+instalação pelo Carthage vocês vão
 
 24
 00:01:00,190 --> 00:01:07,090
-utilizar o comando touch ex files ele
+utilizar o comando touch Cartfile e ele
 
 25
 00:01:03,850 --> 00:01:10,119
-vai gerar um arte frio para a gente eles
+vai gerar um Cartfile para a gente e
 
 26
 00:01:07,090 --> 00:01:14,950
-vão abrir esse arquivo Vamos colocar o
+vamos abrir esse arquivo e vamos colocar o
 
 27
 00:01:10,119 --> 00:01:20,020
@@ -108,19 +108,19 @@ nosso repositório com a versão que vocês
 
 28
 00:01:14,950 --> 00:01:24,429
-querem salvar o cart frio e você vai
+querem. Salva o Cartfile e depois você vai
 
 29
 00:01:20,020 --> 00:01:26,170
-utilizar o comando carthage update Manda
+utilizar o comando carthage update
 
 30
 00:01:24,429 --> 00:01:28,630
-ele pode demorar alguns minutos então
+Ele pode demorar alguns minutos então
 
 31
 00:01:26,170 --> 00:01:30,340
-daqui a pouco eu vejo vocês galera
+daqui a pouco eu vejo vocês. Galera
 
 32
 00:01:28,630 --> 00:01:32,140
@@ -132,11 +132,11 @@ propositalmente para vocês verem o
 
 34
 00:01:32,140 --> 00:01:35,619
-seguinte eles vão ter que se atentar a
+seguinte, você vão ter que se atentar a
 
 35
 00:01:33,819 --> 00:01:37,700
-versão do seu ex pode se você tiver
+versão do seu xcode, se você estiver
 
 36
 00:01:35,619 --> 00:01:40,460
@@ -144,23 +144,23 @@ usando a versão 12 ou superior
 
 37
 00:01:37,700 --> 00:01:42,950
-a pesar de usar essa Flag aqui no seu
+você vai precisar usar essa Flag aqui no seu
 
 38
 00:01:40,460 --> 00:01:44,780
-comando cartas o bilhete Então a gente
+comando carthage update, então a gente
 
 39
 00:01:42,950 --> 00:01:47,390
-vai tentar rebuildar aqui como ele tá
+vai tentar rebuildar aqui como ele está
 
 40
 00:01:44,780 --> 00:01:52,630
-pedindo ó Então vamos tentar rebuildar
+pedindo. Então vamos tentar rebuildar
 
 41
 00:01:47,390 --> 00:01:54,640
-carta de rubi date com essa Flag on
+carthage update com essa flag
 
 42
 00:01:52,630 --> 00:01:57,310
@@ -168,15 +168,14 @@ e esse comando pode demorar um pouquinho
 
 43
 00:01:54,640 --> 00:02:00,369
-novamente aí Vale lembrar que o seu Card
-
+novamente. Ah e vale lembrar que o seu Carthage
 44
 00:01:57,310 --> 00:02:02,920
 tem que estar na versão 0.37 ou superior
 
 45
 00:02:00,369 --> 00:02:05,770
-para ter suporte a essa Flag ela era
+para ter suporte a essa Flag. Galera
 
 46
 00:02:02,920 --> 00:02:07,840
@@ -184,23 +183,23 @@ finalmente a gente voltou aqui com o
 
 47
 00:02:05,770 --> 00:02:10,660
-cárter ele gerou dessa vez para a gente
+carthage ele gerou dessa vez para a gente
 
 48
 00:02:07,840 --> 00:02:15,069
-sem dar nenhum erro os nossos Fênix e o
+sem dar nenhum erro, os nossos frameworks e o
 
 49
 00:02:10,660 --> 00:02:19,360
-próximo passo é você abrir a pasta eo
+próximo passo é você abrir a pasta do
 
 50
 00:02:15,069 --> 00:02:23,019
-Carter bild a gente vai pegar o frango
+Carthage > Build e a gente vai pegar o framework
 
 51
 00:02:19,360 --> 00:02:28,870
-do beagle e vai almoço do nosso projeto
+do Beagle e vamos no nosso projeto
 
 52
 00:02:23,019 --> 00:02:31,060
@@ -208,31 +207,31 @@ e a gente vai vir aqui no Project no
 
 53
 00:02:28,870 --> 00:02:33,400
-tarde no nosso target a gente vai
+nosso target e a gente vai
 
 54
 00:02:31,060 --> 00:02:38,470
-adicionar o nosso embarque nesta sessão
+adicionar o nosso framework nesta sessão
 
 55
 00:02:33,400 --> 00:02:40,690
-de fremax libraries and Countdown vamos
+de 'Frameworks, Libraries and Embedded content'
 
 56
 00:02:38,470 --> 00:02:43,959
-pegar ele aqui e arrasta ele para cá e
+Então, vamos pegar ele aqui e arrastar ele para cá e
 
 57
 00:02:40,690 --> 00:02:46,090
-dessa forma o Bico já tá aqui dentro com
+dessa forma o Beagle já está aqui dentro com
 
 58
 00:02:43,959 --> 00:02:48,280
-carta só que além do bico a gente
+Carthage, só que além do Beagle, a gente
 
 59
 00:02:46,090 --> 00:02:51,440
-precisa também do yoga que então a gente
+precisa também do Yoga Git, então a gente
 
 60
 00:02:48,280 --> 00:02:53,960
@@ -240,19 +239,19 @@ vai na nossa colinha aqui
 
 61
 00:02:51,440 --> 00:02:57,860
-Oi e o yoga kit a gente pode inserir
+E o Yoga Git a gente pode inserir
 
 62
 00:02:53,960 --> 00:03:00,860
-através do SPM que é o package Manager
+através do SPM, que é o package Manager
 
 63
 00:02:57,860 --> 00:03:05,360
-dos Swift então você pode vir aqui em
+do Swift. Então você pode vir aqui em
 
 64
 00:03:00,860 --> 00:03:08,180
-file City packages adicionar um pacote e
+File > 'Swift packages' e adicionar um pacote e
 
 65
 00:03:05,360 --> 00:03:14,360
@@ -260,59 +259,59 @@ colocar o link do nosso repositório do
 
 66
 00:03:08,180 --> 00:03:16,490
-yoga a versão 1.19 a última e next ele
+Yoga, a versão 1.19 a última e next. Ele
 
 67
 00:03:14,360 --> 00:03:18,140
-vai resolver para gente as dependências
+vai resolver para a gente as dependências
 
 68
 00:03:16,490 --> 00:03:20,330
-do yoga agora depois de resolver as
+do Yoga. Agora depois de resolver as
 
 69
 00:03:18,140 --> 00:03:23,840
-dependências seleciona o seu target né
+dependências, selecione o seu target né
 
 70
 00:03:20,330 --> 00:03:26,300
-dá um filhos pronto galera agora é só a
+e dá um finish. Pronto galera, agora é só a
 
 71
 00:03:23,840 --> 00:03:28,820
-gente de mudar e ver que tá funcionando
+gente buildar e ver que está funcionando.
 
 72
 00:03:26,300 --> 00:03:31,250
-então você selecionar com simulador aqui
+Então você seleciona um simulador aqui
 
 73
 00:03:28,820 --> 00:03:33,980
-e dá um vídeo no projeto pronto galera
+e dá um build no projeto. Pronto galera
 
 74
 00:03:31,250 --> 00:03:35,210
-Essa foi a instalação com cartas ela era
+essa foi a instalação com o Carthage.
 
 75
 00:03:33,980 --> 00:03:37,340
-agora por último a gente vai fazer a
+Galera agora por último a gente vai fazer a
 
 76
 00:03:35,210 --> 00:03:38,810
-instalação do bico através do SPM esse é
+instalação do Beagle através do SPM. Esse é
 
 77
 00:03:37,340 --> 00:03:42,110
-mais simples ainda vocês vão utilizar
+mais simples ainda, vocês vão utilizar
 
 78
 00:03:38,810 --> 00:03:46,280
-apenas o seu ex code files City packages
+apenas o seu xcode files no Swift packages
 
 79
 00:03:42,110 --> 00:03:48,920
-vocês vão adicionar uma url aqui de um
+vocês vão adicionar uma URL aqui de um
 
 80
 00:03:46,280 --> 00:03:51,450
@@ -320,35 +319,35 @@ pacote e a gente vai pegar aqui da nossa
 
 81
 00:03:48,920 --> 00:03:55,840
-colinha é o repositório
+colinha. É o repositório
 
 82
 00:03:51,450 --> 00:03:58,950
-um amigo então vamos ser ele aqui
+do Beagle e então vamos inserir ele aqui
 
 83
 00:03:55,840 --> 00:03:58,950
-o Next
+e Next
 
 84
 00:04:00,380 --> 00:04:09,090
-nós estamos na versão 1.7
+Estamos na versão 1.7
 
 85
 00:04:04,290 --> 00:04:12,180
-a marca o target e clique em finish E aí
+Marca o target e clique em Finish. E é isso
 
 86
 00:04:09,090 --> 00:04:13,829
-se ele já vem com umbigo e o yoga kit eu
+ele já vem com o Beagle e o Yoga Git.
 
 87
 00:04:12,180 --> 00:04:15,569
-só é isso depois a gente vê três
+Pessoal, é isso. Depois que a gente viu três
 
 88
 00:04:13,829 --> 00:04:16,680
-maneiras de instalação do bico vocês não
+maneiras de instalação do Beagle vocês não
 
 89
 00:04:15,569 --> 00:04:18,389
@@ -360,13 +359,13 @@ aventurar no mundo do desenvolvimento
 
 91
 00:04:18,389 --> 00:04:22,530
-serve trivinho vai vão Então deixa o
+Server-Driven UI, vão? Então deixa o
 
 92
 00:04:20,850 --> 00:04:24,650
-like se inscreva no canal que a gente vê
+like e se inscreva no canal que a gente se vê
 
 93
 00:04:22,530 --> 00:04:24,650
-nos
+nos próximos vídeos. 
 
