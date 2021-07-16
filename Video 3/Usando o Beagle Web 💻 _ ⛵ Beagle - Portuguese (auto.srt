@@ -1,10 +1,10 @@
 1
 00:00:00,220 --> 00:00:04,990
-Oi Oi pessoal meu nome é Hector eu sou
+Oi pessoal meu nome é Hector e eu sou
 
 2
 00:00:02,889 --> 00:00:06,129
-desenvolvedor aqui nos hoje eu vou
+desenvolvedor aqui na Zup e hoje eu vou
 
 3
 00:00:04,990 --> 00:00:09,450
@@ -12,7 +12,7 @@ ensinar para vocês como é que a gente
 
 4
 00:00:06,129 --> 00:00:11,510
-usa o Vigo em um projeto lembra a
+usa o Beagle em um projeto Angular.
 
 5
 00:00:09,450 --> 00:00:11,510
@@ -20,23 +20,23 @@ E aí
 
 6
 00:00:11,900 --> 00:00:16,699
-é mas antes da gente começar eu preciso
+Mas antes da gente começar eu preciso
 
 7
 00:00:15,019 --> 00:00:18,410
-que você já tem um projeto com a
+que você já tenha um projeto com a
 
 8
 00:00:16,699 --> 00:00:20,539
-biblioteca instalar se você ainda não
+biblioteca instalada. Se você ainda não
 
 9
 00:00:18,410 --> 00:00:22,279
-tem eu deixei nada inscrição no link
+tem, eu deixei na descrição um link
 
 10
 00:00:20,539 --> 00:00:23,990
-para o vídeo de instalação Então é só
+para o vídeo de instalação. Então é só
 
 11
 00:00:22,279 --> 00:00:26,720
@@ -44,19 +44,19 @@ você ir lá assistir o vídeo rapidinho
 
 12
 00:00:23,990 --> 00:00:29,449
-depois voltar aqui comigo beleza agora
+depois voltar aqui comigo beleza? Agora
 
 13
 00:00:26,720 --> 00:00:31,009
-com projeto aqui aberto EA biblioteca já
+com o projeto aqui aberto e a biblioteca já
 
 14
 00:00:29,449 --> 00:00:33,110
-instalada a gente vai começar a
+instalada, a gente vai começar a
 
 15
 00:00:31,009 --> 00:00:34,670
-configuração do bico a primeira coisa
+configuração do Beagle. A primeira coisa
 
 16
 00:00:33,110 --> 00:00:37,339
@@ -64,51 +64,51 @@ que a gente tem que fazer é usar o
 
 17
 00:00:34,670 --> 00:00:41,540
-comando Bíblia limite Então pode estar
+comando Beagle init. Então eu vou digitar
 
 18
 00:00:37,339 --> 00:00:43,250
-aqui criar beagle limite Então esse como
+aqui yarn beagle init. Então esse comando
 
 19
 00:00:41,540 --> 00:00:45,650
-ele vai perguntar qual gerenciador de
+vai perguntar qual gerenciador de
 
 20
 00:00:43,250 --> 00:00:48,070
-pacotes você tá usando eu tô usando aí
+pacotes você está usando. Eu estou usando yarn
 
 21
 00:00:45,650 --> 00:00:50,570
-ar então eu vou detalhar e vou confirmar
+então eu vou digitar yarn e vou confirmar
 
 22
 00:00:48,070 --> 00:00:53,629
-Depois terminou de rodar a gente tem
+Depois que terminou de rodar, a gente vem
 
 23
 00:00:50,570 --> 00:00:56,299
-aqui na pastor dá uma olhada dentro da
+aqui na pasta source e dá uma olhada dentro da
 
 24
 00:00:53,629 --> 00:00:58,760
-pasta ERP a gente vê que apareceu dois
+pasta app, a gente vê que apareceu dois
 
 25
 00:00:56,299 --> 00:01:00,730
-aquivos novos aqui vamos abrir o vigor
+aquivos novos aqui vamos abrir o 
 
 26
 00:00:58,760 --> 00:01:02,680
-com que morde pontos tracks
+beagle.module.ts 
 
 27
 00:01:00,730 --> 00:01:05,110
-é isso aqui para aqui é o arquivo
+esse arquivo aqui, é o arquivo
 
 28
 00:01:02,680 --> 00:01:06,940
-principal de configuração do bico ele
+principal de configuração do Beagle. Ele
 
 29
 00:01:05,110 --> 00:01:08,740
@@ -120,11 +120,11 @@ alterar o jeito que a Biblioteca se
 
 31
 00:01:08,740 --> 00:01:14,350
-comporta mas hoje só vai alternar essa
+comporta. Mas hoje a gente só vai alterar esse
 
 32
 00:01:11,229 --> 00:01:17,110
-primeira que a base URL Então deixei na
+primeiro arquivo que é a base URL. Então eu deixei na
 
 33
 00:01:14,350 --> 00:01:20,140
@@ -132,7 +132,7 @@ descrição um link para vocês usarem como
 
 34
 00:01:17,110 --> 00:01:22,360
-exemplo Então é só copiar ele aqui essa
+exemplo. Então é só copiar ele aqui. Essa
 
 35
 00:01:20,140 --> 00:01:24,700
@@ -140,55 +140,55 @@ propriedade nada mais é do que o caminho
 
 36
 00:01:22,360 --> 00:01:26,830
-de onde vão ver as nossas telas se você
+de onde vão vir as nossas telas. Se você
 
 37
 00:01:24,700 --> 00:01:28,780
-já pensa no servidor você pode usar o
+já tem o seu servidor, você pode usar o
 
 38
 00:01:26,830 --> 00:01:30,340
-caminho dele aqui mas se você não tem
+caminho dele aqui, mas se você não tem
 
 39
 00:01:28,780 --> 00:01:32,350
-quiser me acompanhar igualzinho aqui
+e quiser me acompanhar igualzinho aqui
 
 40
 00:01:30,340 --> 00:01:35,200
-tutorial é só copiar o link que eu
+nesse tutorial, é só copiar o link que eu
 
 41
 00:01:32,350 --> 00:01:37,720
-deixei aí as outras propriedades a gente
+deixei aí. As outras propriedades a gente
 
 42
 00:01:35,200 --> 00:01:39,430
-não vai mexer hoje mas se você quiser
+não vai mexer hoje, mas se você quiser
 
 43
 00:01:37,720 --> 00:01:42,390
-conhecer ela só dá uma olhada na
+conhecer elas é só dá uma olhada na
 
 44
 00:01:39,430 --> 00:01:46,090
-documentação tem tudo bem explicado lá
+documentação que tem tudo bem explicado lá
 
 45
 00:01:42,390 --> 00:01:48,160
-feito isso a gente salva depois de
+Feito isso, a gente salva aqui. Depois de
 
 46
 00:01:46,090 --> 00:01:50,649
-salvar a gente vem aqui no arquivo web.
+salvar a gente vem aqui no arquivo 
 
 47
 00:01:48,160 --> 00:01:52,390
-Morte se aquilo aqui é o ativo do
+web.module.ts, esse arquivo aqui é o arquivo do
 
 48
 00:01:50,649 --> 00:01:54,789
-singular mesmo e as coisas que a gente
+Angular mesmo e a única coisa que a gente
 
 49
 00:01:52,390 --> 00:01:59,320
@@ -196,27 +196,27 @@ tem que fazer é importar o nosso módulo
 
 50
 00:01:54,789 --> 00:02:00,740
-do bidu aqui e vamos salvar bom a
+do Beagle aqui e vamos salvar. Bom a
 
 51
 00:01:59,320 --> 00:02:02,930
-configuração e já tá feed
+configuração já está finalizada
 
 52
 00:02:00,740 --> 00:02:04,790
-e agora a gente vai mostrar tudo projeto
+Agora a gente vai mostrar para o projeto
 
 53
 00:02:02,930 --> 00:02:07,490
-onde a gente tem a nossa tela carregado
+onde a gente quer a nossa tela carregada
 
 54
 00:02:04,790 --> 00:02:09,739
-Então vamos abrir aqui ó web component a
+Então vamos abrir aqui o web component e
 
 55
 00:02:07,490 --> 00:02:11,090
-gente vai criar uma variável não eu vou
+a gente vai criar uma variável nova. Eu vou
 
 56
 00:02:09,739 --> 00:02:12,980
@@ -224,31 +224,31 @@ apagar essa aqui porque eu não preciso
 
 57
 00:02:11,090 --> 00:02:15,349
-mais dela eu vou criar uma nova aqui
+mais dela, então eu vou criar uma nova aqui
 
 58
 00:02:12,980 --> 00:02:17,890
-chamada e corrente e o valor dela vai
+chamada endpoint e o valor dela vai
 
 59
 00:02:15,349 --> 00:02:20,200
-ser barra com.
+ser /components
 
 60
 00:02:17,890 --> 00:02:23,050
-e salva agora vamos lá para ganhar
+salva e agora vamos lá para o HTML
 
 61
 00:02:20,200 --> 00:02:25,810
-dinheiro eu posso substituir todo esse
+eu vou subtituir todo esse
 
 62
 00:02:23,050 --> 00:02:30,280
-conteúdo Aqui foram componentes domingo
+conteúdo aqui por um componente do Beagle
 
 63
 00:02:25,810 --> 00:02:32,620
-tchau Beagle o esmalte viu esse
+que é o beagle-remote-view, esse
 
 64
 00:02:30,280 --> 00:02:35,770
@@ -256,15 +256,15 @@ componente aceita como input uma
 
 65
 00:02:32,620 --> 00:02:37,690
-propriedade chamada Rute e para ela eu
+propriedade chamada route e para ela eu
 
 66
 00:02:35,770 --> 00:02:39,340
-vou passar o valor do nosso and Point
+vou passar o valor do nosso endpoint
 
 67
 00:02:37,690 --> 00:02:40,780
-então quê que eu tô falando aqui eu tô
+Então o que eu estou falando aqui? Eu tô
 
 68
 00:02:39,340 --> 00:02:42,850
@@ -272,19 +272,19 @@ falando para o projeto que nesse ponto
 
 69
 00:02:40,780 --> 00:02:44,770
-eu quero carregar uma tela amigo que ela
+eu quero carregar uma tela beagle e que ela
 
 70
 00:02:42,850 --> 00:02:47,260
-vai vir de 100 diferente então ele vai
+vai vir desse endpoint. Então ele vai
 
 71
 00:02:44,770 --> 00:02:49,180
-pegar esse valor/componentes e vai
+pegar esse valor/components e vai
 
 72
 00:02:47,260 --> 00:02:50,770
-concatena com o valor de base que a
+concatenar com o valor de base que a
 
 73
 00:02:49,180 --> 00:02:52,870
@@ -292,15 +292,15 @@ gente colocou lá no arquivo de
 
 74
 00:02:50,770 --> 00:02:55,090
-configuração Então tudo isso aqui vai
+configuração. Então tudo isso aqui vai
 
 75
 00:02:52,870 --> 00:02:57,250
-virar o caminho da nossa tela feito isso
+virar o caminho da nossa tela. Feito isso
 
 76
 00:02:55,090 --> 00:02:59,019
-salva tudo e vamos rodar o projeto agora
+salva tudo e vamos rodar o projeto. Agora
 
 77
 00:02:57,250 --> 00:03:00,640
@@ -308,39 +308,39 @@ um ponto de atenção aqui é que não é
 
 78
 00:02:59,019 --> 00:03:01,930
-igual a gente tem que rodar o projeto do
+Angular e a gente tem que rodar o projeto de
 
 79
 00:03:00,640 --> 00:03:03,730
-dia que um pouquinho diferente
+um jeito um pouquinho diferente
 
 80
 00:03:01,930 --> 00:03:06,970
-geralmente a gente a obra um projeto
+Geralmente a gente a roda um projeto
 
 81
 00:03:03,730 --> 00:03:09,820
-lembra com NG certo mas o nosso caso a
+Angular com ng server certo? Mas o nosso caso a
 
 82
 00:03:06,970 --> 00:03:11,440
-gente vai usar o yarn certo porque eu tô
+gente vai usar o yarn server, isso porque eu tô
 
 83
 00:03:09,820 --> 00:03:14,769
-usando aí armas no seu caso se for ele
+usando o yarn, mas no seu caso se for o
 
 84
 00:03:11,440 --> 00:03:16,300
-PM é só você trocar e vou dar um ex eu
+NPM é só você trocar. E vou dar um enter
 
 85
 00:03:14,769 --> 00:03:17,870
-uso esses comandos aqui porque ele já é
+Eu uso esse comando aqui porque ele gera
 
 86
 00:03:16,300 --> 00:03:21,019
-automaticamente os arquivos do Be
+automaticamente os arquivos do Beagle para mim
 
 87
 00:03:17,870 --> 00:03:22,849
@@ -348,45 +348,44 @@ e já tem um script por trás todo pronto
 
 88
 00:03:21,019 --> 00:03:25,730
-para funcionar certinho para você
+para funcionar certinho para você.
 
 89
 00:03:22,849 --> 00:03:29,170
-comprou com sucesso agora a gente vem
+Compilou com sucesso agora a gente vem
 
 90
 00:03:25,730 --> 00:03:33,440
-aqui no nosso navegador abre outra aqui
+aqui no nosso navegador, deixa eu abrir outra aba
 
 91
 00:03:29,170 --> 00:03:35,299
-e a gente vai rodar e é isso se você viu
+aqui e a gente vai rodar. E é isso se você viu
 
 92
 00:03:33,440 --> 00:03:37,519
-essa tela aqui é porque funcionam aí
+essa tela aqui é porque funcionou e 
 
 93
 00:03:35,299 --> 00:03:39,769
-você já tá usando o Vigo e por esse
+você já está usando o Beagle e por esse
 
 94
 00:03:37,519 --> 00:03:41,989
-vídeo é só isso pessoal viu como é fácil
+vídeo é só isso pessoal. Viu como é fácil
 
 95
 00:03:39,769 --> 00:03:43,610
-usar o beagle com ela então não esquece
+usar o Beagle com o Angular? Então não esquece
 
 96
 00:03:41,989 --> 00:03:45,470
-de deixar o seu like se inscrever aqui
+de deixar o seu like e se inscrever aqui
 
 97
 00:03:43,610 --> 00:03:48,400
-no canal Vai ter muito mais vídeo para
+no canal. Vai ter muito mais vídeo para
 
 98
 00:03:45,470 --> 00:03:48,400
-você até a
-
+você. Até a próxima!
