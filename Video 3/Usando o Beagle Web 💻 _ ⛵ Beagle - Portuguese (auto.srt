@@ -140,7 +140,7 @@ propriedade nada mais é do que o caminho
 
 36
 00:01:22,360 --> 00:01:26,830
-de onde vão vir as nossas telas se você
+de onde vão vir as nossas telas. Se você
 
 37
 00:01:24,700 --> 00:01:28,780
