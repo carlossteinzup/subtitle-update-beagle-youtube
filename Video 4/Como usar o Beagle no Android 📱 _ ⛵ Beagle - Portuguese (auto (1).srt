@@ -1,10 +1,10 @@
 1
 00:00:00,000 --> 00:00:05,040
-e fala galera meu nome é Luís Eduardo eu
+Fala galera meu nome é Luís Eduardo e eu
 
 2
 00:00:02,970 --> 00:00:06,779
-sou desenvolvedor aqui na Azul uma
+sou desenvolvedor aqui na Zup uma
 
 3
 00:00:05,040 --> 00:00:09,000
@@ -16,35 +16,35 @@ mercado de tecnologia com seus projetos
 
 5
 00:00:09,000 --> 00:00:14,730
-openseg nesse vídeo vamos falar sobre o
+Open Source. Nesse vídeo vamos falar sobre o
 
 6
 00:00:11,880 --> 00:00:17,369
-pico e eu vou te ensinar na prática a
+Beagle e eu vou te ensinar na prática 
 
 7
 00:00:14,730 --> 00:00:21,020
-como instalar o beagle esquece no seu
+como instalar o Beagle scaffold no seu
 
 8
 00:00:17,369 --> 00:00:21,020
-projeto Android no
+projeto Android.
 
 9
 00:00:21,460 --> 00:00:26,829
-e Vamos acessar aqui a página inicial e
+Vamos acessar aqui a página inicial
 
 10
 00:00:24,759 --> 00:00:29,949
-use gol contra eu e acessar a
+usebeagle.io e acessar a
 
 11
 00:00:26,829 --> 00:00:33,510
-documentação aqui em Box kendox Vamos
+documentação, aqui em Docs. Aqui em docs
 
 12
 00:00:29,949 --> 00:00:37,390
-acessar guerra Street usa beagle rappers
+vamos acessar 'Get Started' > 'Using Beagle helpers' 
 
 13
 00:00:33,510 --> 00:00:40,750
@@ -52,35 +52,35 @@ selecionar a plataforma Android e abrir
 
 14
 00:00:37,390 --> 00:00:43,899
-a página beagle scaffold nessa página
+a página Beagle Scaffold. Nessa página
 
 15
 00:00:40,750 --> 00:00:45,610
-tem tudo passo a passo de como instalar
+tem todo o passo a passo de como instalar
 
 16
 00:00:43,899 --> 00:00:48,879
-o beagle esquece de no seu projeto
+o Beagle Scaffold no seu projeto
 
 17
 00:00:45,610 --> 00:00:51,489
-Android para quem não conhece o bigodes
+Android. Para quem não conhece, o Beagle Scaffold
 
 18
 00:00:48,879 --> 00:00:54,879
-que eu pude é uma biblioteca que contém
+é uma biblioteca que contém
 
 19
 00:00:51,489 --> 00:00:57,609
-toda a configuração de uso Inicial que
+toda a configuração de uso inicial que
 
 20
 00:00:54,879 --> 00:01:00,100
-você precisa prover para o Vigo Então
+você precisa prover para o Beagle. Então
 
 21
 00:00:57,609 --> 00:01:02,739
-vamos seguir os passo a passo nosso
+vamos seguir o passo a passo. Nosso
 
 22
 00:01:00,100 --> 00:01:05,710
@@ -88,51 +88,51 @@ primeiro passo é criar o projeto Android
 
 23
 00:01:02,739 --> 00:01:08,500
-é um vamos aqui no Android Studio vamos
+então vamos aqui no Android Studio, vamos
 
 24
 00:01:05,710 --> 00:01:12,220
-em cliente New Project vamos selecionar
+em 'Create New Project' vamos selecionar
 
 25
 00:01:08,500 --> 00:01:15,460
-apps activity e colocar o nome do nosso
+'Empty Activity' e colocar o nome do nosso
 
 26
 00:01:12,220 --> 00:01:18,220
-projeto de my beagle selecionar a
+projeto de 'My Beagle'. Selecionar a
 
 27
 00:01:15,460 --> 00:01:21,470
-linguagem copo interessante falar que o
+linguagem Kotlin. É interessante falar que o
 
 28
 00:01:18,220 --> 00:01:25,550
-beagle aceitar entre as 19 ou sul
+Beagle aceita a API 19 ou superior
 
 29
 00:01:21,470 --> 00:01:28,730
-bom então vamos ter que utilizar o nosso
+Então vamos ter que utilizar no nosso
 
 30
 00:01:25,550 --> 00:01:31,250
-projeto Android a esse de cá 19 ou
+projeto Android a SDK 19 ou
 
 31
 00:01:28,730 --> 00:01:34,550
-superior então não selecionaram aqui aí
+superior. Então vamos selecionar aqui a
 
 32
 00:01:31,250 --> 00:01:37,310
-e aí 30 é a mais recente e vamos clicar
+API 30 que é a mais recente e vamos clicar
 
 33
 00:01:34,550 --> 00:01:40,580
-em fim após isso o Android tudo irá
+em 'Finish'. Após isso o Android Studio irá
 
 34
 00:01:37,310 --> 00:01:43,070
-abrir nosso projeto após abrir o projeto
+abrir o nosso projeto. Após abrir o projeto
 
 35
 00:01:40,580 --> 00:01:46,490
@@ -140,75 +140,75 @@ Android vamos voltar lá na documentação
 
 36
 00:01:43,070 --> 00:01:49,040
-e ver qual é o nosso próximo passo então
+e ver qual é o nosso próximo passo. Então
 
 37
 00:01:46,490 --> 00:01:51,620
-próximo passo é adicionar o meio vem
+o próximo passo é adicionar o MavenCentral
 
 38
 00:01:49,040 --> 00:01:53,720
-centro lá no nosso projeto tão longe
+lá no nosso projeto, então vamos
 
 39
 00:01:51,620 --> 00:01:55,910
-voltar no Android Studio e aqui no
+voltar para o Android Studio e aqui 
 
 40
 00:01:53,720 --> 00:01:58,729
-Android Studio Vamos abrir aqui guardar
+vamos abrir o Gradle Scripts
 
 41
 00:01:55,910 --> 00:02:01,970
-o script e abriu o arquivo Beautiful
+e abrir o arquivo o build.gradle.project
 
 42
 00:01:58,729 --> 00:02:05,750
-Girl prod e aqui no arquivo bild.com
+E aqui nesse arquivo
 
 43
 00:02:01,970 --> 00:02:08,990
-vamos procurar o bloco de código oal
+vamos procurar o bloco de código allprojects
 
 44
 00:02:05,750 --> 00:02:12,320
-Project e vamos colar um níveis entro
+e vamos colar o MavenCentral
 
 45
 00:02:08,990 --> 00:02:15,410
-dentro do bloco repositor que está
+dentro do bloco repositories que está
 
 46
 00:02:12,320 --> 00:02:17,870
-dentro de ao trote escolar e vamos
+dentro de allprojects, vamos
 
 47
 00:02:15,410 --> 00:02:20,840
-voltar novamente lá na documentação para
+colar e voltar lá na documentação para
 
 48
 00:02:17,870 --> 00:02:21,480
-ver qual é o próximo passo próximo passo
+ver qual é o próximo passo. O próximo
 
 49
 00:02:20,840 --> 00:02:24,720
-é adicionar
+passo é adicionar
 
 50
 00:02:21,480 --> 00:02:27,480
-a dependência ali me picou esqueca e do
+a dependência da lib Beagle Scaffold e
 
 51
 00:02:24,720 --> 00:02:30,930
-bico e adicionar algumas configurações
+do Beagle e adicionar algumas configurações
 
 52
 00:02:27,480 --> 00:02:33,959
-no arquivo bild.com e tal modo Então
+no arquivo build.gradle module, então
 
 53
 00:02:30,930 --> 00:02:36,299
-vamos copiaram que os plugins e voltar
+vamos copiar aqui os plugins e voltar
 
 54
 00:02:33,959 --> 00:02:38,790
@@ -216,43 +216,43 @@ lá no Android Studio e vamos abrir aqui
 
 55
 00:02:36,299 --> 00:02:42,150
-o arquivo humilde faltou guardou modo
+o arquivo build.gradle module 
 
 56
 00:02:38,790 --> 00:02:44,870
-Então vamos lá abrir aqui vou colar os
+Então vamos abrir aqui e vou colar os
 
 57
 00:02:42,150 --> 00:02:48,120
-plugins aqui vou voltar na documentação
+plugins aqui. Vou voltar na documentação
 
 58
 00:02:44,870 --> 00:02:50,549
-copiar o pectus option temos que colar
+copiar o packagingOptions e temos que colar
 
 59
 00:02:48,120 --> 00:02:52,650
-ele dentro do bloco Android então o
+ele dentro do bloco Android, então o
 
 60
 00:02:50,549 --> 00:02:57,239
-bloco Android tá aqui eu vou colar
+bloco Android tá aqui e eu vou colar
 
 61
 00:02:52,650 --> 00:03:00,060
-abaixo do cop me option aqui quando e o
+abaixo do kotlinOptions aqui. E o
 
 62
 00:02:57,239 --> 00:03:02,400
-nosso último a passo é copiar as
+nosso último passo é copiar as
 
 63
 00:03:00,060 --> 00:03:06,299
-dependências que o bico e do beagle
+dependências do Beagle e do Beagle Scaffold
 
 64
 00:03:02,400 --> 00:03:08,910
-esquece de copiar e colar aqui abaixo e
+Então vou copiar e colar aqui abaixo. E
 
 65
 00:03:06,299 --> 00:03:11,609
@@ -260,31 +260,31 @@ como que eu faço para ver qual é a
 
 66
 00:03:08,910 --> 00:03:14,220
-versão mais atualizada do beagle e do
+versão mais atualizada do Beagle e do
 
 67
 00:03:11,609 --> 00:03:17,099
-beagle Esquece então vou voltar aqui na
+Beagle Scaffold? Vou voltar aqui na
 
 68
 00:03:14,220 --> 00:03:19,440
-documentação e acima que do código temos
+documentação e acima do código temos
 
 69
 00:03:17,099 --> 00:03:21,460
-a versão mais recente o beagle esquece
+a versão mais recente, o Beagle Scaffold
 
 70
 00:03:19,440 --> 00:03:25,810
-está na versão 1.0
+está na versão 1.0.1
 
 71
 00:03:21,460 --> 00:03:28,300
-Oi e o beagle Carla versão 1.5.1 tomando
+E o Beagle está na versão 1.5.1. Vamos
 
 72
 00:03:25,810 --> 00:03:31,120
-soltar lá no Android Studio e verificar
+voltar lá no Android Studio e verificar
 
 73
 00:03:28,300 --> 00:03:35,200
@@ -292,11 +292,11 @@ se estamos utilizando a versão mais
 
 74
 00:03:31,120 --> 00:03:40,210
-recente o bigo tá na versão 1.5.1 e o
+recente. O Beagle está na versão 1.5.1 e o
 
 75
 00:03:35,200 --> 00:03:43,570
-beagle scaffold na versão 1.0.1 Vamos
+Beagle Scaffold na versão 1.0.1, então vamos
 
 76
 00:03:40,210 --> 00:03:46,240
@@ -304,7 +304,7 @@ alterar e sincronizar o projeto aqui
 
 77
 00:03:43,570 --> 00:03:48,790
-nesse botão do verbo são vou clicar aqui
+nesse botão do graddle e vou clicar aqui
 
 78
 00:03:46,240 --> 00:03:51,910
@@ -312,63 +312,63 @@ e ele vai baixar todas as dependências
 
 79
 00:03:48,790 --> 00:03:54,970
-para gente após baixar as dependências
+para a gente. Após baixar as dependências
 
 80
 00:03:51,910 --> 00:03:57,940
-vamos para as configurações de uso Então
+vamos para as configurações de uso. Então
 
 81
 00:03:54,970 --> 00:04:01,270
-vamos voltar lá na documentação nosso
+vamos voltar lá na documentação. Nosso
 
 82
 00:03:57,940 --> 00:04:03,910
-próximo passo é criar um arquivo at
+próximo passo é criar um arquivo 
 
 83
 00:04:01,270 --> 00:04:06,760
-beagle com filho então vamos colocar no
+AppBeagleConfig, então vamos voltar no
 
 84
 00:04:03,910 --> 00:04:10,990
-nosso projeto no abrir aqui o pacote
+nosso projeto, vou abrir aqui o pacote
 
 85
 00:04:06,760 --> 00:04:13,930
-Java pacote do nosso projeto e aqui eu
+Java, o pacote do nosso projeto e aqui eu
 
 86
 00:04:10,990 --> 00:04:16,390
-vou criar uma classe Então vou criar uma
+vou criar uma classe. Então vou criar uma
 
 87
 00:04:13,930 --> 00:04:19,060
-classe e dá o nome dela deepweb.com
+classe e dá o nome dela AppBeagleConfig
 
 88
 00:04:16,390 --> 00:04:21,470
-confira nessa classe temos que usar
+nessa classe temos que usar
 
 89
 00:04:19,060 --> 00:04:25,090
-anotação do bico então sobre a classe
+anotação do Beagle, então sobre a classe
 
 90
 00:04:21,470 --> 00:04:28,940
-eu vou usar anotação@beagle componente
+eu vou usar a anotação @BeagleComponent
 
 91
 00:04:25,090 --> 00:04:32,030
-aqui na classe vamos ver dar da beagle
+Aqui na classe vamos herdar da
 
 92
 00:04:28,940 --> 00:04:34,760
-config scaffold o nosso próximo passo é
+BeagleConfigScaffold. O nosso próximo passo é
 
 93
 00:04:32,030 --> 00:04:37,160
-Bill dar o projeto porque al perdonar o
+buildar o projeto porque ao buildar o
 
 94
 00:04:34,760 --> 00:04:41,180
@@ -376,35 +376,35 @@ projeto ele vai criar um arquivo de
 
 95
 00:04:37,160 --> 00:04:43,610
-inicialização do bico chamada beagle cê
+inicialização do Beagle chamada BeagleSetUp
 
 96
 00:04:41,180 --> 00:04:47,830
-tá então vamos voltar no nosso projeto
+Então vamos voltar no nosso projeto
 
 97
 00:04:43,610 --> 00:04:50,480
-vamos selecionar aqui então a aba bild e
+vamos selecionar aqui então a aba build
 
 98
 00:04:47,830 --> 00:04:53,090
-selecionar são meio que pronto então
+e selecionar a opção 'Make Project' 
 
 99
 00:04:50,480 --> 00:04:56,600
-pode desse processo e projeto vai criar
+Por causa desse processo, o projeto vai criar
 
 100
 00:04:53,090 --> 00:05:00,230
-um arquivo do bico chamado beagle setup
+um arquivo do Beagle chamado BeagleSetup
 
 101
 00:04:56,600 --> 00:05:02,750
-é a Classic inicializa o beagle no nosso
+É a classe que inicializa o Beagle no nosso
 
 102
 00:05:00,230 --> 00:05:05,540
-projeto após sincronizar o projeto vamos
+projeto. Após sincronizar o projeto vamos
 
 103
 00:05:02,750 --> 00:05:08,450
@@ -412,19 +412,19 @@ voltar lá na documentação e ver qual é o
 
 104
 00:05:05,540 --> 00:05:12,350
-próximo passo no nosso próximo passo é
+próximo passo. No nosso próximo passo é
 
 105
 00:05:08,450 --> 00:05:15,080
-um arquivo chamado at application Aonde
+criar um arquivo chamado AppApplication
 
 106
 00:05:12,350 --> 00:05:18,230
-vai ser inicializado o bigo e o Big
+onde vai ser inicializado o Beagle e o 
 
 107
 00:05:15,080 --> 00:05:21,480
-skape aqui no pacote do nosso projeto
+BeagleScaffold. Aqui no pacote do nosso projeto
 
 108
 00:05:18,230 --> 00:05:24,180
@@ -432,11 +432,11 @@ vamos criar uma classe chamada
 
 109
 00:05:21,480 --> 00:05:27,690
-o application aqui na classe é porque
+AppApplication. Aqui na classe Application
 
 110
 00:05:24,180 --> 00:05:31,350
-acham vamos herdar the application
+vamos herdar de Application
 
 111
 00:05:27,690 --> 00:05:34,860
@@ -444,59 +444,58 @@ dentro da classe vamos chamar um método
 
 112
 00:05:31,350 --> 00:05:38,430
-um cliente e dentro do método um cliente
+onCreate e dentro do método onCreate
 
 113
 00:05:34,860 --> 00:05:40,920
-vamos fazer a inicialização do beagle
+vamos fazer a inicialização do Beagle
 
 114
 00:05:38,430 --> 00:05:43,800
-Então vamos chamar aqui classificou
+Então vamos chamar aqui classe
 
 115
 00:05:40,920 --> 00:05:46,680
-scaffold Onde vamos passar a classe
+BeagleScaffold onde vamos passar a classe
 
 116
 00:05:43,800 --> 00:05:48,450
-brigou cetaf no parâmetro na classe
+BeagleSetup no parâmetro. Na classe
 
 117
 00:05:46,680 --> 00:05:52,080
-beagle esquece ou de vamos chamar o
+BeagleScaffold vamos chamar o
 
 118
 00:05:48,450 --> 00:05:55,140
-método init passando o application que é
+método init passando o application, que é
 
 119
 00:05:52,080 --> 00:05:58,230
-disse tão criamos a nossa classe F
+'this'. Então criamos a nossa classe 
 
 120
 00:05:55,140 --> 00:06:01,560
-application temos agora que chamar ela
+AppApplication e temos agora que chamar ela
 
 121
 00:05:58,230 --> 00:06:05,160
-lá no nosso arquivo Manifest Então vamos
+lá no nosso arquivo Manifest. Então vamos
 
 122
 00:06:01,560 --> 00:06:08,040
-abrir aqui pacote manifeste e abrir o
+abrir aqui o pacote Manifest e abrir o
 
 123
 00:06:05,160 --> 00:06:10,260
-arquivo androidmanifest.xml Nossa
-
+arquivo androidmanifest.xml. Aqui no
 124
 00:06:08,040 --> 00:06:14,160
-arquivo Manifest a gente precisa fazer
+nosso arquivo Manifest, a gente precisa fazer
 
 125
 00:06:10,260 --> 00:06:17,400
-duas alterações vamos adicionar a
+duas alterações: vamos adicionar a
 
 126
 00:06:14,160 --> 00:06:19,950
@@ -504,47 +503,47 @@ permissão para a internet e vamos dar um
 
 127
 00:06:17,400 --> 00:06:21,460
-nome na nossa Piquete Então vamos
+nome na nossa Application. Então vamos
 
 128
 00:06:19,950 --> 00:06:24,639
-primeiro adicionar
+primeiro adicionar aqui
 
 129
 00:06:21,460 --> 00:06:27,610
-a mania 5 a permissão para internet eu
+na linha 5 a permissão para internet eu
 
 130
 00:06:24,639 --> 00:06:30,400
-abri tag e os the permission internet
+abri a tag e os uses-permission, internet
 
 131
 00:06:27,610 --> 00:06:32,590
-aqui dentro da tag application temos que
+Aqui dentro da tag Application temos que
 
 132
 00:06:30,400 --> 00:06:34,810
-colocar um homem da nossa classe
+colocar um nome na nossa classe
 
 133
 00:06:32,590 --> 00:06:37,419
-application Então vou chamar o atributo
+application. Então vou chamar o atributo
 
 134
 00:06:34,810 --> 00:06:40,630
-nem passam o nome da nossa classe
+name passando o nome da nossa classe
 
 135
 00:06:37,419 --> 00:06:43,289
-application que é application após esse
+Application, que é AppApplication. Após esse
 
 136
 00:06:40,630 --> 00:06:46,569
-processo finalizamos a partir de
+processo finalizamos a parte de
 
 137
 00:06:43,289 --> 00:06:49,419
-configuração de uso do beagle e agora
+configuração de uso do Beagle e agora
 
 138
 00:06:46,569 --> 00:06:51,940
@@ -552,7 +551,7 @@ vamos chamar uma telinha para renderizar
 
 139
 00:06:49,419 --> 00:06:54,400
-no nosso projeto Android tomamos voltar
+no nosso projeto Android. Vamos voltar
 
 140
 00:06:51,940 --> 00:06:57,039
@@ -560,31 +559,31 @@ na documentação e ver o passo para
 
 141
 00:06:54,400 --> 00:07:00,460
-chamarmos a telinha lá do BTS Então
+chamarmos a telinha lá do BFF. Então
 
 142
 00:06:57,039 --> 00:07:03,220
-vamos copiar aqui start activity aqui na
+vamos copiar aqui startActivity, aqui na
 
 143
 00:07:00,460 --> 00:07:05,650
-calça não é que tive vamos colar ou
+classe mainActivity vamos colar o
 
 144
 00:07:03,220 --> 00:07:08,320
-start activity copiamos lado a
+startActivity que copiamos lá da
 
 145
 00:07:05,650 --> 00:07:10,840
-documentação o que essa linha faz ela
+documentação. O que essa linha faz? Ela
 
 146
 00:07:08,320 --> 00:07:13,449
-vai estar chamando um até minha lá do
+vai estar chamando uma telinha lá do
 
 147
 00:07:10,840 --> 00:07:16,960
-Beck and que vai estar render visão uma
+backend que vai estar renderizando uma 
 
 148
 00:07:13,449 --> 00:07:20,050
@@ -592,45 +591,45 @@ tela vinda do BFF onde contém todos os
 
 149
 00:07:16,960 --> 00:07:21,470
-componentes Domingo então após esse
+componentes do Beagle. Então após esse
 
 150
 00:07:20,050 --> 00:07:26,240
-processo vamos clicar
+processo vamos clicar em
 
 151
 00:07:21,470 --> 00:07:28,910
-e lá ep onde ele vai renderizar a nossa
+'Run app' onde ele vai renderizar a nossa
 
 152
 00:07:26,240 --> 00:07:31,520
-primeira telinha um emulador Então vamos
+primeira telinha em um emulador. Então vamos
 
 153
 00:07:28,910 --> 00:07:34,730
-abrir aqui O emulador e vamos aguardar
+abrir aqui o emulador e vamos aguardar
 
 154
 00:07:31,520 --> 00:07:36,830
-aqui a renderizar E aí galera render
+aqui a renderizar. E é isso galera renderizamos
 
 155
 00:07:34,730 --> 00:07:39,350
-visamos Então nossa primeira Terrinha um
+então a nossa primeira telinha em um
 
 156
 00:07:36,830 --> 00:07:41,600
-projeto Android qualquer dúvida deixe
+projeto Android. Qualquer dúvida deixe
 
 157
 00:07:39,350 --> 00:07:44,060
-seu comentário aqui não esqueça de
+seu comentário aqui e não esqueça de
 
 158
 00:07:41,600 --> 00:07:47,770
-deixar o seu like e se inscreva no canal
+deixar o seu like, se inscreva no canal
 
 159
 00:07:44,060 --> 00:07:47,770
-e até o próximo
+e até o próximo vídeo!
 
