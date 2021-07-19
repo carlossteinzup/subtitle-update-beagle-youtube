@@ -1,10 +1,10 @@
 1
 00:00:00,000 --> 00:00:02,070
-e fala galera meu nome é Luís Eduardo
+Fala galera, meu nome é Luís Eduardo
 
 2
 00:00:02,070 --> 00:00:04,230
-que eu sou desenvolvedor aqui no azul
+e eu sou desenvolvedor aqui na Zup
 
 3
 00:00:04,230 --> 00:00:06,330
@@ -16,11 +16,11 @@ mercado de tecnologia com seus projetos
 
 5
 00:00:08,429 --> 00:00:11,250
-opensource nesse vídeo vamos falar sobre
+opensource. Nesse vídeo vamos falar sobre
 
 6
 00:00:11,250 --> 00:00:14,340
-o bico eu vou mostrar na prática como
+o Beagle, e vou mostrar na prática como
 
 7
 00:00:14,340 --> 00:00:16,650
@@ -28,7 +28,7 @@ você pode contribuir com a documentação
 
 8
 00:00:16,650 --> 00:00:18,470
-do I Go On
+do Beagle
 
 9
 00:00:18,470 --> 00:00:21,020
@@ -36,71 +36,71 @@ do I Go On
 
 10
 00:00:21,020 --> 00:00:23,150
-Olá primeiramente eu abrir aqui a
+Primeiramente, eu abri aqui a
 
 11
 00:00:23,150 --> 00:00:25,970
-documentação do beagle um boxe. YouTube
+documentação do Beagle, no link docs.usebeagle.io
 
 12
 00:00:25,970 --> 00:00:28,310
-gol ponta e aqui na nossa documentação
+E aqui na nossa documentação
 
 13
 00:00:28,310 --> 00:00:31,730
-no menu da esquerda temos a parte de
+no menu da esquerda, temos a opção
 
 14
 00:00:31,730 --> 00:00:34,280
-contribua aonde a gente tem a página
+"contribua" onde temos uma página
 
 15
 00:00:34,280 --> 00:00:36,800
-beagle Docs aonde vai te dar uma
+do Beagle Docs que vai te dar uma
 
 16
 00:00:36,800 --> 00:00:39,710
-introdução da ferramenta que utilizamos
+introdução de como usar a ferramenta que utilizamos,
 
 17
 00:00:39,710 --> 00:00:42,739
-os requisitos que você precisa ter E
+os requisitos que você precisa ter, etc. E
 
 18
 00:00:42,739 --> 00:00:45,710
-como você pode documentar então para
+como você pode documentar. Então, para
 
 19
 00:00:45,710 --> 00:00:47,960
-quem não conhece utilizamos a ferramenta
+quem não conhece, utilizamos a ferramenta
 
 20
 00:00:47,960 --> 00:00:51,800
-Hugo aonde permite você criar sites
+Hugo que nos permite criar sites
 
 21
 00:00:51,800 --> 00:00:54,710
-estáticos através de arquivos Mark dão
+estáticos, através de arquivos do tipo Markdown.
 
 22
 00:00:54,710 --> 00:00:57,320
-para você contribuir você vai ter que
+Para você contribuir, é necessário
 
 23
 00:00:57,320 --> 00:00:59,930
-cumprir alguns requisitos que estão aqui
+cumprir alguns requisitos que estão listados aqui.
 
 24
 00:00:59,930 --> 00:01:02,000
-aqui abaixo tem como você pode
+Aqui abaixo demonstra como você pode
 
 25
 00:01:02,000 --> 00:01:04,849
-contribuir com a documentação e abaixo
+contribuir com a documentação e logo abaixo
 
 26
 00:01:04,849 --> 00:01:08,540
-tem Hugo short code achar de Cold ela
+temos o Hugo shortcodes. O Shortcodes
 
 27
 00:01:08,540 --> 00:01:11,270
@@ -112,7 +112,7 @@ para você utilizar nas páginas da
 
 29
 00:01:14,180 --> 00:01:17,000
-documentação hoje o mar que dão ele não
+documentação. Hoje o Markdown não
 
 30
 00:01:17,000 --> 00:01:19,580
@@ -120,31 +120,31 @@ tem todos os recursos para você colocar
 
 31
 00:01:19,580 --> 00:01:21,030
-ali na documentação e
+ali na documentação, então
 
 32
 00:01:21,030 --> 00:01:24,390
-e através dessa short code vai te dar
+através dessas Shortcodes, você vai ter
 
 33
 00:01:24,390 --> 00:01:26,760
-mais alguns recurso para você utilizar
+mais alguns recursos para você utilizar
 
 34
 00:01:26,760 --> 00:01:30,420
-ali na página do caso é referência a
+ali na página, no caso,  referênciar
 
 35
 00:01:30,420 --> 00:01:34,740
-link colocar a Letícia é colocar a
+links, colocar Alerts, colocar
 
 36
 00:01:34,740 --> 00:01:39,090
-imagem 1 de da vídeos entre outros certo
+imagens. "Embedar" vídeos, entre outros, certo?
 
 37
 00:01:39,090 --> 00:01:40,860
-então vou voltar aqui para visão geral
+Então vou voltar aqui para visão geral
 
 38
 00:01:40,860 --> 00:01:43,290
@@ -152,51 +152,51 @@ da Docs e agora eu vou falar um
 
 39
 00:01:43,290 --> 00:01:45,450
-pouquinho de como você pode contribuir
+pouquinho sobre como você pode contribuir
 
 40
 00:01:45,450 --> 00:01:48,270
-os Existem duas maneiras de você
+Existem duas maneiras de você
 
 41
 00:01:48,270 --> 00:01:50,850
-contribuir com a doc a primeira é aqui
+contribuir com a Documentação. A primeira é aqui
 
 42
 00:01:50,850 --> 00:01:53,820
-no canto superior direito aonde temos um
+no canto superior direito, onde encontramos um
 
 43
 00:01:53,820 --> 00:01:57,390
-menuzinho aqui então através desse menu
+menuzinho aqui, com algumas opções. Então, através desse menu
 
 44
 00:01:57,390 --> 00:02:00,450
-permite você editar esta página permite
+você pode editar essa página em que está, ou
 
 45
 00:02:00,450 --> 00:02:03,030
-fosse criar essa página e permite você
+criar outra página. Você também pode
 
 46
 00:02:03,030 --> 00:02:06,030
-criar uma isso para dar feedbacks de uma
+criar uma "issue" para sugerir uma
 
 47
 00:02:06,030 --> 00:02:09,119
-página melhoria corrigir algum erro que
+melhoria na página, ou mesmo corrigir algum erro que
 
 48
 00:02:09,119 --> 00:02:11,340
-você achou na doc você vai meio de você
+você encontrou na documentação. Você pode
 
 49
 00:02:11,340 --> 00:02:14,069
-criar uma isso para o nosso time é fazer
+criar uma "issue" para o nosso time analisar
 
 50
 00:02:14,069 --> 00:02:17,130
-essa tarefa e entre outros Então essa é
+essa tarefa, entre outros. Então essa é
 
 51
 00:02:17,130 --> 00:02:19,560
@@ -204,59 +204,59 @@ a primeira maneira de você contribuir
 
 52
 00:02:19,560 --> 00:02:21,010
-com a Doc e hoje
+com a Doc, e hoje existe
 
 53
 00:02:21,010 --> 00:02:24,220
-a outra maneira também de você
+uma outra maneira de você
 
 54
 00:02:24,220 --> 00:02:25,750
-contribuir que é por e-mail do
+contribuir que é por meio do
 
 55
 00:02:25,750 --> 00:02:28,780
-repositório do beagle então aqui no Gate
+repositório do Beagle no GitHub.
 
 56
 00:02:28,780 --> 00:02:31,360
-Rebel Abrir Google Docs é onde ficou
+você pode abrir "beagle-docs", que é onde fica
 
 57
 00:02:31,360 --> 00:02:34,000
-repositório do beagle de aqui permite
+o repositório do Beagle, e aqui você pode
 
 58
 00:02:34,000 --> 00:02:36,700
-você fazer um fork do repositório com a
+fazer um fork do repositório, clonando-o
 
 59
 00:02:36,700 --> 00:02:40,260
-ano para você abrir aí local em qualquer
+para você abrir aí localmente em qualquer
 
 60
 00:02:40,260 --> 00:02:43,360
-editor de texto da sua preferência Hoje
+editor de texto da sua preferência. Hoje
 
 61
 00:02:43,360 --> 00:02:46,360
-existe essas duas maneiras só que temos
+existem essas duas maneiras, só que temos
 
 62
 00:02:46,360 --> 00:02:50,019
-alguns pontos se você verem no menu
+alguns pontos que exigem atenção. Ao olhar o menu
 
 63
 00:02:50,019 --> 00:02:52,659
-superior temos a opção de mudar a versão
+superior, vemos a opção de mudar a versão
 
 64
 00:02:52,659 --> 00:02:56,980
-do pico hoje temos a versão 1.5 1.6 1.7
+do Beagle. Hoje (quando publicamos o video) temos a versão 1.5, 1.6, 1.7
 
 65
 00:02:56,980 --> 00:02:59,680
-e como isso funciona se você tá
+e como isso funciona? Se você tá
 
 66
 00:02:59,680 --> 00:03:02,769
@@ -268,11 +268,11 @@ você vai abrir a documentação na 1.5
 
 68
 00:03:05,319 --> 00:03:07,480
-para ver os recursos dá um ponto sim se
+para ver os recursos dá um 1.5. Se
 
 69
 00:03:07,480 --> 00:03:10,299
-você até utilizando o seu projeto 1.6
+você esta utilizando o seu projeto na 1.6
 
 70
 00:03:10,299 --> 00:03:13,150
@@ -280,135 +280,135 @@ você vai abrir a documentação é 1.6 e
 
 71
 00:03:13,150 --> 00:03:15,760
-assim por diante Só que essa primeira
+assim por diante. Só que nessa primeira
 
 72
 00:03:15,760 --> 00:03:19,000
-opção do menu você vai conseguir mudar
+opção do menu, "Editar essa página", você vai conseguir mudar
 
 73
 00:03:19,000 --> 00:03:21,020
-os conteúdos só
+os conteúdos para
 
 74
 00:03:21,020 --> 00:03:24,500
-a última versão do bico que no caso é a
+a última versão do Beagle, que no caso é a
 
 75
 00:03:24,500 --> 00:03:27,770
-1.7 E como que eu faço para contribuir
+1.7. E como que eu faço para contribuir
 
 76
 00:03:27,770 --> 00:03:31,180
-na versão 1.5 1.6 que são versões
+na versão 1.5 ou 1.6? Que são versões
 
 77
 00:03:31,180 --> 00:03:34,640
-anteriores você vai conseguir fazer por
+anteriores. Você vai conseguir fazer por
 
 78
 00:03:34,640 --> 00:03:37,520
-e-mail to fork Então você vai clonar o
+meio to fork. Então, você deve clonar o
 
 79
 00:03:37,520 --> 00:03:40,610
-repositório na sua máquina e vai abrir
+repositório na sua máquina e abri-lo
 
 80
 00:03:40,610 --> 00:03:43,400
-em qualquer editor de texto no caso aqui
+em qualquer editor de texto, no exemplo aqui
 
 81
 00:03:43,400 --> 00:03:46,610
-eu vou mostrar mais para frente abrindo
+eu vou utilizar
 
 82
 00:03:46,610 --> 00:03:49,340
-no visual Studio só que antes eu vou
+o visual Studio. Só que antes eu vou
 
 83
 00:03:49,340 --> 00:03:51,410
-falar mais um ponto importante então
+falar sobre mais um ponto importante; então
 
 84
 00:03:51,410 --> 00:03:54,590
-vamos supor que eu vou contribuir na
+vamos supor que eu vá contribuir na
 
 85
 00:03:54,590 --> 00:03:57,080
-documentação para versão 1.5 para mim
+documentação para versão 1.5. Para eu
 
 86
 00:03:57,080 --> 00:04:01,130
-fazer alteração no 1.5 eu preciso ir na
+fazer alteração na 1.5 eu preciso entrar na
 
 87
 00:04:01,130 --> 00:04:04,460
-Band willyson de 1.5 então preciso
+branch release-v1.5 (localmente) e preciso
 
 88
 00:04:04,460 --> 00:04:07,430
-janela e criaram uma band a partir dela
+criar uma branch a partir dela
 
 89
 00:04:07,430 --> 00:04:09,440
-para criar um pouco Quest para essa
+pois assim, poderemos criar um pull request para a
 
 90
 00:04:09,440 --> 00:04:12,020
-frente isso para todas as versões do
+branch release-v1.5. Isso vale para todas as versões do
 
 91
 00:04:12,020 --> 00:04:14,360
-bico então se eu quero contribuir para
+Beagle. Então se eu quero contribuir para
 
 92
 00:04:14,360 --> 00:04:17,839
-versão 1.6 Eu também preciso entrar na
+versão 1.6, eu também preciso entrar na
 
 93
 00:04:17,839 --> 00:04:21,029
-Band e 1.6 e criaram uma nova
+branch-v1.6 e criar uma nova
 
 94
 00:04:21,029 --> 00:04:23,670
-a alteração em abril para o clash
+branch e abrir uma pull request
 
 95
 00:04:23,670 --> 00:04:27,360
-problend 1.6 certo tem que deixar isso
+para versão 1.6 certo? Temos que deixar isso
 
 96
 00:04:27,360 --> 00:04:29,550
-bem explícito só na hora que você
+bem explícito para que você
 
 97
 00:04:29,550 --> 00:04:31,980
-contribuir fosse contribuído a maneira
+contribua da maneira
 
 98
 00:04:31,980 --> 00:04:35,010
-correta eu vou abrir aqui o meu editor
+correta. Eu vou abrir aqui o meu editor
 
 99
 00:04:35,010 --> 00:04:38,070
-de texto o visual Studio e aqui eu vou
+de texto, o visual Studio e aqui eu vou
 
 100
 00:04:38,070 --> 00:04:40,530
-abrir a documentação no caso eu já tinha
+abrir a documentação. No caso eu já tinha
 
 101
 00:04:40,530 --> 00:04:42,780
-com nada o repositório Então já tenho
+clonado o repositório Então já tenho
 
 102
 00:04:42,780 --> 00:04:45,450
-ele local aqui na minha máquina eu vou
+ele localmente na minha máquina. Eu vou
 
 103
 00:04:45,450 --> 00:04:49,560
-abrir aqui um novo projeto Open folder e
+abrir aqui um novo projeto, Open folder e
 
 104
 00:04:49,560 --> 00:04:52,530
@@ -420,39 +420,39 @@ vou abrir ela aqui e o visual Studio vai
 
 106
 00:04:55,530 --> 00:04:58,620
-abrir o projeto para mim aqui ao abrir o
+abrir o projeto para mim. Aqui, ao abrir o
 
 107
 00:04:58,620 --> 00:05:01,260
-projeto eu tenho essa pastinha contente
+projeto eu tenho essa pasta "content"
 
 108
 00:05:01,260 --> 00:05:04,470
-então é nessa pasta que tem todo o
+então, é essa pasta que contém todo o
 
 109
 00:05:04,470 --> 00:05:07,950
-conteúdo da doc seja ele português que a
+conteúdo da doc, que em português, fica
 
 110
 00:05:07,950 --> 00:05:11,130
-pastinha PT então se eu quero editar um
+na pastinha PT... Então, se eu quero editar um
 
 111
 00:05:11,130 --> 00:05:14,729
-conteúdo em português eu vou editar por
+conteúdo em português, eu vou editar por
 
 112
 00:05:14,729 --> 00:05:17,790
-essa pasta então eu vou abrir PT e eu
+essa pasta, então eu vou abrir PT e eu
 
 113
 00:05:17,790 --> 00:05:21,009
-quero editar a pastinha the overview que
+quero editar a pastinha de overview que
 
 114
 00:05:21,009 --> 00:05:24,729
-o que a gente tava vendo Então aqui tá
+é aquele que a gente estava vendo. Então aqui está
 
 115
 00:05:24,729 --> 00:05:28,569
@@ -460,33 +460,33 @@ ela e caso eu queira editar uma página
 
 116
 00:05:28,569 --> 00:05:32,469
-em inglês eu vou abrir a pastinha em e
+em inglês, eu vou abrir a pastinha EN
 
 117
 00:05:32,469 --> 00:05:35,800
-vou abrir o arquivo MD que eu quero
+e vou abrir o arquivo MD que eu quero
 
 118
 00:05:35,800 --> 00:05:40,270
-editar ou Criar novo certo Então essa é
+editar ou criar um novo, certo? Então essa é
 
 119
 00:05:40,270 --> 00:05:42,309
-a maneira de como você pode contribuir
+a maneira como você pode contribuir
 
 120
 00:05:42,309 --> 00:05:45,399
-com a Doc e é isso galera muito obrigado
+com a Doc e é isso galera! Muito obrigado
 
 121
 00:05:45,399 --> 00:05:48,789
-por ter assistido o vídeo não esqueça de
+por ter assistido o vídeo, e não esqueça de
 
 122
 00:05:48,789 --> 00:05:51,879
-deixar seu like se inscrever no canal e
+deixar seu like, e se inscrever no canal e
 
 123
 00:05:51,879 --> 00:05:54,689
-até a
+até a próxima!
 
