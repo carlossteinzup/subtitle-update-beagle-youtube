@@ -1,34 +1,34 @@
 1
 00:00:00,060 --> 00:00:05,399
-e fala galera meu nome é Luiz Gustavo e
+Fala galera, meu nome é Luis Gustavo e
 
 2
 00:00:03,030 --> 00:00:07,740
-eu sou desenvolvedor na Azul uma empresa
+eu sou desenvolvedor na Zup, uma empresa
 
 3
 00:00:05,399 --> 00:00:10,200
-de tecnologia que vem revolução no
+de tecnologia que vem revolucionando o
 
 4
 00:00:07,740 --> 00:00:13,350
-mercado com as suas aplicações ou
+mercado com as suas aplicações aplicações
 
 5
 00:00:10,200 --> 00:00:15,810
-pensões no vídeo de hoje vamos falar do
+Open Source. No vídeo de hoje vamos falar do
 
 6
 00:00:13,350 --> 00:00:18,210
-beagle e eu vou te ensinar na prática de
+Beagle e eu vou te ensinar na prática 
 
 7
 00:00:15,810 --> 00:00:20,789
-como implementar utilizando o beagle
+como implementar utilizando o BeagleScaffold
 
 8
 00:00:18,210 --> 00:00:23,369
-esquece Álibi que já traz toda a
+A lib que já traz toda a
 
 9
 00:00:20,789 --> 00:00:31,349
@@ -36,31 +36,31 @@ configuração inicial para você rodar no
 
 10
 00:00:23,369 --> 00:00:35,460
-seu projeto aí os Vamos acessar o site
+seu projeto iOS. Vamos acessar o site
 
 11
 00:00:31,349 --> 00:00:39,210
-use bico. Aí ó aqui Vamos acessar a doc
+usebeagle.io. Aqui vamos acessar a doc
 
 12
 00:00:35,460 --> 00:00:40,910
-que a documentação oficial do umbigo e a
+que é a documentação oficial do Beagle e 
 
 13
 00:00:39,210 --> 00:00:44,130
-que eu vou usar a versão em português
+aqui eu vou usar a versão em português.
 
 14
 00:00:40,910 --> 00:00:47,820
-agora vamos acessar primeiros passos
+Agora vamos acessar 'Primeiros Passos'
 
 15
 00:00:44,130 --> 00:00:50,250
-usando o beagle rappers a parte de IOS
+'Usando o Beagle Helpers' a parte de iOS
 
 16
 00:00:47,820 --> 00:00:52,830
-beagle esquece aqui nessa página tem
+Beagle Scaffold. Aqui nessa página tem
 
 17
 00:00:50,250 --> 00:00:54,840
@@ -68,39 +68,39 @@ tudo detalhado de como acoplar a
 
 18
 00:00:52,830 --> 00:00:57,470
-dependência do beagle scaffold no seu
+dependência do Beagle Scaffold no seu
 
 19
 00:00:54,840 --> 00:01:00,070
-projeto como você pode ver aqui vamos
+projeto. Como você pode ver aqui vamos
 
 20
 00:00:57,470 --> 00:01:03,540
-utilizar a versão
+utilizar a versão 0.0.1
 
 21
 00:01:00,070 --> 00:01:08,260
-Oi e o beagle scaffold utiliza a versão
+e o Beagle Scaffold utiliza a versão
 
 22
 00:01:03,540 --> 00:01:10,660
-1.5 do bico então o primeiro passo Vamos
+1.5 do Beagle. Então o primeiro passo, vamos
 
 23
 00:01:08,260 --> 00:01:13,100
-criar um projeto net code eu vou abrir
+criar um projeto no xCode, eu vou abrir
 
 24
 00:01:10,660 --> 00:01:17,150
-aqui o ex code
+aqui o Xcode
 
 25
 00:01:13,100 --> 00:01:19,400
-em Create New access code Project o
+'Create New xCode Project' o
 
 26
 00:01:17,150 --> 00:01:21,530
-arquivo o projeto vai ser do tipo é
+projeto vai ser do tipo App
 
 27
 00:01:19,400 --> 00:01:24,799
@@ -108,23 +108,23 @@ porque é uma aplicação e aqui eu vou
 
 28
 00:01:21,530 --> 00:01:27,490
-colocar o nome que vai ser beagle
+colocar o nome, que vai ser 
 
 29
 00:01:24,799 --> 00:01:31,950
-exemplo
+BeagleExemplo
 
 30
 00:01:27,490 --> 00:01:36,250
-e o prosseguir Vou salvar aqui mesmo
+Vou prosseguir e vou salvar aqui mesmo
 
 31
 00:01:31,950 --> 00:01:39,159
-agora com aplicação fiada eu vou fechar
+Agora com aplicação criada, eu vou fechar
 
 32
 00:01:36,250 --> 00:01:41,729
-aplicação e vou abrir o terminal para
+a aplicação e vou abrir o terminal para
 
 33
 00:01:39,159 --> 00:01:44,979
@@ -132,43 +132,43 @@ configurar o gerenciador de dependência
 
 34
 00:01:41,729 --> 00:01:47,140
-que é com ele que a gente vai acoplar a
+porque é com ele que a gente vai acoplar a
 
 35
 00:01:44,979 --> 00:01:49,750
-dependência do beagle esquece hoje no
+dependência do Beagle Scaffold no
 
 36
 00:01:47,140 --> 00:01:51,640
-nosso projeto bom cessar a pasta do
+nosso projeto. Vou acessar a pasta do
 
 37
 00:01:49,750 --> 00:01:54,970
-projeto que eu acabei de criar que tá
+projeto que eu acabei de criar que está
 
 38
 00:01:51,640 --> 00:01:57,820
-aqui na área de trabalho fica o exemplo
+aqui na área de trabalho: 'BeagleExemplo'
 
 39
 00:01:54,970 --> 00:01:59,709
-para inicializar o gerenciador de
+E para inicializar o gerenciador de
 
 40
 00:01:57,820 --> 00:02:02,880
-independência vou executar o comando
+dependência, vou executar o comando
 
 41
 00:01:59,709 --> 00:02:02,880
-pode ir e
+pod init
 
 42
 00:02:03,170 --> 00:02:08,869
-e esse comando Pode emitir ele vai gerar
+E esse comando pod init, ele vai gerar
 
 43
 00:02:06,110 --> 00:02:11,120
-um arquivo chamado pode fyo que é onde
+um arquivo chamado pod file, que é onde
 
 44
 00:02:08,869 --> 00:02:14,030
@@ -176,51 +176,51 @@ eu adiciono as dependências que eu quero
 
 45
 00:02:11,120 --> 00:02:18,260
-acoplar o projeto vou digitar o meu pen
+acoplar ao projeto. Vou digitar open .
 
 46
 00:02:14,030 --> 00:02:21,319
-ponto para abrir a falta do projeto e
+para abrir a pasta do projeto e
 
 47
 00:02:18,260 --> 00:02:23,230
-aqui tá o arquivo pode fazer um arquivo
+aqui tá o arquivo pod file. No arquivo
 
 48
 00:02:21,319 --> 00:02:26,950
-pode pá eu vou adicionar os dependentes
+pod file eu vou adicionar as dependências.
 
 49
 00:02:23,230 --> 00:02:29,750
-aqui na documentação É no Passo 3 que tá
+Aqui na documentação é no Passo 3 que tá
 
 50
 00:02:26,950 --> 00:02:31,160
-todas as diferenças que a gente precisa
+todas as dependências que a gente precisa
 
 51
 00:02:29,750 --> 00:02:36,319
-de solar Então vou adicionar aqui o
+adicionar. Então vou adicionar aqui o
 
 52
 00:02:31,160 --> 00:02:39,410
-beagle esquece onde eu vou adicionar
+Beagle Scaffold e vou adicionar
 
 53
 00:02:36,319 --> 00:02:42,100
-também a dependência do yoga que o bico
+também a dependência do Yoga que o Beagle
 
 54
 00:02:39,410 --> 00:02:42,100
-utilizo
+utiliza
 
 55
 00:02:44,280 --> 00:02:52,620
-e logo após adicionar dependências eu
+Logo após adicionar as dependências eu
 
 56
 00:02:48,450 --> 00:02:55,290
-vou executar o comando do Command esse
+vou executar o comando 'Command S'
 
 57
 00:02:52,620 --> 00:02:59,370
@@ -228,39 +228,39 @@ para salvar o arquivo e vou voltar para
 
 58
 00:02:55,290 --> 00:03:02,930
-o terminal no terminal eu vou executar o
+o terminal. No terminal eu vou executar o
 
 59
 00:02:59,370 --> 00:03:02,930
-comando pode em install on
+comando 'pod install' 
 
 60
 00:03:02,950 --> 00:03:08,110
-e para instalar as dependências Então
+para instalar as dependências. Então
 
 61
 00:03:06,010 --> 00:03:11,019
-esse comando ele vai baixar as
+esse comando vai baixar as
 
 62
 00:03:08,110 --> 00:03:13,720
-dependências de instalar esse processo
+dependências e instalar. Esse processo
 
 63
 00:03:11,019 --> 00:03:16,569
-pode ser um pouco demorado Enquanto isso
+pode ser um pouco demorado. Enquanto isso
 
 64
 00:03:13,720 --> 00:03:19,090
-você pode já deixando o seu like aqui e
+você pode já pode deixar o seu like aqui e
 
 65
 00:03:16,569 --> 00:03:22,060
-se inscrevendo no canal da Zupi com a
+se inscreva no canal da Zup. Com a
 
 66
 00:03:19,090 --> 00:03:26,290
-dependência Baixada Vamos acessar
+dependência baixada vamos acessar
 
 67
 00:03:22,060 --> 00:03:29,140
@@ -268,83 +268,83 @@ novamente a pasta do projeto e o nosso
 
 68
 00:03:26,290 --> 00:03:33,129
-gerenciador de dependência ele gerou um
+gerenciador de dependência, ele gerou um
 
 69
 00:03:29,140 --> 00:03:35,500
-artefato chamado Artes Face que contém o
+artefato chamado 'Workspace' que contém o
 
 70
 00:03:33,129 --> 00:03:37,630
-nosso projeto mas as dependências que a
+nosso projeto mais as dependências que a
 
 71
 00:03:35,500 --> 00:03:41,079
-gente adicionou Então vão abrir esse
+gente adicionou. Então vou abrir esse
 
 72
 00:03:37,630 --> 00:03:43,360
-artefato workspace e aqui tá o nosso
+artefato workspace e aqui está o nosso
 
 73
 00:03:41,079 --> 00:03:46,239
-projeto para começar a configuração do
+projeto. Para começar a configuração do
 
 74
 00:03:43,360 --> 00:03:48,430
-nosso projeto primeiramente Vamos
+nosso projeto, primeiramente vamos
 
 75
 00:03:46,239 --> 00:03:51,849
-acessar a nossa classe se ele de leite
+acessar a nossa classe 'SceneDelegate'
 
 76
 00:03:48,430 --> 00:03:54,700
-que estar tá o bico então vocês aqui o
+dá o start no Beagle. Então vou acessar
 
 77
 00:03:51,849 --> 00:03:59,160
-ciúme dele é Gate
+aqui o 'SceneDelegate' e
 
 78
 00:03:54,700 --> 00:04:04,080
-eu vou importar a dependência do bigodon
+vou importar a dependência do Beagle
 
 79
 00:03:59,160 --> 00:04:04,080
-Stephanie Import
+Scaffold Import
 
 80
 00:04:07,140 --> 00:04:14,790
-o juiz keffany e no método Cine eu vou
+'BeagleScaffold' e no método scene eu vou
 
 81
 00:04:11,790 --> 00:04:18,430
-executar o comando beagle config. Start
+executar o comando 'BeagleConfig.start'
 
 82
 00:04:14,790 --> 00:04:21,750
-para inicializar o Vivo
+para inicializar o Beagle
 
 83
 00:04:18,430 --> 00:04:25,870
-e ficou consegui. Start que vai
+'BeagleConfig.start' que vai
 
 84
 00:04:21,750 --> 00:04:28,300
-descartar o beagle no meu projeto logo
+inicializar o Beagle no meu projeto. Logo
 
 85
 00:04:25,870 --> 00:04:30,490
-após eu tenho que configurar uma viu
+após eu tenho que configurar uma
 
 86
 00:04:28,300 --> 00:04:32,620
-controla para inicializar a minha
+'ViewController'para inicializar a minha
 
 87
 00:04:30,490 --> 00:04:34,000
-aplicação no caso aqui eu vou
+aplicação. No caso aqui eu vou
 
 88
 00:04:32,620 --> 00:04:36,910
@@ -352,19 +352,19 @@ inicializar aplicação com
 
 89
 00:04:34,000 --> 00:04:40,270
-viewcontroller' de fundo que ele contém
+'ViewController'Default que ele contém
 
 90
 00:04:36,910 --> 00:04:43,780
-o sempre ou de componentes do Vigo não
+o sample de componentes do Beagle 
 
 91
 00:04:40,270 --> 00:04:46,980
-vou abrir aqui ou P arece bloco de
+Então vou abrir aqui e copiar esse bloco de
 
 92
 00:04:43,780 --> 00:04:48,660
-código e vou colar aqui
+código e vou colar aqui 
 
 93
 00:04:46,980 --> 00:04:51,720
@@ -372,47 +372,47 @@ código e vou colar aqui
 
 94
 00:04:48,660 --> 00:04:54,630
-e nada mais esse código aqui ele com
+Nada mais, esse código aqui ele 
 
 95
 00:04:51,720 --> 00:04:57,540
-fura ele inicializa o Windows e depois
+configura, ele inicializa o 'window' e depois
 
 96
 00:04:54,630 --> 00:04:59,610
-passa para o meu rootviewcontroller o
+passa para o meu 'rootViewController' o
 
 97
 00:04:57,540 --> 00:05:01,950
-meu viewcontroller' de fogo que é o
+meu 'viewController' default que é o
 
 98
 00:04:59,610 --> 00:05:04,200
-beagle scaffold The Movie o controle
+'BeagleScaffoldDemoViewController'
 
 99
 00:05:01,950 --> 00:05:07,830
-depois de fazer essas configurações
+Depois de fazer essas configurações
 
 100
 00:05:04,200 --> 00:05:10,200
-temos que apagar as referências que está
+temos que apagar as referências que estão
 
 101
 00:05:07,830 --> 00:05:13,290
-ali em cada ao storyboard que já vem
+linkadas  ao storyboard que já vem
 
 102
 00:05:10,200 --> 00:05:16,080
-configurado no projeto então vou abrir
+configurado no projeto. Então eu vou abrir
 
 103
 00:05:13,290 --> 00:05:19,020
-aqui o spopovich Vou acessar Amém
+aqui o 'Info.plist' e vou acessar a
 
 104
 00:05:16,080 --> 00:05:21,090
-storyboard fale base name e vou apagar
+'Main storyboard file base name' e vou apagar
 
 105
 00:05:19,020 --> 00:05:23,289
@@ -420,27 +420,27 @@ essa linha que eu não quero inicializar
 
 106
 00:05:21,090 --> 00:05:25,779
-com storyboard
+com storyboard.
 
 107
 00:05:23,289 --> 00:05:28,050
-e depois eu vou acessar application on
+E depois eu vou acessar 
 
 108
 00:05:25,779 --> 00:05:32,190
-se manifeste
+'Application Scene Manifest'
 
 109
 00:05:28,050 --> 00:05:36,030
-Oi Siri Corporation application essays
+'Scene Configuration',  'Application Session Role'
 
 110
 00:05:32,190 --> 00:05:39,750
-on Road e vou abrir o item 0 no item 10
+e vou abrir o 'Item 0'. No 'Item 0'
 
 111
 00:05:36,030 --> 00:05:41,510
-vai ter que storyboard name vou apagar
+vai ter aqui o 'Storyboard name' e vou apagar
 
 112
 00:05:39,750 --> 00:05:44,960
@@ -448,7 +448,7 @@ essa parte
 
 113
 00:05:41,510 --> 00:05:47,440
-e depois disso eu vou acessar o projeto
+e depois disso, eu vou acessar o 'Project'
 
 114
 00:05:44,960 --> 00:05:47,440
@@ -456,101 +456,101 @@ do projeto
 
 115
 00:05:47,529 --> 00:05:52,689
-ó e vou apagar aqui o meio interface que
+e vou apagar aqui o 'Main Interface' que
 
 116
 00:05:50,589 --> 00:05:55,689
-tá com o meio que o storyboard já
+está como 'Main' que é o storyboard já
 
 117
 00:05:52,689 --> 00:05:58,569
-configurar depois de fazer esse espaço
+configurado. Depois de fazer esses passos
 
 118
 00:05:55,689 --> 00:06:01,209
-acabou toda a configuração eu vou aqui
+acabou toda a configuração e eu vou aqui
 
 119
 00:05:58,569 --> 00:06:04,839
-escolher qual emulador eu vou executar
+escolher qual emulador eu vou executar.
 
 120
 00:06:01,209 --> 00:06:07,659
-no caso eu vou executar no iPhone 12 e
+No caso, eu vou executar no iPhone 12 e
 
 121
 00:06:04,839 --> 00:06:10,959
-vou executar aqui para estar executando
+vou executar aqui para ele estar executando
 
 122
 00:06:07,659 --> 00:06:14,109
-no emulador iPhone 12 ele vai
+no emulador iPhone 12. Ele vai
 
 123
 00:06:10,959 --> 00:06:16,809
-inicializar a minha aplicação com o meu
+inicializar a minha aplicação com o
 
 124
 00:06:14,109 --> 00:06:18,999
-Controller the full que traz o sempre ou
+'ViewController' default, que traz o sample
 
 125
 00:06:16,809 --> 00:06:21,489
-de componentes do beagle são todos os
+de componentes do Beagle, que são todos os
 
 126
 00:06:18,999 --> 00:06:24,429
-componentes que obrigou fornece ações
+componentes que o Beagle fornece, ações.
 
 127
 00:06:21,489 --> 00:06:26,889
-Então você vai poder ver e brincar lá
+Então, você vai poder ver e brincar lá
 
 128
 00:06:24,429 --> 00:06:29,619
-com os componentes esses componentes Vem
+com os componentes. Esses componentes vem
 
 129
 00:06:26,889 --> 00:06:32,319
-de um BFF de fogo que a gente tem Então
+de um BFF default que a gente tem. Então
 
 130
 00:06:29,619 --> 00:06:35,439
-já traz o conceito de server Grid em o
+já traz o conceito de server-driven UI.
 
 131
 00:06:32,319 --> 00:06:38,529
-ar como você pode ver que executou minha
+Como você pode ver aqui, executou a minha
 
 132
 00:06:35,439 --> 00:06:41,409
-aplicação aqui tem os componentes então
+aplicação. Aqui tem os componentes, então
 
 133
 00:06:38,529 --> 00:06:44,199
-eu posso ser só o batom posso acessar o
+eu posso acessar o 'Button', posso acessar o
 
 134
 00:06:41,409 --> 00:06:47,510
-Tec e aqui você pode ver todos os
+'Text' e aqui você pode ver todos os
 
 135
 00:06:44,199 --> 00:06:50,030
-componentes que obrigou já tem e brinca
+componentes que o Beagle já tem e brincar.
 
 136
 00:06:47,510 --> 00:06:52,790
-o vídeo foi esse Muito obrigado galera
+O vídeo foi esse! Muito obrigado galera
 
 137
 00:06:50,030 --> 00:06:55,460
-acesse a documentação para ver mais
+Acesse a documentação para ver mais
 
 138
 00:06:52,790 --> 00:06:58,390
-detalhes do beagle mais implementações e
+detalhes do Beagle, mais implementações e
 
 139
 00:06:55,460 --> 00:06:58,390
-é isso até mais
+é isso. Até mais!
 
