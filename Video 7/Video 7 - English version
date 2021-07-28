@@ -1,0 +1,323 @@
+1
+00:00:00,040 --> 00:00:08,080
+Hi, my name is Tiago Nunes and I am a
+
+2
+00:00:08,080 --> 00:00:10,780
+developer at Zup! Do you want to learn how
+
+3
+00:00:10,780 --> 00:00:12,730
+easy it is to configure Beagle in an
+
+4
+00:00:12,730 --> 00:00:14,950
+Android application? Come with me I'm going to 
+
+5
+00:00:14,950 --> 00:00:17,500
+explain to you step by step now. Let's 
+
+6
+00:00:17,500 --> 00:00:19,810
+start in our computer, in Beagle's 
+
+7
+00:00:19,810 --> 00:00:21,850
+documentation accessing 
+
+8
+00:00:21,850 --> 00:00:24,580
+usebeagle.io and click on 'Docs', after that
+
+9
+00:00:24,580 --> 00:00:29,050
+'Installing Beagle' > 'Android' and let's start 
+
+10
+00:00:29,050 --> 00:00:31,470
+checking the requirements. First one
+
+11
+00:00:31,470 --> 00:00:33,640
+JDK 8 and let's check if we are 
+
+12
+00:00:33,640 --> 00:00:36,340
+using the JDK 8 in the cmd
+
+13
+00:00:36,340 --> 00:00:39,520
+typing 'Java -version' and here
+
+14
+00:00:39,520 --> 00:00:43,060
+we are using the 1.8.0.251 version
+
+15
+00:00:43,060 --> 00:00:46,930
+So we are using JDK 8 and let's see
+
+16
+00:00:46,930 --> 00:00:49,660
+the API level, at least 19 or higher.
+
+17
+00:00:49,660 --> 00:00:52,180
+So, let's create a project in Android
+
+18
+00:00:52,180 --> 00:00:54,670
+Studio with these conditions. Let's 
+
+19
+00:00:54,670 --> 00:00:57,820
+start a new project with an
+
+20
+00:00:57,820 --> 00:01:00,050
+'Empty Activity' and lets name it 
+
+21
+00:01:00,050 --> 00:01:03,800
+'My First Beagle App' and we will choose here 
+
+22
+00:01:03,800 --> 00:01:05,960
+the Kotlin language and here we can 
+
+23
+00:01:05,960 --> 00:01:08,869
+select an API 19 or higher.
+
+24
+00:01:08,869 --> 00:01:11,479
+Let's choose here the 27
+
+25
+00:01:11,479 --> 00:01:14,240
+it is higher than 19 and click on 
+
+26
+00:01:14,240 --> 00:01:16,729
+'Finish'. Android Studio is building for us 
+
+27
+00:01:16,729 --> 00:01:18,979
+a new project and let's check
+
+28
+00:01:18,979 --> 00:01:20,900
+the Android Studio's version we are 
+
+29
+00:01:20,900 --> 00:01:23,420
+using. In this video's recording date
+
+30
+00:01:23,420 --> 00:01:26,860
+the 4.0.1 version was the most recent one
+
+31
+00:01:26,860 --> 00:01:29,360
+available for Android Studio. Now we 
+
+32
+00:01:29,360 --> 00:01:32,060
+need to confirm in 'File' > 'Settings' the last
+
+33
+00:01:32,060 --> 00:01:35,440
+requirement, Kotlin needs to be in the
+
+34
+00:01:35,440 --> 00:01:38,360
+1.3 version or higher, let's type here
+
+35
+00:01:38,360 --> 00:01:40,789
+in the search bar Kotlin and in 'Languages & Frameworks' 
+
+36
+00:01:40,789 --> 00:01:42,890
+click again on Kotlin
+
+37
+00:01:42,890 --> 00:01:44,840
+and we can see we are using the
+
+38
+00:01:44,840 --> 00:01:49,789
+1.3.72 version, so this version is
+
+39
+00:01:49,789 --> 00:01:52,399
+superior to 1.3, it works 
+
+40
+00:01:52,399 --> 00:01:53,960
+for us. Let's go to the next step 
+
+41
+00:01:53,960 --> 00:01:56,509
+in the 'Build Gradle Project' file
+
+42
+00:01:56,509 --> 00:01:58,280
+if you want o use an older Beagle 
+
+43
+00:01:58,280 --> 00:02:00,060
+version, you will put 'maven'
+
+44
+00:02:00,060 --> 00:02:02,880
+with bintray's URL. If you want
+
+45
+00:02:02,880 --> 00:02:05,729
+to use the 1.1.0 version or
+
+46
+00:02:05,729 --> 00:02:09,330
+higher, just copy here the 
+
+47
+00:02:09,330 --> 00:02:11,610
+'mavenCentral()' part. Let's go to 
+
+48
+00:02:11,610 --> 00:02:15,660
+the 'build.gradle Project' file. Inside the 'All
+
+49
+00:02:15,660 --> 00:02:18,390
+Project', we are going to include this information
+
+50
+00:02:18,390 --> 00:02:21,930
+of mavenCentral, then we synchronize
+
+51
+00:02:21,930 --> 00:02:24,660
+and we can go the next step 
+
+52
+00:02:24,660 --> 00:02:27,060
+in the 'build.gradle Module' file. Here
+
+53
+00:02:27,060 --> 00:02:29,760
+we will add the plugins. We're going to
+
+54
+00:02:29,760 --> 00:02:32,760
+add the 'kotlin.kapt' plugin, it 
+
+55
+00:02:32,760 --> 00:02:36,209
+allows us to use the 'Annotation process'.
+
+56
+00:02:36,209 --> 00:02:38,760
+We are going to also add Beagle's version
+
+57
+00:02:38,760 --> 00:02:41,220
+creating this variable and putting the
+
+58
+00:02:41,220 --> 00:02:45,780
+1.1.0 version and the most recent Beagle's
+
+59
+00:02:45,780 --> 00:02:47,220
+version. How do I know this version
+
+60
+00:02:47,220 --> 00:02:49,560
+is the most recent? It is written right there, step 2
+
+61
+00:02:49,560 --> 00:02:51,180
+the current Beagle version is 'maven-central
+
+62
+00:02:51,180 --> 00:02:54,299
+v1.1.0'. It will always be 
+
+63
+00:02:54,299 --> 00:02:55,980
+updated there. Just copy these two
+
+64
+00:02:55,980 --> 00:02:59,010
+lines below and put them in 'Dependencies' and
+
+65
+00:02:59,010 --> 00:03:00,040
+then synchronize.
+
+66
+00:03:00,040 --> 00:03:02,530
+And that's it! From now on, you are able to
+
+67
+00:03:02,530 --> 00:03:05,469
+use Beagle in your Android
+
+68
+00:03:05,469 --> 00:03:08,680
+application. Did you like it? Isn't too easy?
+
+69
+00:03:08,680 --> 00:03:10,870
+So, don't forget to always use the lastest
+
+70
+00:03:10,870 --> 00:03:13,060
+Beagle's version and don't forget to
+
+71
+00:03:13,060 --> 00:03:15,909
+synchronize when you finish  
+
+72
+00:03:15,909 --> 00:03:18,459
+adding the dependencies. In the next video
+
+73
+00:03:18,459 --> 00:03:20,430
+you will learn how to create a declarative 
+
+74
+00:03:20,430 --> 00:03:23,260
+screen using Beagle for Android. 
+
+75
+00:03:23,260 --> 00:03:25,299
+Like this video, subscribe to our channel
+
+76
+00:03:25,299 --> 00:03:28,090
+to receive our notification. If you have any
+
+77
+00:03:28,090 --> 00:03:30,609
+doubts, just write down a comment
+
+78
+00:03:30,609 --> 00:03:33,040
+below. You can also 
+
+79
+00:03:33,040 --> 00:03:36,069
+access usebeagle.io for more
+
+80
+00:03:36,069 --> 00:03:38,769
+information. Thank you so much for watching 
+
+81
+00:03:38,769 --> 00:03:42,030
+and see you in the next video!
