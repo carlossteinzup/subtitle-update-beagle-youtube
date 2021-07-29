@@ -1,0 +1,323 @@
+1
+00:00:00,000 --> 00:00:03,000
+Hi guys, my name is Lucas Fonseca and 
+
+2
+00:00:03,000 --> 00:00:05,790
+I am a developer at Zup. A tech
+
+3
+00:00:05,790 --> 00:00:07,490
+company innovating the 
+
+4
+00:00:07,490 --> 00:00:09,450
+market with its 
+
+5
+00:00:09,450 --> 00:00:11,880
+Open Source applications and one of them 
+
+6
+00:00:11,880 --> 00:00:14,340
+is Beagle and in this video here, I will 
+
+7
+00:00:14,340 --> 00:00:16,020
+teach you how to install Beagle in your 
+
+8
+00:00:16,020 --> 00:00:19,199
+iOS application with Cocoapods
+
+9
+00:00:19,199 --> 00:00:23,850
+and Carthage.
+
+10
+00:00:23,850 --> 00:00:27,600
+To install Beagle using 
+
+11
+00:00:27,600 --> 00:00:30,420
+Cocoapods is very easy! You need to 
+
+12
+00:00:30,420 --> 00:00:33,230
+start
+
+13
+00:00:35,760 --> 00:00:40,219
+the pods inside your project's file.
+
+14
+00:00:40,219 --> 00:00:43,170
+So in the terminal, you go to the folder 
+
+15
+00:00:43,170 --> 00:00:45,780
+where your project is and run the command
+
+16
+00:00:45,780 --> 00:00:49,050
+'pod init. This command will
+
+17
+00:00:49,050 --> 00:00:51,539
+generate for you a file called 
+
+18
+00:00:51,539 --> 00:00:54,030
+'Podfile' 
+
+19
+00:00:54,030 --> 00:01:01,270
+And in the 'Podfile'
+
+20
+00:01:01,270 --> 00:01:05,290
+you need to add all your 
+
+21
+00:01:05,290 --> 00:01:07,409
+dependencies.
+
+22
+00:01:07,409 --> 00:01:11,819
+For Beagle to work, it 
+
+23
+00:01:11,819 --> 00:01:15,119
+uses  Yoga Kit, a cross platform
+
+24
+00:01:15,119 --> 00:01:18,750
+rendering tool. I explained
+
+25
+00:01:18,750 --> 00:01:20,700
+in this video above about
+
+26
+00:01:20,700 --> 00:01:23,189
+it. After adding these
+
+27
+00:01:23,189 --> 00:01:25,649
+dependencies inside the 
+
+28
+00:01:25,649 --> 00:01:27,569
+'Podfile', the only thing we 
+
+29
+00:01:27,569 --> 00:01:33,220
+need to do is: write 'pod install'.
+
+30
+00:01:33,220 --> 00:01:35,890
+With this command, it will generate
+
+31
+00:01:35,890 --> 00:01:38,860
+for us a workspace, where all our 
+
+32
+00:01:38,860 --> 00:01:41,440
+dependencies will be solved and  
+
+33
+00:01:41,440 --> 00:01:44,140
+after that, we will start working in this 
+
+34
+00:01:44,140 --> 00:01:47,890
+workspace and not in the Project. After
+
+35
+00:01:47,890 --> 00:01:50,200
+you run the command 'pod install'
+
+36
+00:01:50,200 --> 00:01:52,030
+Beagle will be ready to be
+
+37
+00:01:52,030 --> 00:01:55,180
+used in your workspace. To
+
+38
+00:01:55,180 --> 00:01:57,460
+install Beagle using Carthage
+
+39
+00:01:57,460 --> 00:02:01,260
+is very easy too!
+
+40
+00:02:03,520 --> 00:02:07,270
+We need to create a 
+
+41
+00:02:07,270 --> 00:02:09,098
+'CartFile', we will use the command 
+
+42
+00:02:09,098 --> 00:02:11,500
+'touch Cartfile'.
+
+43
+00:02:11,500 --> 00:02:14,560
+In this 'Cartfile'
+
+44
+00:02:14,560 --> 00:02:17,020
+the only thing
+
+45
+00:02:17,020 --> 00:02:19,450
+we need is: add 
+
+46
+00:02:19,450 --> 00:02:21,140
+Beagle's dependency.
+
+47
+00:02:21,140 --> 00:02:24,550
+Here, we will use the 1.0.1
+
+48
+00:02:24,550 --> 00:02:28,130
+version, which is the current Beagle's version. So
+
+49
+00:02:28,130 --> 00:02:29,959
+go to our website, it is here in the 
+
+50
+00:02:29,959 --> 00:02:31,790
+description and check which 
+
+51
+00:02:31,790 --> 00:02:33,980
+Beagle version is the lastest for you to use 
+
+52
+00:02:33,980 --> 00:02:37,160
+the most updated version, ok? I saved 
+
+53
+00:02:37,160 --> 00:02:41,770
+my 'Cartfile' and now I use
+
+54
+00:02:41,770 --> 00:02:46,200
+'carthage update' command. 
+
+55
+00:02:47,630 --> 00:02:49,700
+This process here can take 
+
+56
+00:02:49,700 --> 00:02:51,350
+longer than Cocoapods.
+
+57
+00:02:51,350 --> 00:02:54,530
+It will  download all 
+
+58
+00:02:54,530 --> 00:02:57,230
+dependencies and it will generate for us 
+
+59
+00:02:57,230 --> 00:03:00,340
+compiled frameworks.
+
+60
+00:03:00,340 --> 00:03:06,970
+[A few moments later] Oh hi! After it finishes
+
+61
+00:03:06,970 --> 00:03:09,849
+bulding all Beagle's schemes, we need to 
+
+62
+00:03:09,849 --> 00:03:15,030
+add all the frameworks it generated 
+
+63
+00:03:15,030 --> 00:03:17,900
+in our project. So
+
+64
+00:03:17,900 --> 00:03:21,440
+we will copy the folders 
+
+65
+00:03:21,440 --> 00:03:25,810
+with '.framework'
+
+66
+00:03:26,540 --> 00:03:30,939
+and we are going to put here in this
+
+67
+00:03:30,939 --> 00:03:34,650
+'Frameworks, Libraries' section.
+
+68
+00:03:34,650 --> 00:03:37,290
+To access this section
+
+69
+00:03:37,290 --> 00:03:39,780
+you need click on your project and
+
+70
+00:03:39,780 --> 00:03:43,620
+here in 'Targets' and then 'General', you can
+
+71
+00:03:43,620 --> 00:03:45,930
+access this section and you can  
+
+72
+00:03:45,930 --> 00:03:47,519
+use Beagle in your 
+
+73
+00:03:47,519 --> 00:03:49,920
+application with Carthage, all the generated 
+
+74
+00:03:49,920 --> 00:03:52,799
+frameworks need to be here. It's done 
+
+75
+00:03:52,799 --> 00:03:55,379
+guys, you already have Beagle installed and 
+
+76
+00:03:55,379 --> 00:03:57,569
+ready to be used in your 
+
+77
+00:03:57,569 --> 00:04:00,329
+iOS application. Stay tuned 'cause 
+
+78
+00:04:00,329 --> 00:04:02,970
+in the next video, I'm going to teach you 
+
+79
+00:04:02,970 --> 00:04:05,730
+how to make an iOS declarative screen
+
+80
+00:04:05,730 --> 00:04:08,549
+using Beagle. See you next time 
+
+81
+00:04:08,549 --> 00:04:10,670
+guys!
