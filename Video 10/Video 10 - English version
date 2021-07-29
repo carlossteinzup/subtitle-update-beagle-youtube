@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:03,480
+Hi guys! My name is Raphael Pimenta and 
+
+2
+00:00:03,480 --> 00:00:06,210
+I'm a developer at Zup, a tech company
+
+3
+00:00:06,210 --> 00:00:07,770
+innovating the market with its
+
+4
+00:00:07,770 --> 00:00:10,019
+Open Source projects and
+
+5
+00:00:10,019 --> 00:00:13,170
+one of these projects is Beagle. I 
+
+6
+00:00:13,170 --> 00:00:15,630
+will show you in this video how to install
+
+7
+00:00:15,630 --> 00:00:17,880
+Beagle's library in a React project 
+
+8
+00:00:17,880 --> 00:00:22,289
+let's go?
+
+9
+00:00:22,289 --> 00:00:25,980
+To install Beagle's library in a React 
+
+10
+00:00:25,980 --> 00:00:27,989
+project, it is very simple. First thing 
+
+11
+00:00:27,989 --> 00:00:30,480
+we are going to do is to start a new React
+
+12
+00:00:30,480 --> 00:00:33,660
+project. In this case, let's use 'create react-app'
+
+13
+00:00:33,660 --> 00:00:36,030
+so, in your terminal type 'yarn create'
+
+14
+00:00:36,030 --> 00:00:39,690
+'react app' and let's call this app 
+
+15
+00:00:39,690 --> 00:00:42,750
+'my-first-beagle-app. Run this command and 
+
+16
+00:00:42,750 --> 00:00:45,149
+let's wait React create for us
+
+17
+00:00:45,149 --> 00:00:47,909
+the application. After creating 
+
+18
+00:00:47,909 --> 00:00:50,850
+the application, let's go to Beagle's 
+
+19
+00:00:50,850 --> 00:00:52,949
+documentation. In the docs' 
+
+20
+00:00:52,949 --> 00:00:55,949
+section 'Installing Beagle', you can see
+
+21
+00:00:55,949 --> 00:00:59,909
+the 'Web' option and you can access 
+
+22
+00:00:59,909 --> 00:01:02,430
+the 'React' section. When we access the React 
+
+23
+00:01:02,430 --> 00:01:04,949
+section, we can already see two commands 
+
+24
+00:01:04,949 --> 00:01:08,009
+to install Beagle's library in
+
+25
+00:01:08,009 --> 00:01:10,740
+our React project, using 'Yarn' or
+
+26
+00:01:10,740 --> 00:01:12,810
+'npm', you can choose your favorite 
+
+27
+00:01:12,810 --> 00:01:15,450
+package manager. In this case, we will use Yarn
+
+28
+00:01:15,450 --> 00:01:18,329
+so, copy the command and let's go back 
+
+29
+00:01:18,329 --> 00:01:20,700
+to the terminal, let's go the project's
+
+30
+00:01:20,700 --> 00:01:22,300
+folder we have just created.
+
+31
+00:01:22,300 --> 00:01:26,550
+Then type 'cd my-first-beagle-app'
+
+32
+00:01:26,550 --> 00:01:30,330
+Access a folder, paste the command and run. 
+
+33
+00:01:30,330 --> 00:01:33,490
+This command will install Beagle's 
+
+34
+00:01:33,490 --> 00:01:35,620
+library in your React project, let's just
+
+35
+00:01:35,620 --> 00:01:38,710
+wait when it's installing. Done! You already 
+
+36
+00:01:38,710 --> 00:01:40,660
+have Beagle's library installed in your 
+
+37
+00:01:40,660 --> 00:01:42,550
+React project and stay tuned 'cause
+
+38
+00:01:42,550 --> 00:01:44,140
+in the next videos, I'm going to teach
+
+39
+00:01:44,140 --> 00:01:46,810
+you how to configure Beagle and create your
+
+40
+00:01:46,810 --> 00:01:49,570
+first screen in a React project. Subscribe to
+
+41
+00:01:49,570 --> 00:01:50,770
+our channel to get all notifications 
+
+42
+00:01:50,770 --> 00:01:54,090
+See you next time! 
