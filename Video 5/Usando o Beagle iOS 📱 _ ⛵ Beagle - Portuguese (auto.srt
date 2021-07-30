@@ -112,7 +112,7 @@ colocar o nome, que vai ser
 
 29
 00:01:24,799 --> 00:01:31,950
-BeagleExemplo
+'BeagleExemplo'
 
 30
 00:01:27,490 --> 00:01:36,250
@@ -176,7 +176,7 @@ eu adiciono as dependências que eu quero
 
 45
 00:02:11,120 --> 00:02:18,260
-acoplar ao projeto. Vou digitar open .
+acoplar ao projeto. Vou digitar 'open .'
 
 46
 00:02:14,030 --> 00:02:21,319
@@ -184,11 +184,11 @@ para abrir a pasta do projeto e
 
 47
 00:02:18,260 --> 00:02:23,230
-aqui tá o arquivo pod file. No arquivo
+aqui tá o arquivo 'pod file'. No arquivo
 
 48
 00:02:21,319 --> 00:02:26,950
-pod file eu vou adicionar as dependências.
+'pod file' eu vou adicionar as dependências.
 
 49
 00:02:23,230 --> 00:02:29,750
