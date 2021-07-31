@@ -1,66 +1,66 @@
 1
 00:00:00,040 --> 00:00:08,080
-o Olá meu nome é Thiago Nunes eu sou o
+Olá, meu nome é Tiago Nunes e eu sou
 
 2
 00:00:08,080 --> 00:00:10,780
-desenvolvedor na Tupi era aprender como
+desenvolvedor na Zup! Quer aprender como
 
 3
 00:00:10,780 --> 00:00:12,730
-é fácil configurar o Vigo em uma
+é fácil configurar o Beagle em uma
 
 4
 00:00:12,730 --> 00:00:14,950
-aplicação Android daí comigo que eu te
+aplicação Android? Vem comigo que eu te
 
 5
 00:00:14,950 --> 00:00:17,500
-explico passo a passo Agora vamos
+explico passo a passo agora. Vamos
 
 6
 00:00:17,500 --> 00:00:19,810
-começar no computador então a sessão da
+começar no computador então, a seção da
 
 7
 00:00:19,810 --> 00:00:21,850
-documentação do beagle acessando use
+documentação do Beagle acessando o
 
 8
 00:00:21,850 --> 00:00:24,580
-umbigo.de clicando em inox depois em
+usebeagle.io e clicando em 'Docs', depois em
 
 9
 00:00:24,580 --> 00:00:29,050
-instalando beagle Android vamos começar
+'Instalando Beagle' > 'Android' e vamos começar
 
 10
 00:00:29,050 --> 00:00:31,470
-verificamos os requisitos primeiro é a
+verificando os requisitos. Primeiro é a
 
 11
 00:00:31,470 --> 00:00:33,640
-jdk-8 vamos verificar se estamos
+JDK 8 e vamos verificar se estamos
 
 12
 00:00:33,640 --> 00:00:36,340
-utilizando no servir de ajuda k8
+utilizando no cmd a JDK 8
 
 13
 00:00:36,340 --> 00:00:39,520
-digitando Java - Vert ele ficamos aqui
+digitando 'Java -version' e verificamos aqui
 
 14
 00:00:39,520 --> 00:00:43,060
-que estamos utilizando a versão 1.8.0.
+que estamos utilizando a versão 1.8.0.251
 
 15
 00:00:43,060 --> 00:00:46,930
-251 portanto estamos na jdk-8 vamos ver
+Portanto estamos na JDK 8 e vamos ver
 
 16
 00:00:46,930 --> 00:00:49,660
-a pele level pelo menos 19 superior
+a API level, pelo menos 19 ou superior.
 
 17
 00:00:49,660 --> 00:00:52,180
@@ -68,43 +68,43 @@ Então vamos criar um projeto no Android
 
 18
 00:00:52,180 --> 00:00:54,670
-Studio dentro dessas condições vamos
+Studio dentro dessas condições. Vamos
 
 19
 00:00:54,670 --> 00:00:57,820
-estar um novo projeto com uma and
+começar um novo projeto com uma 
 
 20
 00:00:57,820 --> 00:01:00,050
-activity Vamos colocar um nome do
+'Empty Activity' e vamos colocar o nome do
 
 21
 00:01:00,050 --> 00:01:03,800
-E aí first be Gol AP vamos escolher aqui
+projeto de 'My First Beagle App' e vamos escolher aqui
 
 22
 00:01:03,800 --> 00:01:05,960
-a linguagem kotlin mesmo e aqui podemos
+a linguagem Kotlin mesmo e aqui podemos
 
 23
 00:01:05,960 --> 00:01:08,869
-selecionar uma enviar 19 ou superior
+selecionar uma API 19 ou superior.
 
 24
 00:01:08,869 --> 00:01:11,479
-Portanto vamos escolher aqui a 27 e a
+Portanto vamos escolher aqui a 27 que
 
 25
 00:01:11,479 --> 00:01:14,240
-superior a 19 e apertar em finalizar
+é superior a 19 e apertar em finalizar
 
 26
 00:01:14,240 --> 00:01:16,729
-Fish Android tudo está construindo para
+'Finish'. O Android Studio está construindo para
 
 27
 00:01:16,729 --> 00:01:18,979
-gente um novo projeto e vamos verificar
+a gente um novo projeto e vamos verificar
 
 28
 00:01:18,979 --> 00:01:20,900
@@ -112,23 +112,23 @@ a versão do Android Studio que estamos
 
 29
 00:01:20,900 --> 00:01:23,420
-utilizando na da gravação desse vídeo a
+utilizando. Na data da gravação desse vídeo a
 
 30
 00:01:23,420 --> 00:01:26,860
-versão 4.0.1 era versão mais atualizada
+versão 4.0.1 era a versão mais atualizada
 
 31
 00:01:26,860 --> 00:01:29,360
-disponível do Android Studio falta agora
+disponível do Android Studio. Falta agora
 
 32
 00:01:29,360 --> 00:01:32,060
-confirmar mus o ensaio 7 o último
+confirmarmos em 'File' > 'Settings' o último
 
 33
 00:01:32,060 --> 00:01:35,440
-requisito que é o coaching sei lá versão
+requisito que é o Kotlin ser a versão
 
 34
 00:01:35,440 --> 00:01:38,360
@@ -136,11 +136,11 @@ requisito que é o coaching sei lá versão
 
 35
 00:01:38,360 --> 00:01:40,789
-na pesquisa Korn e em um lendo e dizem
+na pesquisa Kotlin e em 'Languages & Frameworks' 
 
 36
 00:01:40,789 --> 00:01:42,890
-frameworks clicar novamente em controle
+clicar novamente em Kotlin
 
 37
 00:01:42,890 --> 00:01:44,840
@@ -148,19 +148,19 @@ e percebemos que estamos utilizando a
 
 38
 00:01:44,840 --> 00:01:49,789
-versao 1.3.1 72 portanto essa versão é
+versao 1.3.72, portanto essa versão é
 
 39
 00:01:49,789 --> 00:01:52,399
-superior a um ponto três então certo
+superior a 1.3, então serve
 
 40
 00:01:52,399 --> 00:01:53,960
-para gente vamos pro próximo passo
+para gente. Vamos para o próximo passo
 
 41
 00:01:53,960 --> 00:01:56,509
-dentro do arquivo build gradle Project
+dentro do arquivo 'Build Gradle Project'
 
 42
 00:01:56,509 --> 00:01:58,280
@@ -168,35 +168,35 @@ se você quiser usar uma versão antiga do
 
 43
 00:01:58,280 --> 00:02:00,060
-beagle você vai colocar meio
+Beagle você vai colocar 'maven'
 
 44
 00:02:00,060 --> 00:02:02,880
-a regra do bicho aí caso contrário caso
+com a URL do Bintray. Caso contrário, se
 
 45
 00:02:02,880 --> 00:02:05,729
-você queira utilizar a versão 1.1.0 ou
+você quiser utilizar a versão 1.1.0 ou
 
 46
 00:02:05,729 --> 00:02:09,330
-superior você basta apenas copiar aqui a
+superior, basta apenas copiar aqui a
 
 47
 00:02:09,330 --> 00:02:11,610
-parte do meio Vincent as horas lá no
+parte do 'mavenCentral()'. Vamos lá no
 
 48
 00:02:11,610 --> 00:02:15,660
-Arquivo meu degredo Project dentro de ou
+arquivo 'build.gradle Project'. Dentro de 'All
 
 49
 00:02:15,660 --> 00:02:18,390
-Project nós vamos incluir as informação
+Project', nós vamos incluir essa informação
 
 50
 00:02:18,390 --> 00:02:21,930
-do Meio incêndio então sincronizamos e
+do mavenCentral, então sincronizamos e
 
 51
 00:02:21,930 --> 00:02:24,660
@@ -204,23 +204,23 @@ podemos partir para a próxima etapa que
 
 52
 00:02:24,660 --> 00:02:27,060
-no arquivo biodegradável um ódio aqui
+é no arquivo 'build.gradle Module'. Aqui
 
 53
 00:02:27,060 --> 00:02:29,760
-nós vamos incluir os plugins nós vamos
+nós vamos incluir os plugins. Nós vamos
 
 54
 00:02:29,760 --> 00:02:32,760
-incluir o Plugin do copo brincar.pt nos
+incluir o plugin do 'kotlin.kapt' que nos
 
 55
 00:02:32,760 --> 00:02:36,209
-permite utilizar com a notation processo
+permite utilizar o 'Annotation process'.
 
 56
 00:02:36,209 --> 00:02:38,760
-vamos também incluir a versão do beagle
+Vamos também incluir a versão do Beagle
 
 57
 00:02:38,760 --> 00:02:41,220
@@ -232,51 +232,51 @@ versão 1.1.0 e a versão mais atual do
 
 59
 00:02:45,780 --> 00:02:47,220
-Vigo como que eu sei que essa versão
+Beagle. Como que eu sei que essa versão
 
 60
 00:02:47,220 --> 00:02:49,560
-mais atual está escrito aí no passo 2 a
+é a mais atual? Está escrito aí no passo 2 a
 
 61
 00:02:49,560 --> 00:02:51,180
-versão atual do beagle é meio de
+versão atual do Beagle é 'maven-central
 
 62
 00:02:51,180 --> 00:02:54,299
-incêndio 1.1.0 ali sempre vai estar
+v1.1.0'. Ali sempre vai estar
 
 63
 00:02:54,299 --> 00:02:55,980
-atualizado basta copiar essas duas
+atualizado. Basta copiar essas duas
 
 64
 00:02:55,980 --> 00:02:59,010
-linhas abaixo colocá-las independencis e
+linhas abaixo e colocá-las em 'Dependencies' e
 
 65
 00:02:59,010 --> 00:03:00,040
-sincronizamos
+sincronizamos.
 
 66
 00:03:00,040 --> 00:03:02,530
-é isso A partir de agora você já está
+E é isso! A partir de agora você já está
 
 67
 00:03:02,530 --> 00:03:05,469
-apto a utilizar o Vigo em sua aplicação
+apto a utilizar o Beagle em sua aplicação
 
 68
 00:03:05,469 --> 00:03:08,680
-Android você gostou não é fácil demais
+Android. Você gostou? Não é fácil demais?
 
 69
 00:03:08,680 --> 00:03:10,870
-então não se esqueça sempre de utilizar
+Então não se esqueça sempre de utilizar
 
 70
 00:03:10,870 --> 00:03:13,060
-a versão mais recente do bebeu e também
+a versão mais recente do Beagle e também
 
 71
 00:03:13,060 --> 00:03:15,909
@@ -284,7 +284,7 @@ de sincronizar quando você terminar de
 
 72
 00:03:15,909 --> 00:03:18,459
-colocar as dependências no próximo vídeo
+colocar as dependências. No próximo vídeo
 
 73
 00:03:18,459 --> 00:03:20,430
@@ -292,15 +292,15 @@ você aprenderá como criar uma tela
 
 74
 00:03:20,430 --> 00:03:23,260
-declarativa usando o beagle no Android
+declarativa usando o Beagle no Android.
 
 75
 00:03:23,260 --> 00:03:25,299
-curta esse vídeo assine o nosso canal
+Curta esse vídeo, assine o nosso canal
 
 76
 00:03:25,299 --> 00:03:28,090
-para ser notificado qualquer dúvida
+para ser notificado. Qualquer dúvida
 
 77
 00:03:28,090 --> 00:03:30,609
@@ -308,17 +308,17 @@ basta deixar escrito abaixo nos
 
 78
 00:03:30,609 --> 00:03:33,040
-comentários lembre-se sempre você pode
+comentários. Lembre-se sempre você pode
 
 79
 00:03:33,040 --> 00:03:36,069
-acessar o cê beagle. Aí ou para mais
+acessar usebeagle.io para mais
 
 80
 00:03:36,069 --> 00:03:38,769
-informações muito obrigado por assistir
+informações. Muito obrigado por assistir
 
 81
 00:03:38,769 --> 00:03:42,030
-e até o próximo vídeo
+e até o próximo vídeo!
 
