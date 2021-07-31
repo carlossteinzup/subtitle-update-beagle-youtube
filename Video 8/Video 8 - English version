@@ -1,0 +1,441 @@
+1
+00:00:00,130 --> 00:00:05,350
+Hi guys, nice to see you, my name is Lucas Fonseca 
+
+2
+00:00:03,009 --> 00:00:07,540
+and I am a developer at Zup,
+
+3
+00:00:05,350 --> 00:00:09,700
+a tech company that it is
+
+4
+00:00:07,540 --> 00:00:12,070
+innovating the market with 
+
+5
+00:00:09,700 --> 00:00:14,860
+Open Source application and one of them
+
+6
+00:00:12,070 --> 00:00:16,810
+is Beagle, a tool that has
+
+7
+00:00:14,860 --> 00:00:19,689
+raised Server-Driven UI to
+
+8
+00:00:16,810 --> 00:00:23,289
+another level. It is availabel for
+9
+00:00:19,689 --> 00:00:25,749
+Android, iOS and WEB. With it you are 
+ 
+10
+00:00:23,289 --> 00:00:28,179
+able to change screens and flows by the
+
+11
+00:00:25,749 --> 00:00:30,669
+Backend only making changes in
+
+12
+00:00:28,179 --> 00:00:32,800
+a JSON. Do you want to know more about this framework? 
+
+13
+00:00:30,669 --> 00:00:34,780
+Stay tuned here in this video, I'm going to
+
+14
+00:00:32,800 --> 00:00:36,820
+tell you what is behind Beagle and 
+
+15
+00:00:34,780 --> 00:00:41,910
+how this tool can change 
+
+16
+00:00:36,820 --> 00:00:41,910
+your applications. 
+
+17
+00:00:43,720 --> 00:00:49,870
+The tool works as a BFF's
+
+18
+00:00:47,080 --> 00:00:51,790
+facilitator, and the relationship with Beagle 
+
+19
+00:00:49,870 --> 00:00:53,980
+can really become a "best
+
+20
+00:00:51,790 --> 00:00:56,950
+friend forever" one, here we will use the 
+
+21
+00:00:53,980 --> 00:00:59,530
+backend for frontend concept, its
+
+22
+00:00:56,950 --> 00:01:01,390
+a microservices that customize
+
+23
+00:00:59,530 --> 00:01:04,180
+the backend's delivery for each 
+
+24
+00:01:01,390 --> 00:01:05,860
+interface and the user experience, this
+
+25
+00:01:04,180 --> 00:01:09,280
+pattern was described for the first time 
+
+26
+00:01:05,860 --> 00:01:11,830
+by Sam Newman in 2015, when he
+
+27
+00:01:09,280 --> 00:01:13,660
+saw the use of microservices
+
+28
+00:01:11,830 --> 00:01:16,300
+by the SoundCloud people, it is
+
+29
+00:01:13,660 --> 00:01:18,820
+a music and audio distribution 
+
+30
+00:01:16,300 --> 00:01:21,850
+platform. In the beginning, Soundcloud
+
+31
+00:01:18,820 --> 00:01:25,630
+was centralized, that is, a
+
+32
+00:01:21,850 --> 00:01:28,720
+only API worked for Android applications, 
+
+33
+00:01:25,630 --> 00:01:31,390
+IOS, web interfaces and others
+
+34
+00:01:28,720 --> 00:01:33,390
+clients, after a while this centralization
+
+35
+00:01:31,390 --> 00:01:36,580
+started to generate some issues. 
+
+36
+00:01:33,390 --> 00:01:38,220
+For example, it took a lot of time 
+
+37
+00:01:36,580 --> 00:01:40,530
+to add new functionalities,
+
+38
+00:01:38,220 --> 00:01:43,730
+just like different needs
+
+39
+00:01:40,530 --> 00:01:46,430
+each platform had. And then
+
+40
+00:01:43,730 --> 00:01:49,400
+Beagle steps in, it can make
+
+41
+00:01:46,430 --> 00:01:52,220
+changes in the application's interface 
+
+42
+00:01:49,400 --> 00:01:55,910
+frontend returning to the system a 
+
+43
+00:01:52,220 --> 00:01:59,050
+JSON file that indicates where, when and how
+
+44
+00:01:55,910 --> 00:02:01,970
+each visual component must be 
+
+45
+00:01:59,050 --> 00:02:03,740
+rendered. Beagle can do this
+
+46
+00:02:01,970 --> 00:02:06,710
+because of its architecture is
+
+47
+00:02:03,740 --> 00:02:08,960
+structured in Server-Driven UI. The
+
+48
+00:02:06,710 --> 00:02:11,600
+server that uses Beagle can 
+
+49
+00:02:08,960 --> 00:02:14,300
+communicate with frontend clients that
+
+50
+00:02:11,600 --> 00:02:17,000
+also use Beagle, these clients 
+
+51
+00:02:14,300 --> 00:02:19,490
+can understand the JSON and
+
+52
+00:02:17,000 --> 00:02:22,250
+render the visual components and
+
+53
+00:02:19,490 --> 00:02:24,470
+the actions declared by the server. 
+
+54
+00:02:22,250 --> 00:02:26,870
+This means after all that 
+
+55
+00:02:24,470 --> 00:02:29,360
+with only one application and only 
+
+56
+00:02:26,870 --> 00:02:32,540
+one version in the store we can have
+
+57
+00:02:29,360 --> 00:02:35,540
+a different application every day the
+
+58
+00:02:32,540 --> 00:02:36,950
+way we want, and that's beautiful 
+
+59
+00:02:35,540 --> 00:02:39,020
+when we want to test new 
+
+60
+00:02:36,950 --> 00:02:43,130
+functionalities, we can add
+
+61
+00:02:39,020 --> 00:02:43,740
+flows and change screens by changing 
+
+62
+00:02:43,130 --> 00:02:47,190
+only the server's code. 
+
+63
+00:02:43,740 --> 00:02:49,410
+There's no need to upload a 
+
+64
+00:02:47,190 --> 00:02:52,020
+new version in the application's store. To
+
+65
+00:02:49,410 --> 00:02:54,840
+render the components that gets
+
+66
+00:02:52,020 --> 00:02:57,690
+to the JSON, Beagle uses a
+
+67
+00:02:54,840 --> 00:02:59,700
+very interesting concept to organize
+
+68
+00:02:57,690 --> 00:03:03,090
+components in a screen that it calls
+
+69
+00:02:59,700 --> 00:03:06,000
+flex-box, with this its possible to 
+
+70
+00:03:03,090 --> 00:03:08,580
+render the same components in 
+
+71
+00:03:06,000 --> 00:03:11,910
+different screen sizes, automatically.
+
+72
+00:03:08,580 --> 00:03:14,430
+This means regardless the 
+
+73
+00:03:11,910 --> 00:03:17,430
+proportions, the components will keep 
+
+74
+00:03:14,430 --> 00:03:20,130
+a flexible layout, adjusting according to
+
+75
+00:03:17,430 --> 00:03:22,020
+what you need. But Lucas this doesn't
+
+76
+00:03:20,130 --> 00:03:24,360
+make my applications perfom
+
+77
+00:03:22,020 --> 00:03:26,730
+poorly? Yoga layout was
+
+78
+00:03:24,360 --> 00:03:28,830
+implemented in C, to optimize
+
+79
+00:03:26,730 --> 00:03:31,140
+the performance, it makes possible for us 
+
+80
+00:03:28,830 --> 00:03:34,590
+deal with layout stuff in a 
+
+81
+00:03:31,140 --> 00:03:37,110
+background thread, just relax
+
+82
+00:03:34,590 --> 00:03:39,300
+your application won't be less effective
+
+83
+00:03:37,110 --> 00:03:42,420
+if you use Yoga 
+
+84
+00:03:39,300 --> 00:03:43,720
+layout. Since Beagle uses yoga
+
+85
+00:03:42,420 --> 00:03:46,390
+layout to implement the 
+
+86
+00:03:43,720 --> 00:03:49,870
+flex-box concept in the screen 
+
+87
+00:03:46,390 --> 00:03:52,210
+rendering, we can write only one
+
+88
+00:03:49,870 --> 00:03:54,520
+screen code description in our
+
+89
+00:03:52,210 --> 00:03:59,040
+server and send to all applications, 
+
+90
+00:03:54,520 --> 00:04:01,330
+Android, IOS, WEB and we don't need
+
+91
+00:03:59,040 --> 00:04:03,940
+to worry, because we know 
+
+92
+00:04:01,330 --> 00:04:06,540
+regardless the size or format of 
+
+93
+00:04:03,940 --> 00:04:10,120
+the screens, we will see the same information 
+
+94
+00:04:06,540 --> 00:04:12,310
+spread out in a flexible way. Think
+
+95
+00:04:10,120 --> 00:04:14,560
+about all the possibilities Beagle
+
+96
+00:04:12,310 --> 00:04:17,019
+can bring to your project, 
+
+97
+00:04:14,560 --> 00:04:19,120
+imagine having a pattern for your UI
+
+98
+00:04:17,019 --> 00:04:20,830
+in all your platforms? Have you 
+99
+00:04:19,120 --> 00:04:22,690
+thought about decrease feedback time
+
+100
+00:04:20,830 --> 00:04:24,700
+of your users, once all
+
+101
+00:04:22,690 --> 00:04:27,130
+changes are quickly tested 
+
+102
+00:04:24,700 --> 00:04:29,410
+and validated? Have you thought about the
+
+103
+00:04:27,130 --> 00:04:32,980
+maintenance on all your platforms in
+
+104
+00:04:29,410 --> 00:04:35,770
+one place? Beagle can do this and more
+
+105
+00:04:32,980 --> 00:04:37,540
+for you! If you want to know 
+
+106
+00:04:35,770 --> 00:04:39,370
+a little more, I will
+
+107
+00:04:37,540 --> 00:04:41,350
+put the documentations and out GitHub
+
+108
+00:04:39,370 --> 00:04:43,729
+here below, so you can 
+
+109
+00:04:41,350 --> 00:04:47,150
+check out. Start using 
+
+110
+00:04:43,729 --> 00:04:51,490
+Beagle now! Thank you so much
+
+111
+00:04:47,150 --> 00:04:51,490
+for watching and see you guys next time!  
