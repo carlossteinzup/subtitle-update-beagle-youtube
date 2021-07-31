@@ -1,0 +1,555 @@
+1
+00:00:00,060 --> 00:00:05,399
+Hi guys, my name is Luis Gustavo and
+
+2
+00:00:03,030 --> 00:00:07,740
+I am a developer at Zup, a tech
+
+3
+00:00:05,399 --> 00:00:10,200
+company innovating with
+
+4
+00:00:07,740 --> 00:00:13,350
+its Open Source applications.
+
+5
+00:00:10,200 --> 00:00:15,810
+In this video today we will talk about
+
+6
+00:00:13,350 --> 00:00:18,210
+Beagle and I will teach you
+
+7
+00:00:15,810 --> 00:00:20,789
+how to implement using Beagle Scaffold.
+
+8
+00:00:18,210 --> 00:00:23,369
+The lib already brings all
+
+9
+00:00:20,789 --> 00:00:31,349
+the initial configuration for you to run
+
+10
+00:00:23,369 --> 00:00:35,460
+your iOS project. Let's access the website 
+
+11
+00:00:31,349 --> 00:00:39,210
+usebeagle.io. Here we will access the docs
+
+12
+00:00:35,460 --> 00:00:40,910
+this is Beagle's documentation 
+
+13
+00:00:39,210 --> 00:00:44,130
+here I'm going to use the portuguese version. 
+
+14
+00:00:40,910 --> 00:00:47,820
+Now, let's access 'Get Started' 
+
+15
+00:00:44,130 --> 00:00:50,250
+'Using Beagle Helpers' the iOS section
+
+16
+00:00:47,820 --> 00:00:52,830
+Beagle Scaffold. Here on this page
+
+17
+00:00:50,250 --> 00:00:54,840
+everythings is detailed on how to put together
+
+18
+00:00:52,830 --> 00:00:57,470
+Beagle Scaffold's dependencies in your
+
+19
+00:00:54,840 --> 00:01:00,070
+project. As you can see here, let's
+
+20
+00:00:57,470 --> 00:01:03,540
+use the 0.0.1 version
+
+21
+00:01:00,070 --> 00:01:08,260
+and Beagle Scaffold uses the 
+
+22
+00:01:03,540 --> 00:01:10,660
+1.5 Beagle version. So, the first step, let's
+
+23
+00:01:08,260 --> 00:01:13,100
+create a project in xCode, I will open
+
+24
+00:01:10,660 --> 00:01:17,150
+here the Xcode
+
+25
+00:01:13,100 --> 00:01:19,400
+'Create New xCode Project' the
+
+26
+00:01:17,150 --> 00:01:21,530
+project it will be an App 
+
+27
+00:01:19,400 --> 00:01:24,799
+because it is an application and here I will 
+
+28
+00:01:21,530 --> 00:01:27,490
+name it 
+
+29
+00:01:24,799 --> 00:01:31,950
+'BeagleExemplo'
+
+30
+00:01:27,490 --> 00:01:36,250
+I will proceed and I'm going to save right here
+
+31
+00:01:31,950 --> 00:01:39,159
+Now with the application created, I will close 
+
+32
+00:01:36,250 --> 00:01:41,729
+the application and I'm going to open the terminal to 
+
+33
+00:01:39,159 --> 00:01:44,979
+configure the dependency manager 
+
+34
+00:01:41,729 --> 00:01:47,140
+because with it we will couple the
+
+35
+00:01:44,979 --> 00:01:49,750
+Beagle Scaffold dependency in 
+
+36
+00:01:47,140 --> 00:01:51,640
+our project. I will access the project's 
+
+37
+00:01:49,750 --> 00:01:54,970
+folder I have just created and it is 
+
+38
+00:01:51,640 --> 00:01:57,820
+here in the desktop: 'BeagleExemplo'
+
+39
+00:01:54,970 --> 00:01:59,709
+And to start the dependency 
+
+40
+00:01:57,820 --> 00:02:02,880
+manager, I will run the command 
+
+41
+00:01:59,709 --> 00:02:02,880
+pod init
+
+42
+00:02:03,170 --> 00:02:08,869
+And this command pod init, it will generate 
+
+43
+00:02:06,110 --> 00:02:11,120
+a file named 'pod file', which it is where
+
+44
+00:02:08,869 --> 00:02:14,030
+I add the dependencies I want to
+
+45
+00:02:11,120 --> 00:02:18,260
+put in the project. I'm going to type 'open .'
+
+46
+00:02:14,030 --> 00:02:21,319
+to open the project's folder and
+
+47
+00:02:18,260 --> 00:02:23,230
+here it is the pod file. In the file
+
+48
+00:02:21,319 --> 00:02:26,950
+pod file, I will add the dependencies.
+
+49
+00:02:23,230 --> 00:02:29,750
+Here in the documentation it is the step 3
+
+50
+00:02:26,950 --> 00:02:31,160
+where all dependencies we need 
+
+51
+00:02:29,750 --> 00:02:36,319
+to add. So I'm going to add here the
+
+52
+00:02:31,160 --> 00:02:39,410
+Beagle Scaffold and I will also add
+
+53
+00:02:36,319 --> 00:02:42,100
+the Yoga dependency, Beagle also 
+
+54
+00:02:39,410 --> 00:02:42,100
+uses it.
+
+55
+00:02:44,280 --> 00:02:52,620
+Right after adding the dependencies I will
+
+56
+00:02:48,450 --> 00:02:55,290
+run the 'Command S'
+
+57
+00:02:52,620 --> 00:02:59,370
+to save the file and I'm going to go back 
+
+58
+00:02:55,290 --> 00:03:02,930
+to the terminal. In the terminal I will run
+
+59
+00:02:59,370 --> 00:03:02,930
+the command 'pod install' 
+
+60
+00:03:02,950 --> 00:03:08,110
+to install the dependencies. So
+
+61
+00:03:06,010 --> 00:03:11,019
+this command will download the
+
+62
+00:03:08,110 --> 00:03:13,720
+dependencies and install. This process
+
+63
+00:03:11,019 --> 00:03:16,569
+can be time consuming. Meanwhile
+
+64
+00:03:13,720 --> 00:03:19,090
+you can like this video and
+
+65
+00:03:16,569 --> 00:03:22,060
+subscribe to Zup's channel. Now
+
+66
+00:03:19,090 --> 00:03:26,290
+with the dependency downloaded, let's access 
+
+67
+00:03:22,060 --> 00:03:29,140
+again the project's folder and our
+
+68
+00:03:26,290 --> 00:03:33,129
+dependency manager, it generated an
+
+69
+00:03:29,140 --> 00:03:35,500
+artifact called 'Workspace' that has
+
+70
+00:03:33,129 --> 00:03:37,630
+our project and the dependencies we
+
+71
+00:03:35,500 --> 00:03:41,079
+have added. So I will open this
+
+72
+00:03:37,630 --> 00:03:43,360
+workspace artifact and here it is our 
+
+73
+00:03:41,079 --> 00:03:46,239
+project. To start the our project's
+
+74
+00:03:43,360 --> 00:03:48,430
+configuration, let's access
+
+75
+00:03:46,239 --> 00:03:51,849
+the 'SceneDelegate' class
+
+76
+00:03:48,430 --> 00:03:54,700
+to start Beagle. So I will access
+
+77
+00:03:51,849 --> 00:03:59,160
+here the 'SceneDelegate' and
+
+78
+00:03:54,700 --> 00:04:04,080
+I'm going to import Beagle's dependency 
+
+79
+00:03:59,160 --> 00:04:04,080
+Scaffold Import
+
+80
+00:04:07,140 --> 00:04:14,790
+'BeagleScaffold' and on the scene method I will
+
+81
+00:04:11,790 --> 00:04:18,430
+run the command 'BeagleConfig.start'
+
+82
+00:04:14,790 --> 00:04:21,750
+to initialize Beagle
+
+83
+00:04:18,430 --> 00:04:25,870
+'BeagleConfig.start' it will
+
+84
+00:04:21,750 --> 00:04:28,300
+start Beagle in my project. Right
+
+85
+00:04:25,870 --> 00:04:30,490
+after I have to configure a
+
+86
+00:04:28,300 --> 00:04:32,620
+'ViewController'to initialize my
+
+87
+00:04:30,490 --> 00:04:34,000
+application. In the case here, I'm going to
+
+88
+00:04:32,620 --> 00:04:36,910
+start the application with
+
+89
+00:04:34,000 --> 00:04:40,270
+'ViewController'Default it contains
+
+90
+00:04:36,910 --> 00:04:43,780
+a sample of Beagle's components
+
+91
+00:04:40,270 --> 00:04:46,980
+So, I'm going to opne here and copy this 
+
+92
+00:04:43,780 --> 00:04:48,660
+code block and I'm going to paste here 
+
+93
+00:04:46,980 --> 00:04:51,720
+[Song]
+
+94
+00:04:48,660 --> 00:04:54,630
+Nothing more, this code here, it 
+
+95
+00:04:51,720 --> 00:04:57,540
+configures, it starts the 'window' and after
+
+96
+00:04:54,630 --> 00:04:59,610
+pass my 'rootViewController' to
+
+97
+00:04:57,540 --> 00:05:01,950
+my 'viewController' default which is
+
+98
+00:04:59,610 --> 00:05:04,200
+'BeagleScaffoldDemoViewController'
+
+99
+00:05:01,950 --> 00:05:07,830
+After this configuration
+
+100
+00:05:04,200 --> 00:05:10,200
+we have to delete the references that are
+
+101
+00:05:07,830 --> 00:05:13,290
+linked to the storyboard that already
+
+102
+00:05:10,200 --> 00:05:16,080
+comes configured in the project. So I'm going to open
+
+103
+00:05:13,290 --> 00:05:19,020
+here the 'Info.plist' and I will access the
+
+104
+00:05:16,080 --> 00:05:21,090
+'Main storyboard file base name' and I will erase
+
+105
+00:05:19,020 --> 00:05:23,289
+this line I don't want to initialize
+
+106
+00:05:21,090 --> 00:05:25,779
+with the storyboard.
+
+107
+00:05:23,289 --> 00:05:28,050
+And after that I'm going to access 
+
+108
+00:05:25,779 --> 00:05:32,190
+'Application Scene Manifest'
+
+109
+00:05:28,050 --> 00:05:36,030
+'Scene Configuration',  'Application Session Role'
+
+110
+00:05:32,190 --> 00:05:39,750
+and I will open the 'Item 0'. In 'Item 0'
+
+111
+00:05:36,030 --> 00:05:41,510
+it will have the 'Storyboard name' and I'm going to erase 
+
+112
+00:05:39,750 --> 00:05:44,960
+this part
+
+113
+00:05:41,510 --> 00:05:47,440
+and after that, I'm going to access the 'Project'
+
+114
+00:05:44,960 --> 00:05:47,440
+of the project
+
+115
+00:05:47,529 --> 00:05:52,689
+and I will erase here the 'Main Interface' which
+
+116
+00:05:50,589 --> 00:05:55,689
+is as 'Main' which it is the storyboard already
+
+117
+00:05:52,689 --> 00:05:58,569
+configured. After these steps 
+
+118
+00:05:55,689 --> 00:06:01,209
+we finished all the configuration and I will 
+
+119
+00:05:58,569 --> 00:06:04,839
+choose which emulator I will run.
+
+120
+00:06:01,209 --> 00:06:07,659
+In this case, I will run on iPhone 12 and 
+
+121
+00:06:04,839 --> 00:06:10,959
+I will execute here in the
+
+122
+00:06:07,659 --> 00:06:14,109
+iPhone 12 emulator. It will
+
+123
+00:06:10,959 --> 00:06:16,809
+initialize my application with
+
+124
+00:06:14,109 --> 00:06:18,999
+'ViewController' default, it brings Beagle's 
+
+125
+00:06:16,809 --> 00:06:21,489
+components, they are all 
+
+126
+00:06:18,999 --> 00:06:24,429
+components Beagle's provides, actions.
+
+127
+00:06:21,489 --> 00:06:26,889
+So, you can see and play there
+
+128
+00:06:24,429 --> 00:06:29,619
+with these components. These components comes
+
+129
+00:06:26,889 --> 00:06:32,319
+from a default BFF we have. So
+
+130
+00:06:29,619 --> 00:06:35,439
+it brings the server-driven UI concept. 
+
+131
+00:06:32,319 --> 00:06:38,529
+As you can see here, my application 
+
+132
+00:06:35,439 --> 00:06:41,409
+executed. Here there are components, so
+
+133
+00:06:38,529 --> 00:06:44,199
+I can access Button', I can access
+
+134
+00:06:41,409 --> 00:06:47,510
+'Text' and here you can see all the 
+
+135
+00:06:44,199 --> 00:06:50,030
+components Beagle has and play with them.
+
+136
+00:06:47,510 --> 00:06:52,790
+That's it! Thank you so much guys!
+
+137
+00:06:50,030 --> 00:06:55,460
+Check out the documentation to see more 
+
+138
+00:06:52,790 --> 00:06:58,390
+about Beagle, more implementations and
+
+139
+00:06:55,460 --> 00:06:58,390
+that's it. See you later!
