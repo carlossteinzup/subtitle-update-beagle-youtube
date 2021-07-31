@@ -1,0 +1,492 @@
+1
+00:00:00,000 --> 00:00:02.070
+What's up guys, my name is Luís Eduardo
+
+2
+00:00:02.070 --> 00:00:04,230
+and I'm a developer here at Zup It
+
+3
+00:00:04,230 --> 00:00:06,330
+A company that is revolutionizing the
+
+4
+00:00:06.330 --> 00:00:08,429
+technology market with its open-source
+
+5
+00:00:08,429 --> 00:00:11,250
+projects. In this video we are going to talk about
+
+6
+00:00:11,250 --> 00:00:14,340
+Beagle, and show you how
+
+7
+00:00:14,340 --> 00:00:16,650
+you can contribute with Beagle's documentation.
+
+8
+00:00:16.650 --> 00:00:18.470
+you can contribute with Beagle's documentation
+
+9
+00:00:18.470 --> 00:00:21.020
+[Song]
+
+10
+00:00:21,020 --> 00:00:23,150
+First, I opened the
+
+11
+00:00:23,150 --> 00:00:25,970
+Beagle documentation at the link "docs.usebeagle.io"
+
+12
+00:00:25,970 --> 00:00:28,310
+And this is how it looks like,
+
+13
+00:00:28,310 --> 00:00:31.730
+in the left menu, we have an option to
+
+14
+00:00:31,730 --> 00:00:34,280
+"contribute". Here, we have a page
+
+15
+00:00:34,280 --> 00:00:36,800
+from Beagle Docs that will give you a
+
+16
+00:00:36,800 --> 00:00:39.710
+information on how to use the documentation tool we adopt,
+
+17
+00:00:39.710 --> 00:00:42.739
+the requirements you need to run it, etc. And
+
+18
+00:00:42,739 --> 00:00:45,710
+how can you document in Beagle Docs. So...
+
+19
+00:00:45,710 --> 00:00:47.960
+To document Beagle we use a tool called
+
+20
+00:00:47.960 --> 00:00:51.800
+HUGO that allows us to create static
+
+21
+00:00:51,800 --> 00:00:54,710
+page websites, using Markdown files.
+
+22
+00:00:54,710 --> 00:00:57,320
+To contribute, it is necessary to
+
+23
+00:00:57,320 --> 00:00:59.930
+fulfill some requirements that are listed here, at this page.
+
+24
+00:00:59.930 --> 00:01:02,000
+This page demonstrates how you can
+
+25
+00:01:02,000 --> 00:01:04.849
+contribute to the documentation and also how
+
+26
+00:01:04.849 --> 00:01:08.540
+to use Hugo shortcodes section. The Shortcodes
+
+27
+00:01:08,540 --> 00:01:11,270
+are new visual elements and interfaces
+
+28
+00:01:11,270 --> 00:01:14,180
+that can be used to build a better organized
+
+29
+00:01:14,180 --> 00:01:17,000
+documentation. Unfortunately, Markdown syntax won't
+
+30
+00:01:17,000 --> 00:01:19.580
+offer all resources necessary to best
+
+31
+00:01:19.580 --> 00:01:21,030
+organize elements in a documentation section, so
+
+32
+00:01:21,030 --> 00:01:24.390
+through these Shortcodes, you will have access
+
+33
+00:01:24.390 --> 00:01:26.760
+tp more features and elements to use when building
+
+34
+00:01:26.760 --> 00:01:30.420
+a documentation page, in this example, you can refer
+
+35
+00:01:30.420 --> 00:01:34.740
+links, show Alerts like hints, show
+
+36
+00:01:34.740 --> 00:01:39.090
+images, embed videos, among other things!
+
+37
+00:01:39.090 --> 00:01:40.860
+So I'm going back here for the "overview"
+
+38
+00:01:40,860 --> 00:01:43,290
+from Docs and now let's talk
+
+39
+00:01:43,290 --> 00:01:45.450
+a little bit about how you can contribute...
+
+40
+00:01:45,450 --> 00:01:48,270
+There are two ways you can
+
+41
+00:01:48.270 --> 00:01:50.850
+contribute to the Documentation. The first is here
+
+42
+00:01:50.850 --> 00:01:53.820
+in the upper right corner, where we list a
+
+43
+00:01:53,820 --> 00:01:57,390
+small menu with some options. So through this menu
+
+44
+00:01:57.390 --> 00:02:00.450
+you can edit the page you are on, or
+
+45
+00:02:00.450 --> 00:02:03,030
+create another page. You can also
+
+46
+00:02:03,030 --> 00:02:06.030
+create an "issue" to suggest an
+
+47
+00:02:06.030 --> 00:02:09,119
+improvement on this page, or even correct any error that
+
+48
+00:02:09,119 --> 00:02:11,340
+you may have found in the documentation. You may
+
+49
+00:02:11,340 --> 00:02:14.069
+create an "issue" for our team to analyze
+
+50
+00:02:14,069 --> 00:02:17,130
+and maybe even add your suggestion. So this is
+
+51
+00:02:17,130 --> 00:02:19,560
+the first way for you to contribute
+
+52
+00:02:19,560 --> 00:02:21,010
+with our Docs! But there is
+
+53
+00:02:21,010 --> 00:02:24,220
+another to contribute
+
+54
+00:02:24.220 --> 00:02:25.750
+which is through the
+
+55
+00:02:25,750 --> 00:02:28.780
+Beagle repository on GitHub.
+
+56
+00:02:28.780 --> 00:02:31.360
+You can open the "beagle-docs", which is where
+
+57
+00:02:31,360 --> 00:02:34,000
+the Beagle documentation repository is located, and here you can
+
+58
+00:02:34,000 --> 00:02:36,700
+fork the repository by cloning it
+
+59
+00:02:36,700 --> 00:02:40,260
+and them open it locally in any
+
+60
+00:02:40,260 --> 00:02:43,360
+text editor of your choice. Those
+
+61
+00:02:43,360 --> 00:02:46,360
+are the two ways to contribute, but there are
+
+62
+00:02:46,360 --> 00:02:50.019
+some points that require our attention. When looking at the top menu
+
+63
+00:02:50.019 --> 00:02:52.659
+there is an option to change the Beagle Version you wish the documentation for
+
+64
+00:02:52.659 --> 00:02:56.980
+When we published this video, we had versions 1.5, 1.6, 1.7
+
+65
+00:02:56,980 --> 00:02:59.680
+So, how does it work? If you are
+
+66
+00:02:59.680 --> 00:03:02.769
+using Beagle version 1.5 in your project
+
+67
+00:03:02,769 --> 00:03:05,319
+you will open the documentation in 1.5
+
+68
+00:03:05,319 --> 00:03:07,480
+to see the Beagle features at version 1.5. If
+
+69
+00:03:07,480 --> 00:03:10,299
+you are using Beagle version 1.6
+
+70
+00:03:10,299 --> 00:03:13,150
+you will open the documentation in 1.6 and
+
+71
+00:03:13,150 --> 00:03:15,760
+so on, so forth. In this first
+
+72
+00:03:15,760 --> 00:03:19,000
+menu option, called "Edit this page", you will be able to change
+
+73
+00:03:19,000 --> 00:03:21.020
+the contents for
+
+74
+00:03:21,020 --> 00:03:24,500
+the latest Beagle version, which in this example was the
+
+75
+00:03:24,500 --> 00:03:27,770
+1.7... So, how do I contribute
+
+76
+00:03:27,770 --> 00:03:31,180
+on version 1.5 or 1.6? Which are older versions
+
+77
+00:03:31,180 --> 00:03:34.640
+You will be able to do it by
+
+78
+00:03:34.640 --> 00:03:37.520
+forking our repository. So, you must clone our
+
+79
+00:03:37.520 --> 00:03:40.610
+repository on your machine and open it
+
+80
+00:03:40.610 --> 00:03:43.400
+in any text editor, in the example here
+
+81
+00:03:43,400 --> 00:03:46,610
+I will use
+
+82
+00:03:46,610 --> 00:03:49,340
+the Visual Studio. Before we start, lets
+
+83
+00:03:49.340 --> 00:03:51.410
+make this example clear...
+
+84
+00:03:51.410 --> 00:03:54.590
+Let's assume I'm going to contribute to the
+
+85
+00:03:54,590 --> 00:03:57,080
+documentation version 1.5. To
+
+86
+00:03:57,080 --> 00:04:01,130
+make a change to the 1.5 version I need to access the
+
+87
+00:04:01,130 --> 00:04:04.460
+branch release-v1.5 (locally) and
+
+88
+00:04:04.460 --> 00:04:07.430
+create another branch from it
+
+89
+00:04:07.430 --> 00:04:09.440
+That i'm able to modify and create a pull request to merge it
+
+90
+00:04:09.440 --> 00:04:12.020
+ into the branch release-v1.5. This goes for all versions
+
+91
+00:04:12,020 --> 00:04:14,360
+in our documentation. So if I want to contribute to the
+
+92
+00:04:14,360 --> 00:04:17,839
+version 1.6, I must access the release
+
+93
+00:04:17,839 --> 00:04:21,029
+branch-v1.6 and create a new
+
+94
+00:04:21,029 --> 00:04:23,670
+branch from it and again open a pull request
+
+95
+00:04:23,670 --> 00:04:27,360
+for the release branch 1.6 right? It is important to make
+
+96
+00:04:27,360 --> 00:04:29,550
+this details very clear so you could
+
+97
+00:04:29,550 --> 00:04:31,980
+contribute in the correct
+
+98
+00:04:31,980 --> 00:04:35.010
+way. I'm opening my editor here...
+
+99
+00:04:35.010 --> 00:04:38.070
+the Visual Studio and them I will
+
+100
+00:04:38.070 --> 00:04:40.530
+open the documentation. I already have
+
+101
+00:04:40.530 --> 00:04:42.780
+cloned the repository here, So I have
+
+102
+00:04:42,780 --> 00:04:45.450
+it locally on my machine. I will
+
+103
+00:04:45,450 --> 00:04:49,560
+open a new project here, Open a folder and
+
+104
+00:04:49,560 --> 00:04:52,530
+select the documentation folder
+
+105
+00:04:52,530 --> 00:04:55,530
+Open it and them the Visual Studio will
+
+106
+00:04:55,530 --> 00:04:58,620
+list the project for me. Here, notice the
+
+107
+00:04:58.620 --> 00:05:01.260
+"content" folder in my project structure
+
+108
+00:05:01,260 --> 00:05:04,470
+this is the folder that contains all the
+
+109
+00:05:04.470 --> 00:05:07.950
+documentation content separated by language; which is Portuguese,
+
+110
+00:05:07,950 --> 00:05:11,130
+in the PT folder... So if I want to edit a
+
+111
+00:05:11,130 --> 00:05:14,729
+content in Portuguese, I'll edit
+
+112
+00:05:14,729 --> 00:05:17,790
+in this folder. So I'm going to open the PT folder and I
+
+113
+00:05:17,790 --> 00:05:21.009
+will edit the "overview" file that
+
+114
+00:05:21,009 --> 00:05:24.729
+is the one we were seeing.
+
+115
+00:05:24,729 --> 00:05:28,569
+If I want to edit a page
+
+116
+00:05:28.569 --> 00:05:32.469
+in English, I'm going to open the EN folder
+
+117
+00:05:32.469 --> 00:05:35.800
+and open the MD file I want to
+
+118
+00:05:35,800 --> 00:05:40,270
+edit or even create a new one, ok? So this is
+
+119
+00:05:40,270 --> 00:05:42,309
+the way you can contribute
+
+120
+00:05:42,309 --> 00:05:45.399
+with our Documentation and that's it guys! Thank you very much
+
+121
+00:05:45,399 --> 00:05:48.789
+for watching this video, and don't forget to
+
+122
+00:05:48.789 --> 00:05:51.879
+leave your like, and subscribe to the channel and
+
+123
+00:05:51,879 --> 00:05:54.689
+to see you next time!
+
