@@ -1,0 +1,692 @@
+1
+00:00:00,000 --> 00:00:02,879
+Fala galera, meu nome é Luís Eduardo. Eu
+
+2
+00:00:02,879 --> 00:00:05,549
+sou desenvolvedor na empresa Zup Innovation
+
+3
+00:00:05,549 --> 00:00:07,440
+que está revolucionando o mercado de
+
+4
+00:00:07,440 --> 00:00:09,929
+tecnologia com seus projetos Open-source
+
+5
+00:00:09,929 --> 00:00:12,120
+Nesse vídeo vamos falar sobre o Beagle
+
+6
+00:00:12,120 --> 00:00:14,940
+E eu vou mostrar na prática como
+
+7
+00:00:14,940 --> 00:00:17,550
+criar uma telinha utilizando o Beagle no
+
+8
+00:00:17,550 --> 00:00:20,520
+Backend da sua aplicação. Vamos lá?
+
+9
+00:00:20,520 --> 00:00:21,630
+[Música]
+
+10
+00:00:21,630 --> 00:00:23,699
+Olá primeiramente eu vou acessar a
+
+11
+00:00:23,699 --> 00:00:27,239
+documentação no endereço "docs.usebeagle.io"
+
+12
+00:00:27,239 --> 00:00:30,059
+Selecione na coluna a esquerda
+
+13
+00:00:30,059 --> 00:00:33,059
+a opção Primeiros passos, e depois Usando o Beagle e "Backend"
+
+14
+00:00:33,059 --> 00:00:36,149
+Nessa página temos toda a configuração de uso
+
+15
+00:00:36,149 --> 00:00:39,750
+do Beagle e as configurações das rotas que
+
+16
+00:00:39,750 --> 00:00:42,780
+vamos criar para acessar as telas que criarmos
+
+17
+00:00:42,780 --> 00:00:45,030
+utilizando o Beagle.
+
+18
+00:00:45,030 --> 00:00:47,610
+Então, vamos seguir o passo a passo!
+
+19
+00:00:47,610 --> 00:00:50,370
+Nosso primeiro passo é criar um "Service"
+
+20
+00:00:50,370 --> 00:00:54,000
+Então, eu devo selecionar a TAB
+
+21
+00:00:54,000 --> 00:00:56,489
+Spring boot na documentação (link na descrição). Lembrando que no último
+
+22
+00:00:56,489 --> 00:00:59,189
+vídeo criamos um projeto Backend do
+
+23
+00:00:59,189 --> 00:01:01,949
+zero com Spring boot e adicionamos a
+
+24
+00:01:01,949 --> 00:01:04,319
+dependência do Beagle. Nesse vídeo vamos
+
+25
+00:01:04,319 --> 00:01:06,479
+dar continuidade a implementação, fazendo as
+
+26
+00:01:06,479 --> 00:01:09,240
+configurações de uso do Beagle e criar uma
+
+27
+00:01:09,240 --> 00:01:11,369
+telinha do Beagle no Backend (BFF)
+
+28
+00:01:11,369 --> 00:01:13,920
+Para criar o nosso Service, vamos acessar o código do projeto
+
+29
+00:01:13,920 --> 00:01:18,960
+que já começamos (Beagle Backend). Clicamos em SRC/main/kotlin e acessar
+
+30
+00:01:18,960 --> 00:01:21,210
+o pacote do nosso projeto. Dentro desse
+
+31
+00:01:21,210 --> 00:01:21,610
+pacote
+
+32
+00:01:21,610 --> 00:01:24,550
+vamos criar um outro pacote
+
+33
+00:01:24,550 --> 00:01:28,360
+chamado Service e aqui nesse novo pacote
+
+34
+00:01:28,360 --> 00:01:30,760
+vamos criar uma classe chamada "MyService"
+
+35
+00:01:30,760 --> 00:01:34,360
+vamos criar uma classe chamada "MyService" e
+
+36
+00:01:34,360 --> 00:01:37,090
+nessa classe vamos utilizar a
+
+37
+00:01:37,090 --> 00:01:40,270
+notação do Spring @Service sobre o nome da
+
+38
+00:01:40,270 --> 00:01:42,930
+classe. Aqui, vamos criar também a classe "Builder", que vai construir nossa tela
+
+39
+00:01:42,930 --> 00:01:46,840
+Essa classe vai herdar as propriedades de uma
+
+40
+00:01:46,840 --> 00:01:50,890
+interface do Beagle chamada "ScreenBuilder"
+
+41
+00:01:50,890 --> 00:01:53,770
+que sobreescreve o método "build". Esse método é
+
+42
+00:01:53,770 --> 00:01:56,800
+responsável por retornar a
+
+43
+00:01:56,800 --> 00:01:59,100
+tela do Beagle. Então vamos implementar a herença da classe
+
+44
+00:01:59,100 --> 00:02:02,990
+ScreenBuilder e sobrescrever o método "build".
+
+45
+00:02:02,990 --> 00:02:06,890
+Esse método é quem retorna a tela que iremos criar
+
+46
+00:02:06,890 --> 00:02:09,318
+(Nesse exemplo vamos implementar a tela diretamente dentro do método build)
+
+47
+00:02:09,318 --> 00:02:12,110
+Então, na linha 10 listamos o return do método "build"
+
+48
+00:02:12,110 --> 00:02:15,410
+e vamos implementar a nossa tela a partir do componente Screen (que representa a tela)...
+
+49
+00:02:15,410 --> 00:02:18,890
+Começaremos pelo atributo "child" que receberá
+
+50
+00:02:18,890 --> 00:02:21,260
+um outro componente chamado que,
+
+51
+00:02:21,260 --> 00:02:23,599
+por sua vez recebera uma lista de componentes chamado
+
+52
+00:02:23,599 --> 00:02:26,390
+"Container". Dentro do "Container" temos um
+
+53
+00:02:26,390 --> 00:02:29,390
+atributo chamado "children" que receberá uma lista de componentes
+
+54
+00:02:29,390 --> 00:02:33,110
+É nessa lista de componentes que vamos implementar
+
+55
+00:02:33,110 --> 00:02:35,299
+os componentes que vão aparecer na minha tela (como textos e botões)
+
+56
+00:02:35,299 --> 00:02:37,250
+Então, hoje
+
+57
+00:02:37,250 --> 00:02:41,060
+vamos criar um componente de texto do Beagle (chamado Text)
+
+58
+00:02:41,060 --> 00:02:44,510
+A esse primeiro componente texto
+
+59
+00:02:44,510 --> 00:02:47,780
+vamos adicionar o valor "Hello Beagle"
+
+60
+00:02:47,780 --> 00:02:51,170
+ao atributo "text" do componente de Texto do Beagle
+
+61
+00:02:51,170 --> 00:02:53,720
+Nesse processo nos criamos o nosso Service e
+
+62
+00:02:53,720 --> 00:02:56,840
+criamos a nossa telinha com o texto "Hello Beagle"
+
+63
+00:02:56,840 --> 00:02:59,810
+Agora, voltando a nossa documentação, veremos que
+
+64
+00:02:59,810 --> 00:03:03,000
+o próximo passo é
+
+65
+00:03:03,000 --> 00:03:07,680
+criar uma classe chamada "Controller"
+
+66
+00:03:07,680 --> 00:03:09,750
+selecione a aba Spring na documentação e siga o exemplo do código
+
+67
+00:03:09,750 --> 00:03:12,240
+No Intellij
+
+68
+00:03:12,240 --> 00:03:15,510
+devemos cirar um pacote chamado "controller" e
+
+69
+00:03:15,510 --> 00:03:17,850
+nesse pacote criar uma
+
+70
+00:03:17,850 --> 00:03:21,050
+classe chamada "MyController"
+
+71
+00:03:21,050 --> 00:03:24,060
+Na classe devemos usar a notação
+
+72
+00:03:24,060 --> 00:03:28,380
+do Spring chamada "@RestController".
+
+73
+00:03:28,380 --> 00:03:33,090
+Essa classe deve ter um
+
+74
+00:03:33,090 --> 00:03:35,850
+atributo em seus construtor que
+
+75
+00:03:35,850 --> 00:03:38,610
+vai receber o Service criado anteriormente
+
+76
+00:03:38,610 --> 00:03:41,100
+Então, eu vou listar o atributo entre parentesses (no construtor do Kotlin)
+
+77
+00:03:41,100 --> 00:03:43,770
+E criar uma variavel
+
+78
+00:03:43,770 --> 00:03:46,680
+chamada "myService" do tipo: "MyService"
+
+79
+00:03:46,680 --> 00:03:50,220
+Após criada essa variável, vamos
+
+80
+00:03:50,220 --> 00:03:53,190
+criar uma "Rota" na classe MyController
+
+81
+00:03:53,190 --> 00:03:57,140
+Essa rota vai seguir o método http.get
+
+82
+00:03:57,140 --> 00:04:00,570
+e nela devemos utilizar a notação @GetMapping do Spring e
+
+83
+00:04:00,570 --> 00:04:02,980
+dentro do parentesis dessa anotação
+
+84
+00:04:02,980 --> 00:04:05,170
+devemos colocar o
+
+85
+00:04:05,170 --> 00:04:08,440
+nome da nossa rota, que será "/screen".
+
+86
+00:04:08,440 --> 00:04:11,560
+Abaixo da anotação, devemos criar um método
+
+87
+00:04:11,560 --> 00:04:15,819
+chamado "createScreen" que será responsavel por
+
+88
+00:04:15,819 --> 00:04:18,579
+instanciar o Service que criamos anteriormente.
+
+89
+00:04:18,579 --> 00:04:21,100
+A variável myService retornará a
+
+90
+00:04:21,100 --> 00:04:23,949
+a tela que criamos com o texto "Hello Beagle"
+
+91
+00:04:23,949 --> 00:04:26,470
+Então, abaixo da notação criamos
+
+92
+00:04:26,470 --> 00:04:30,100
+o método chamado "createScreen" e
+
+93
+00:04:30,100 --> 00:04:32,710
+como eu disse anteriormente, é ele que
+
+94
+00:04:32,710 --> 00:04:35,560
+vai retornar a telinha do Beagle
+
+95
+00:04:35,560 --> 00:04:38,560
+vai retornar essa telinha. Então, nesse
+
+96
+00:04:38,560 --> 00:04:40,660
+processo, nós criamos a classe
+
+97
+00:04:40,660 --> 00:04:42,880
+"Controller" e agora devemos voltar então a nossa
+
+98
+00:04:42,880 --> 00:04:46,240
+documentação e seguiur o próximo passo.
+
+99
+00:04:46,240 --> 00:04:49,630
+Aqui faremos uma configuração que é
+
+100
+00:04:49,630 --> 00:04:52,479
+muito vantajosa.
+
+101
+00:04:52,479 --> 00:04:56,510
+Sempre que o backend "serializar" uma tela Server Driven
+
+102
+00:04:56,510 --> 00:04:58,690
+um JSON é criado com todos os atributos
+
+103
+00:04:58,690 --> 00:05:01,750
+de todos os componentes utilizados, no entanto
+
+104
+00:05:01,750 --> 00:05:04,990
+os atributos que não tem valor (e são nulos) não precisam ser mostrados
+
+105
+00:05:04,990 --> 00:05:06,230
+o que garante um JSON mais enxuto.
+
+106
+00:05:06,230 --> 00:05:09,800
+Então, eu devo abrir o abrir o pacote de resources
+
+107
+00:05:09,800 --> 00:05:12,020
+e o arquivo applicationProperties
+
+108
+00:05:12,020 --> 00:05:14,870
+Nele eu devo escrever as
+
+109
+00:05:14,870 --> 00:05:18,650
+duas linhas de comando. A primeira faz com que não
+
+110
+00:05:18,650 --> 00:05:21,650
+apareçam atributos nulos
+
+111
+00:05:21,650 --> 00:05:24,380
+no JSON que representa minha tela
+
+112
+00:05:24,380 --> 00:05:28,400
+A linha dois faz com que o JSON
+
+113
+00:05:28,400 --> 00:05:31,730
+nessa rota que criamos esteja
+
+114
+00:05:31,730 --> 00:05:34,760
+formatado e identado. Feita essa configuração
+
+115
+00:05:34,760 --> 00:05:37,820
+devemos voltar a documentação
+
+116
+00:05:37,820 --> 00:05:40,100
+e seguir o próximo passo.
+
+117
+00:05:40,100 --> 00:05:43,670
+Nosso próximo passo é configurar o CORS
+
+118
+00:05:43,670 --> 00:05:47,960
+que significa "CROSS ORIGIN RESOURCE SHARED".
+
+119
+00:05:47,960 --> 00:05:50,990
+Ele é o mecanismo utilizado pelos
+
+120
+00:05:50,990 --> 00:05:55,060
+navegadores para transferir recursos entre
+
+121
+00:05:55,060 --> 00:05:58,870
+diferentes origens. Então, para aplicações
+
+122
+00:05:58,870 --> 00:06:02,390
+FRONTEND-WEB é necessário configurar o CORS
+
+123
+00:06:02,390 --> 00:06:03,000
+no backend
+
+124
+00:06:03,000 --> 00:06:05,610
+Então vamos fazer essa configuração
+
+125
+00:06:05,610 --> 00:06:08,700
+Para tal, devemos selecionar a aba SpringBoot
+
+126
+00:06:08,700 --> 00:06:11,970
+e copiar a classe de configuração de exemplo.
+
+127
+00:06:11,970 --> 00:06:14,760
+Para adicioná-la ao backend, devemos
+
+128
+00:06:14,760 --> 00:06:17,790
+acessar o pacote do projeto e
+
+129
+00:06:17,790 --> 00:06:21,030
+criar um novo pacote chamado "config".
+
+130
+00:06:21,030 --> 00:06:23,820
+É nesse pacote que criaremos uma
+
+131
+00:06:23,820 --> 00:06:27,990
+classe chamada CorsConfig que
+
+132
+00:06:27,990 --> 00:06:30,390
+conterá toda a configuração do CORS
+
+133
+00:06:30,390 --> 00:06:33,660
+Então, após criar a classe devemos colar a
+
+134
+00:06:33,660 --> 00:06:35,460
+configuração que pegamos na documentação...mas
+
+135
+00:06:35,460 --> 00:06:38,400
+repare que na linha aponta um erro
+
+136
+00:06:38,400 --> 00:06:41,790
+pois precisamos importar essa
+
+137
+00:06:41,790 --> 00:06:45,180
+constante do Beagle que apresenta erro
+
+138
+00:06:45,180 --> 00:06:48,800
+constante do Beagle que apresenta erro
+
+139
+00:06:48,800 --> 00:06:51,680
+Ao importar a classe dessa constante
+
+140
+00:06:51,680 --> 00:06:55,200
+o erro desaparecerá
+
+141
+00:06:55,200 --> 00:06:58,200
+e agor apodemos voltar a documentação uma ultima vez
+
+142
+00:06:58,200 --> 00:07:01,860
+e ver o ultimo passo
+
+143
+00:07:01,860 --> 00:07:02,980
+O ultimo passo é
+
+144
+00:07:02,980 --> 00:07:07,030
+configurar os métodos http
+
+145
+00:07:07,030 --> 00:07:08,920
+Nesse passo vamos fazer as configurações
+
+146
+00:07:08,920 --> 00:07:14,080
+para que o CROS libere requisições
+
+147
+00:07:14,080 --> 00:07:17,950
+do tipo GET, PUT e POST
+
+148
+00:07:17,950 --> 00:07:21,070
+Na documentação eu vou copiar a classe "CorsConfig" desse passo
+
+149
+00:07:21,070 --> 00:07:23,970
+e sobrescrever as informação anteriores na classe CorsConfig
+
+150
+00:07:23,970 --> 00:07:27,490
+e novamente devemos importar as constantes do Beagle.
+
+151
+00:07:27,490 --> 00:07:29,770
+E pronto. Finalizamos as configurações necessárias.
+
+152
+00:07:29,770 --> 00:07:32,080
+Agora resta somente
+
+153
+00:07:32,080 --> 00:07:35,740
+iniciar o nosso backend.
+
+154
+00:07:35,740 --> 00:07:38,860
+Para iniciar o projeto, seleciona o arquivo
+
+155
+00:07:38,860 --> 00:07:42,250
+"BeagleBackendAplication" e abra esse arquivo
+
+156
+00:07:42,250 --> 00:07:45,160
+Na linha 9 clique no botão para iniciar o backend.
+
+157
+00:07:45,160 --> 00:07:48,130
+Que é um triângulo verde de start.
+
+158
+00:07:48,130 --> 00:07:52,150
+e selecione RUN
+
+159
+00:07:52,150 --> 00:07:55,030
+Isso vai iniciar o nosso projeto e vai
+
+160
+00:07:55,030 --> 00:07:57,670
+subi-lo localmente. Uma vez que esteja rodando
+
+161
+00:07:57,670 --> 00:08:00,670
+localmente vamos testar o nosso da Backend
+
+162
+00:08:00,670 --> 00:08:02,990
+Para tal, abra o seu brownser
+
+163
+00:08:02,990 --> 00:08:07,610
+eu abrir uma aba e acessar nosso Backend via localhost
+
+164
+00:08:07,610 --> 00:08:09,980
+Na rota digite "localhost:8080/screen"
+
+165
+00:08:09,980 --> 00:08:15,650
+8080 é a porta utilizada
+
+166
+00:08:15,650 --> 00:08:19,160
+a rota e "/screen" conforme configuramos anteriormente
+
+167
+00:08:19,160 --> 00:08:21,770
+Ao apertar enter o navegador
+
+168
+00:08:21,770 --> 00:08:24,530
+mostrará o JSON que representa a nossa tela
+
+169
+00:08:24,530 --> 00:08:27,160
+E é isso galera
+
+170
+00:08:27,160 --> 00:08:30,320
+qualquer dúvida pode ser enviada ao nosso forum
+
+171
+00:08:30,320 --> 00:08:32,630
+https://forum.zup.com.br/c/pt-br/beagle/16
+
+172
+00:08:32,630 --> 00:08:38,830
+Não esqueça de se inscrever no canal deixar o seu like e é isso até
+
+173
+00:08:38,830 --> 00:08:39,100
+a próxima
+

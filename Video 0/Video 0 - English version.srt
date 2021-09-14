@@ -1,0 +1,692 @@
+1
+00:00:00,000 --> 00:00:02,879
+e fala galera meu nome é Luís Eduardo eu
+
+2
+00:00:02,879 --> 00:00:05,549
+sou desenvolvedora que nas na empresa
+
+3
+00:00:05,549 --> 00:00:07,440
+que está revolucionando o mercado de
+
+4
+00:00:07,440 --> 00:00:09,929
+tecnologia com seus projetos sofrem
+
+5
+00:00:09,929 --> 00:00:12,120
+sérios nesse vídeo vamos falar sobre o
+
+6
+00:00:12,120 --> 00:00:14,940
+Vigo eu vou mostrar na prática Como
+
+7
+00:00:14,940 --> 00:00:17,550
+criar uma telinha utilizando o bico no
+
+8
+00:00:17,550 --> 00:00:20,520
+de quem vamos lá e
+
+9
+00:00:20,520 --> 00:00:21,630
+[Música]
+
+10
+00:00:21,630 --> 00:00:23,699
+Olá primeiramente eu vou acessar a
+
+11
+00:00:23,699 --> 00:00:27,239
+documentação que detox of your style e
+
+12
+00:00:27,239 --> 00:00:30,059
+acessar e ver os passos usando bigode
+
+13
+00:00:30,059 --> 00:00:33,059
+selecionar plataforma biquíni aqui nessa
+
+14
+00:00:33,059 --> 00:00:36,149
+página temos toda a configuração de uso
+
+15
+00:00:36,149 --> 00:00:39,750
+público e as configurações de rotas que
+
+16
+00:00:39,750 --> 00:00:42,780
+vamos criar para consumir essas telas
+
+17
+00:00:42,780 --> 00:00:45,030
+criadas pelo bico então vamos seguir
+
+18
+00:00:45,030 --> 00:00:47,610
+esses passo a passo temos aqui na praia
+
+19
+00:00:47,610 --> 00:00:50,370
+nosso primeiro passo é criar Não serve
+
+20
+00:00:50,370 --> 00:00:54,000
+então eu vou selecionar aqui a deve
+
+21
+00:00:54,000 --> 00:00:56,489
+Spring boot Lembrando que no último
+
+22
+00:00:56,489 --> 00:00:59,189
+vídeo criamos um projeto pé quente do
+
+23
+00:00:59,189 --> 00:01:01,949
+zero com espírito e adicionamos a
+
+24
+00:01:01,949 --> 00:01:04,319
+dependência do pico nesse vídeo vamos
+
+25
+00:01:04,319 --> 00:01:06,479
+dar continuidade fazendo as
+
+26
+00:01:06,479 --> 00:01:09,240
+configurações do Google e que a numa
+
+27
+00:01:09,240 --> 00:01:11,369
+telinha do bico Nordeste é então vamos
+
+28
+00:01:11,369 --> 00:01:13,920
+criar o nosso cérebro se vocês aqui
+
+29
+00:01:13,920 --> 00:01:18,960
+Cliente Sr segue nem coca e abriu o
+
+30
+00:01:18,960 --> 00:01:21,210
+pacote que o nosso projeto dentro do
+
+31
+00:01:21,210 --> 00:01:21,610
+nosso
+
+32
+00:01:21,610 --> 00:01:24,550
+o nosso projeto Vamos criar um pacote
+
+33
+00:01:24,550 --> 00:01:28,360
+chamado service aqui no pacote service
+
+34
+00:01:28,360 --> 00:01:30,760
+eu vou criar uma classe mais service
+
+35
+00:01:30,760 --> 00:01:34,360
+álbum criar aqui e aqui na classe mas
+
+36
+00:01:34,360 --> 00:01:37,090
+serve se primeiramente vamos utilizar a
+
+37
+00:01:37,090 --> 00:01:40,270
+notação do espírito sobre o nome da
+
+38
+00:01:40,270 --> 00:01:42,930
+classe e vamos utilizar o arroba service
+
+39
+00:01:42,930 --> 00:01:46,840
+tinta na classe Vamos acertar de uma
+
+40
+00:01:46,840 --> 00:01:50,890
+interface do bico chamada skilder e ela
+
+41
+00:01:50,890 --> 00:01:53,770
+vai sobrescrever o método bild onde ele
+
+42
+00:01:53,770 --> 00:01:56,800
+vai ficar responsável por retornar a
+
+43
+00:01:56,800 --> 00:01:59,100
+tela do bico então vamos pegar
+
+44
+00:01:59,100 --> 00:02:02,990
+disponível de sobrescrever o método pelo
+
+45
+00:02:02,990 --> 00:02:06,890
+e aqui nesse método fio de ele ficará
+
+46
+00:02:06,890 --> 00:02:09,318
+responsável por ele tornar a nossa tela
+
+47
+00:02:09,318 --> 00:02:12,110
+Então na linha 10 vou dar um retângulo e
+
+48
+00:02:12,110 --> 00:02:15,410
+estão será a nossa tela dentro da tela
+
+49
+00:02:15,410 --> 00:02:18,890
+Vou chamar o atributo chamado child onde
+
+50
+00:02:18,890 --> 00:02:21,260
+eu vou criar e componente que vai
+
+51
+00:02:21,260 --> 00:02:23,599
+receber uma lista de componentes chamado
+
+52
+00:02:23,599 --> 00:02:26,390
+conter dentro do Pompéia Vou chamar o
+
+53
+00:02:26,390 --> 00:02:29,390
+atributo tio onde vai receber uma lista
+
+54
+00:02:29,390 --> 00:02:33,110
+Então dentro dessa lista eu vou criar os
+
+55
+00:02:33,110 --> 00:02:35,299
+componentes que vão aparecer na minha
+
+56
+00:02:35,299 --> 00:02:37,250
+tela Então se a gente pode fazer aqui
+
+57
+00:02:37,250 --> 00:02:41,060
+hoje é criar um componente e no valor
+
+58
+00:02:41,060 --> 00:02:44,510
+esse teste vamos colocar como Hello bico
+
+59
+00:02:44,510 --> 00:02:47,780
+está Vamos criar nós componente no valor
+
+60
+00:02:47,780 --> 00:02:51,170
+ele vamos colocar como Hello pode ser
+
+61
+00:02:51,170 --> 00:02:53,720
+esse processo criamos o nosso service e
+
+62
+00:02:53,720 --> 00:02:56,840
+criamos a nossa telinha Contate hello
+
+63
+00:02:56,840 --> 00:02:59,810
+vamos voltar lá na documentação e de
+
+64
+00:02:59,810 --> 00:03:03,000
+qual é o próximo passo mais próximo
+
+65
+00:03:03,000 --> 00:03:07,680
+a criar uma controla selecionar e fazer
+
+66
+00:03:07,680 --> 00:03:09,750
+tutorial o abrir aqui o nosso
+
+67
+00:03:09,750 --> 00:03:12,240
+inteligente no pacote do nosso projeto
+
+68
+00:03:12,240 --> 00:03:15,510
+vou criar um pacote chamado controla e
+
+69
+00:03:15,510 --> 00:03:17,850
+nesse pacote controla eu vou criar uma
+
+70
+00:03:17,850 --> 00:03:21,050
+classe controla chamada Maicon troca
+
+71
+00:03:21,050 --> 00:03:24,060
+aqui na classe me controla eu vou
+
+72
+00:03:24,060 --> 00:03:28,380
+utilizar a notação do Spinner@best
+
+73
+00:03:28,380 --> 00:03:33,090
+Controller mas controle e vou criar um
+
+74
+00:03:33,090 --> 00:03:35,850
+atributo na classe me encontrado então
+
+75
+00:03:35,850 --> 00:03:38,610
+vou abrir e fechar parentes e vou criar
+
+76
+00:03:38,610 --> 00:03:41,100
+uma la Tribu o meu atributo será o
+
+77
+00:03:41,100 --> 00:03:43,770
+service Paulo criar uma variável mas
+
+78
+00:03:43,770 --> 00:03:46,680
+service que ele vai ser do tipo mais
+
+79
+00:03:46,680 --> 00:03:50,220
+service tão sério após criado isso vamos
+
+80
+00:03:50,220 --> 00:03:53,190
+criar a nossa Rota na nossa classe mais
+
+81
+00:03:53,190 --> 00:03:57,140
+serve a nossa rota vai seguir o neto
+
+82
+00:03:57,140 --> 00:04:00,570
+http.get utilizar a notação@that map
+
+83
+00:04:00,570 --> 00:04:02,980
+abrir e fechar parênteses
+
+84
+00:04:02,980 --> 00:04:05,170
+o número do parênteses eu vou colocar o
+
+85
+00:04:05,170 --> 00:04:08,440
+nome da nossa rota vai ser barra e
+
+86
+00:04:08,440 --> 00:04:11,560
+abaixo da anotação eu vou criar um metro
+
+87
+00:04:11,560 --> 00:04:15,819
+de uma cliente um onde eu vou chamar o
+
+88
+00:04:15,819 --> 00:04:18,579
+meu a minha variada onde eu vou igualar
+
+89
+00:04:18,579 --> 00:04:21,100
+a minha variável que vai ser retornado o
+
+90
+00:04:21,100 --> 00:04:23,949
+meu service que é minha tela com que
+
+91
+00:04:23,949 --> 00:04:26,470
+estão abaixo da notação forma beat.net
+
+92
+00:04:26,470 --> 00:04:30,100
+eu criei um método chamado clientes onde
+
+93
+00:04:30,100 --> 00:04:32,710
+eu não falei é um mau service onde
+
+94
+00:04:32,710 --> 00:04:35,560
+criamos a nossa telinha comigo então ela
+
+95
+00:04:35,560 --> 00:04:38,560
+vai retornar essa telinha com os esse
+
+96
+00:04:38,560 --> 00:04:40,660
+processo criamos aqui então nosso
+
+97
+00:04:40,660 --> 00:04:42,880
+controle Então vamos voltar lá na
+
+98
+00:04:42,880 --> 00:04:46,240
+documentação e seguiu próximo passo vou
+
+99
+00:04:46,240 --> 00:04:49,630
+selecionar até bicheiro ti e vou copiar
+
+100
+00:04:49,630 --> 00:04:52,479
+essa configuração aqui essa configuração
+
+101
+00:04:52,479 --> 00:04:55,510
+que vamos fazer agora é para ti quando o
+
+102
+00:04:55,510 --> 00:04:58,690
+backend será realizar a nossa tema e ele
+
+103
+00:04:58,690 --> 00:05:01,750
+transformar entre só os atributos que
+
+104
+00:05:01,750 --> 00:05:02,990
+tiver nulo
+
+105
+00:05:02,990 --> 00:05:05,230
+e agora está no dia estão tão pouco
+
+106
+00:05:05,230 --> 00:05:09,800
+abrir o meu pacotinho só esse e abrir o
+
+107
+00:05:09,800 --> 00:05:12,020
+nosso arquivo application on
+
+108
+00:05:12,020 --> 00:05:14,870
+retroplayers e dentro dele eu vou colar
+
+109
+00:05:14,870 --> 00:05:18,650
+essas duas a 6 número um faz com que não
+
+110
+00:05:18,650 --> 00:05:21,650
+apareça os atributos que esteja com
+
+111
+00:05:21,650 --> 00:05:24,380
+valor nulo no dia de sol e a linha
+
+112
+00:05:24,380 --> 00:05:28,400
+número dois faz com que quando eu acesse
+
+113
+00:05:28,400 --> 00:05:31,730
+essa rota que eu criei o Jackson esteja
+
+114
+00:05:31,730 --> 00:05:34,760
+formatado inventado Então essas duas
+
+115
+00:05:34,760 --> 00:05:37,820
+menos fazem isso então vamos voltar lá
+
+116
+00:05:37,820 --> 00:05:40,100
+na documentação e seguir os próximos
+
+117
+00:05:40,100 --> 00:05:43,670
+passos nós próximo passo é configurar o
+
+118
+00:05:43,670 --> 00:05:47,960
+corte quais é pros ordem resources share
+
+119
+00:05:47,960 --> 00:05:50,990
+ele é o mecanismo utilizado pelos
+
+120
+00:05:50,990 --> 00:05:55,060
+navegadores para transferir curso entre
+
+121
+00:05:55,060 --> 00:05:58,870
+diferentes origens tão para aplicação
+
+122
+00:05:58,870 --> 00:06:02,390
+software é necessário configurar o corte
+
+123
+00:06:02,390 --> 00:06:03,000
+no nosso
+
+124
+00:06:03,000 --> 00:06:05,610
+bom então vamos fazer essa configuração
+
+125
+00:06:05,610 --> 00:06:08,700
+aqui agora então vou selecionar aqui eu
+
+126
+00:06:08,700 --> 00:06:11,970
+vi multi e vou confiar essa configuração
+
+127
+00:06:11,970 --> 00:06:14,760
+aqui e aqui no meu beck em ti eu vou
+
+128
+00:06:14,760 --> 00:06:17,790
+acessar o pacote do meu projeto e vou
+
+129
+00:06:17,790 --> 00:06:21,030
+criar um novo pacote mano confio dentro
+
+130
+00:06:21,030 --> 00:06:23,820
+do nosso pacote conferir o vou criar uma
+
+131
+00:06:23,820 --> 00:06:27,990
+classe chamada qual as um filho onde vai
+
+132
+00:06:27,990 --> 00:06:30,390
+ficar toda essa configuração do Corsa
+
+133
+00:06:30,390 --> 00:06:33,660
+criada Nossa classe vou colar toda a
+
+134
+00:06:33,660 --> 00:06:35,460
+configuração que copiamos lá da
+
+135
+00:06:35,460 --> 00:06:38,400
+documentação reparamos que na minha um é
+
+136
+00:06:38,400 --> 00:06:41,790
+está dando ele e se eu e com o esporte
+
+137
+00:06:41,790 --> 00:06:45,180
+header é uma variável constante do bico
+
+138
+00:06:45,180 --> 00:06:48,800
+então a gente vai acessar ela que e
+
+139
+00:06:48,800 --> 00:06:51,680
+importar essa variável constante
+
+140
+00:06:51,680 --> 00:06:55,200
+utilizando as teclas ao time após
+
+141
+00:06:55,200 --> 00:06:58,200
+importar vamos voltar na documentação
+
+142
+00:06:58,200 --> 00:07:01,860
+ver qual é o próximo passo e as próximo
+
+143
+00:07:01,860 --> 00:07:02,980
+passo é
+
+144
+00:07:02,980 --> 00:07:07,030
+em configurações de métodos http deixa
+
+145
+00:07:07,030 --> 00:07:08,920
+passa a gente vai fazer a configurações
+
+146
+00:07:08,920 --> 00:07:14,080
+para cortes liberar requisições get out
+
+147
+00:07:14,080 --> 00:07:17,950
+e por tão louco e Alice conteúdo aqui e
+
+148
+00:07:17,950 --> 00:07:21,070
+vou colar lá na minha classe colar aqui
+
+149
+00:07:21,070 --> 00:07:23,970
+até hoje fortes e vamos importar
+
+150
+00:07:23,970 --> 00:07:27,490
+avaliavam constantes do Vigo após
+
+151
+00:07:27,490 --> 00:07:29,770
+importado vamos voltar lá na
+
+152
+00:07:29,770 --> 00:07:32,080
+documentação de seguir os próximos
+
+153
+00:07:32,080 --> 00:07:35,740
+passos laço próximo passo é iniciar o
+
+154
+00:07:35,740 --> 00:07:38,860
+nosso becm Vamos acessar aqui pacote do
+
+155
+00:07:38,860 --> 00:07:42,250
+nosso projeto e abriu o arquivo de
+
+156
+00:07:42,250 --> 00:07:45,160
+coubertin já apliquei na linha 9 temos
+
+157
+00:07:45,160 --> 00:07:48,130
+um triângulo de start Então a gente vai
+
+158
+00:07:48,130 --> 00:07:52,150
+clicar nele e vai selecionar Urbano onde
+
+159
+00:07:52,150 --> 00:07:55,030
+ele vai iniciar o nosso projeto e vai
+
+160
+00:07:55,030 --> 00:07:57,670
+subir ele localmente após subir ele
+
+161
+00:07:57,670 --> 00:08:00,670
+localmente vamos testar o nosso da Candy
+
+162
+00:08:00,670 --> 00:08:02,990
+Então vamos abrir aqui ó
+
+163
+00:08:02,990 --> 00:08:07,610
+eu abrir uma aba e acessar nosso Beck
+
+164
+00:08:07,610 --> 00:08:09,980
+and localmente então vocês aqui a rota
+
+165
+00:08:09,980 --> 00:08:15,650
+local Bush: a porta que é o 80 e o nome
+
+166
+00:08:15,650 --> 00:08:19,160
+da nossa rota que barra biscuit e vamos
+
+167
+00:08:19,160 --> 00:08:21,770
+apertar entre após isso para mostrar um
+
+168
+00:08:21,770 --> 00:08:24,530
+dia de som na nossa tela criada no no
+
+169
+00:08:24,530 --> 00:08:27,160
+nosso projeto lequinho e é isso galera
+
+170
+00:08:27,160 --> 00:08:30,320
+qualquer dúvida escreva aqui no nosso
+
+171
+00:08:30,320 --> 00:08:32,630
+comentário Não esqueça de se inscrever
+
+172
+00:08:32,630 --> 00:08:36,830
+no canal deixar o seu like e é isso até
+
+173
+00:08:36,830 --> 00:08:39,100
+o próximo
+
