@@ -48,7 +48,7 @@ Selecione na coluna a esquerda
 
 13
 00:00:30,059 --> 00:00:33,059
-a opção Primeiros passos, e depois Usando o Beagle e "Backend"
+a opção Backend, e depois em "Primeiros passos"
 
 14
 00:00:33,059 --> 00:00:36,149
@@ -84,7 +84,7 @@ Spring boot na documentação (link na descrição). Lembrando que no último
 
 22
 00:00:56,489 --> 00:00:59,189
-vídeo criamos um projeto Backend do
+vídeo nós criamos um projeto Backend do
 
 23
 00:00:59,189 --> 00:01:01,949
@@ -280,7 +280,7 @@ classe chamada "MyController"
 
 71
 00:03:21,050 --> 00:03:24,060
-Na classe devemos usar a notação
+Nessa classe devemos usar a notação
 
 72
 00:03:24,060 --> 00:03:28,380
@@ -384,11 +384,11 @@ processo, nós criamos a classe
 
 97
 00:04:40,660 --> 00:04:42,880
-"Controller" e agora devemos voltar então a nossa
+"Controller" e agora devemos voltar a nossa
 
 98
 00:04:42,880 --> 00:04:46,240
-documentação e seguiur o próximo passo.
+documentação e seguir o próximo passo.
 
 99
 00:04:46,240 --> 00:04:49,630
@@ -416,7 +416,7 @@ os atributos que não tem valor (e são nulos) não precisam ser mostrados
 
 105
 00:05:04,990 --> 00:05:06,230
-o que garante um JSON mais enxuto.
+o que garante um JSON mais "enxuto".
 
 106
 00:05:06,230 --> 00:05:09,800
@@ -580,7 +580,7 @@ Nesse passo vamos fazer as configurações
 
 146
 00:07:08,920 --> 00:07:14,080
-para que o CROS libere requisições
+para que o CORS libere requisições
 
 147
 00:07:14,080 --> 00:07:17,950
@@ -644,7 +644,7 @@ localmente vamos testar o nosso da Backend
 
 162
 00:08:00,670 --> 00:08:02,990
-Para tal, abra o seu brownser
+Para tal, abra o seu browser
 
 163
 00:08:02,990 --> 00:08:07,610
