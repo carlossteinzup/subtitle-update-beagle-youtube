@@ -1,0 +1,635 @@
+1
+00:00:00,000 --> 00:00:05,040
+Hi guys, my name is Luís Eduardo and I
+
+2
+00:00:02,970 --> 00:00:06,779
+am a developer here at Zup, a
+
+3
+00:00:05,040 --> 00:00:09,000
+company that is agitating the
+
+4
+00:00:06,779 --> 00:00:11,880
+tech market with Open Source
+
+5
+00:00:09,000 --> 00:00:14,730
+projects. In this video we are going to
+
+6
+00:00:11,880 --> 00:00:17,369
+talk about Beagle and I will teach you
+
+7
+00:00:14,730 --> 00:00:21,020
+how to install Beagle Scaffold in your
+
+8
+00:00:17,369 --> 00:00:21,020
+Android project.
+
+9
+00:00:21,460 --> 00:00:26,829
+Let's access the main page
+
+10
+00:00:24,759 --> 00:00:29,949
+usebeagle.io and click on
+
+11
+00:00:26,829 --> 00:00:33,510
+documentation, here it's Docs. Here in docs
+
+12
+00:00:29,949 --> 00:00:37,390
+we are going to access 'Get Started' > 'Using Beagle helpers' 
+
+13
+00:00:33,510 --> 00:00:40,750
+and select the Android platform and open
+
+14
+00:00:37,390 --> 00:00:43,899
+Beagle Scaffold page. On this page
+
+15
+00:00:40,750 --> 00:00:45,610
+there are the steps to install 
+
+16
+00:00:43,899 --> 00:00:48,879
+Beagle Scaffold in your Android
+
+17
+00:00:45,610 --> 00:00:51,489
+project. If you don't know,  Beagle Scaffold
+
+18
+00:00:48,879 --> 00:00:54,879
+is a library that contains 
+
+19
+00:00:51,489 --> 00:00:57,609
+all the initial configuration 
+
+20
+00:00:54,879 --> 00:01:00,100
+you need to provide for Beagle. So 
+
+21
+00:00:57,609 --> 00:01:02,739
+let's follow step by step. Our
+
+22
+00:01:00,100 --> 00:01:05,710
+first step is to create an Android project 
+
+23
+00:01:02,739 --> 00:01:08,500
+so, here let's open Android Studio, go
+
+24
+00:01:05,710 --> 00:01:12,220
+to 'Create New Project' and select
+
+25
+00:01:08,500 --> 00:01:15,460
+'Empty Activity' and name our
+
+26
+00:01:12,220 --> 00:01:18,220
+project 'My Beagle'. Select the 
+
+27
+00:01:15,460 --> 00:01:21,470
+Kotlin language. It's interesting to mention
+
+28
+00:01:18,220 --> 00:01:25,550
+Beagle accepts the API 19 or higher
+
+29
+00:01:21,470 --> 00:01:28,730
+So we will have to use in our
+
+30
+00:01:25,550 --> 00:01:31,250
+Android project the SDK 19 or
+
+31
+00:01:28,730 --> 00:01:34,550
+higher. So let's select here the
+
+32
+00:01:31,250 --> 00:01:37,310
+API 30 which is the most recent and let's click 
+
+33
+00:01:34,550 --> 00:01:40,580
+on 'Finish'. After this, Android Studio will
+
+34
+00:01:37,310 --> 00:01:43,070
+open our project. After opening the Android
+
+35
+00:01:40,580 --> 00:01:46,490
+project, let's go back to the documentation
+
+36
+00:01:43,070 --> 00:01:49,040
+and see what is the next step. So
+
+37
+00:01:46,490 --> 00:01:51,620
+the next step is to add the MavenCentral
+
+38
+00:01:49,040 --> 00:01:53,720
+there in our project, let's
+
+39
+00:01:51,620 --> 00:01:55,910
+go back to Android Studio and here 
+
+40
+00:01:53,720 --> 00:01:58,729
+let's open Gradle Scripts
+
+41
+00:01:55,910 --> 00:02:01,970
+and open the file build.gradle.project
+
+42
+00:01:58,729 --> 00:02:05,750
+And here in this file
+
+43
+00:02:01,970 --> 00:02:08,990
+let's search for allprojects code block 
+
+44
+00:02:05,750 --> 00:02:12,320
+and let's paste the MavenCentral
+
+45
+00:02:08,990 --> 00:02:15,410
+inside the repositories block that it is
+
+46
+00:02:12,320 --> 00:02:17,870
+inside allprojects, let's
+
+47
+00:02:15,410 --> 00:02:20,840
+paste and go back to the documentation to 
+
+48
+00:02:17,870 --> 00:02:21,480
+see what is the next step. The next
+
+49
+00:02:20,840 --> 00:02:24,720
+step is to add
+
+50
+00:02:21,480 --> 00:02:27,480
+the Beagle Scaffold lib dependencies and
+
+51
+00:02:24,720 --> 00:02:30,930
+Beagle's one and add some configuration 
+
+52
+00:02:27,480 --> 00:02:33,959
+in the build.gradle module file, so
+
+53
+00:02:30,930 --> 00:02:36,299
+let's copy here the plugins and go 
+
+54
+00:02:33,959 --> 00:02:38,790
+back to Android Studio and let's open here 
+
+55
+00:02:36,299 --> 00:02:42,150
+the build.gradle module file
+
+56
+00:02:38,790 --> 00:02:44,870
+So, let's open here and I will paste 
+
+57
+00:02:42,150 --> 00:02:48,120
+the plugins here. Let's go back to the documentation
+
+58
+00:02:44,870 --> 00:02:50,549
+copy the packagingOptions and we have to paste
+
+59
+00:02:48,120 --> 00:02:52,650
+it inside the Android block, so
+
+60
+00:02:50,549 --> 00:02:57,239
+the Android block is here and I will paste 
+
+61
+00:02:52,650 --> 00:03:00,060
+below kotlinOptions here. And 
+
+62
+00:02:57,239 --> 00:03:02,400
+out last step is to copy the
+
+63
+00:03:00,060 --> 00:03:06,299
+Beagle's dependencies and Beagle Scaffold's 
+
+64
+00:03:02,400 --> 00:03:08,910
+So I will copy and paste here. And
+
+65
+00:03:06,299 --> 00:03:11,609
+how can I see which is the lastest
+
+66
+00:03:08,910 --> 00:03:14,220
+Beagle and Beagle Scaffold
+
+67
+00:03:11,609 --> 00:03:17,099
+versions? I will go back here
+
+68
+00:03:14,220 --> 00:03:19,440
+to the documentation and above de code we have 
+
+69
+00:03:17,099 --> 00:03:21,460
+the most recent version, Beagle Scaffold
+
+70
+00:03:19,440 --> 00:03:25,810
+is in the 1.0.1 version
+
+71
+00:03:21,460 --> 00:03:28,300
+And Beagle is on 1.5.1 version. Let's
+
+72
+00:03:25,810 --> 00:03:31,120
+go back to Android Studio and verify
+
+73
+00:03:28,300 --> 00:03:35,200
+if we are using the lastest 
+
+74
+00:03:31,120 --> 00:03:40,210
+version. Beagle is in 1.5.1 version and
+
+75
+00:03:35,200 --> 00:03:43,570
+Beagle Scaffold 1.0.1 version, so let's
+
+76
+00:03:40,210 --> 00:03:46,240
+change and synchronize the project here
+
+77
+00:03:43,570 --> 00:03:48,790
+in this graddle button and I will click here
+
+78
+00:03:46,240 --> 00:03:51,910
+and it will download all the dependencies 
+
+79
+00:03:48,790 --> 00:03:54,970
+for us. After downloading the dependencies
+
+80
+00:03:51,910 --> 00:03:57,940
+we will go to usage configuration. So
+
+81
+00:03:54,970 --> 00:04:01,270
+let's go back to the documentation. Our
+
+82
+00:03:57,940 --> 00:04:03,910
+next step is to create a file
+
+83
+00:04:01,270 --> 00:04:06,760
+AppBeagleConfig, so let's go back to 
+
+84
+00:04:03,910 --> 00:04:10,990
+our project, I will open here the Java
+
+85
+00:04:06,760 --> 00:04:13,930
+package, the package of our project and here I 
+
+86
+00:04:10,990 --> 00:04:16,390
+will create a class. So I will create a
+
+87
+00:04:13,930 --> 00:04:19,060
+class and name it AppBeagleConfig
+
+88
+00:04:16,390 --> 00:04:21,470
+in this class we will have to use
+
+89
+00:04:19,060 --> 00:04:25,090
+Beagle's annotation, so about the class 
+
+90
+00:04:21,470 --> 00:04:28,940
+I will use the @BeagleComponent annotation.
+
+91
+00:04:25,090 --> 00:04:32,030
+Here in the class, we will inherit from
+
+92
+00:04:28,940 --> 00:04:34,760
+BeagleConfigScaffold. Our next step is
+
+93
+00:04:32,030 --> 00:04:37,160
+build the project because when you build
+
+94
+00:04:34,760 --> 00:04:41,180
+the project it will create a Beagle initialization
+
+95
+00:04:37,160 --> 00:04:43,610
+file called BeagleSetUp
+
+96
+00:04:41,180 --> 00:04:47,830
+So, lets go back to our project 
+
+97
+00:04:43,610 --> 00:04:50,480
+let's select here the tab build
+
+98
+00:04:47,830 --> 00:04:53,090
+and select the 'Make Project' option
+
+99
+00:04:50,480 --> 00:04:56,600
+Because of this process, the project will create 
+
+100
+00:04:53,090 --> 00:05:00,230
+a Beagle file called BeagleSetup
+
+101
+00:04:56,600 --> 00:05:02,750
+It is the class that starts Beagle in our
+
+102
+00:05:00,230 --> 00:05:05,540
+project. After synchronize the project lets
+
+103
+00:05:02,750 --> 00:05:08,450
+go back to the documentantion and see what is
+
+104
+00:05:05,540 --> 00:05:12,350
+the next step. Our next step is
+
+105
+00:05:08,450 --> 00:05:15,080
+to create a file called AppApplication
+
+106
+00:05:12,350 --> 00:05:18,230
+where Beagle will be booted and
+
+107
+00:05:15,080 --> 00:05:21,480
+BeagleScaffold. Here the package in our project 
+
+108
+00:05:18,230 --> 00:05:24,180
+let's create a class called
+
+109
+00:05:21,480 --> 00:05:27,690
+AppApplication. Here in the class Application
+
+110
+00:05:24,180 --> 00:05:31,350
+it will inherit the Application
+
+111
+00:05:27,690 --> 00:05:34,860
+in the class we will call a method 
+
+112
+00:05:31,350 --> 00:05:38,430
+onCreate and inside the onCreate method
+
+113
+00:05:34,860 --> 00:05:40,920
+we will initialize Beagle
+
+114
+00:05:38,430 --> 00:05:43,800
+So lets call this class
+
+115
+00:05:40,920 --> 00:05:46,680
+BeagleScaffold where we will pass the class
+
+116
+00:05:43,800 --> 00:05:48,450
+BeagleSetup in the parameter. In the class
+
+117
+00:05:46,680 --> 00:05:52,080
+BeagleScaffold lets call
+
+118
+00:05:48,450 --> 00:05:55,140
+the init method passing the application, which is
+
+119
+00:05:52,080 --> 00:05:58,230
+'this'. So we have created our class
+
+120
+00:05:55,140 --> 00:06:01,560
+AppApplication and now we have to call it
+
+121
+00:05:58,230 --> 00:06:05,160
+in our file Manifest. So let's
+
+122
+00:06:01,560 --> 00:06:08,040
+open here the Manifest package and open the
+
+123
+00:06:05,160 --> 00:06:10,260
+androidmanifest.xml file. Here
+
+124
+00:06:08,040 --> 00:06:14,160
+in our Manifest file, we need to
+
+125
+00:06:10,260 --> 00:06:17,400
+change two things: lets add the
+
+126
+00:06:14,160 --> 00:06:19,950
+internet permission and lets name
+
+127
+00:06:17,400 --> 00:06:21,460
+it Application. Lets
+
+128
+00:06:19,950 --> 00:06:24,639
+first add here 
+
+129
+00:06:21,460 --> 00:06:27,610
+in the line 5 the permission for the internet, I
+
+130
+00:06:24,639 --> 00:06:30,400
+opened the tag and the uses-permission, internet
+
+131
+00:06:27,610 --> 00:06:32,590
+Here inside the Application tag we have to
+
+132
+00:06:30,400 --> 00:06:34,810
+name our class
+
+133
+00:06:32,590 --> 00:06:37,419
+application. So I will call the attribute
+
+134
+00:06:34,810 --> 00:06:40,630
+name passing the name of our class
+
+135
+00:06:37,419 --> 00:06:43,289
+Application, which it is  AppApplication. After this
+
+136
+00:06:40,630 --> 00:06:46,569
+process we finish this Beagle 
+
+137
+00:06:43,289 --> 00:06:49,419
+configuration part and now 
+
+138
+00:06:46,569 --> 00:06:51,940
+we will call a screen to render
+
+139
+00:06:49,419 --> 00:06:54,400
+our Android project. Lets go back to
+
+140
+00:06:51,940 --> 00:06:57,039
+the documentation and see the step to 
+
+141
+00:06:54,400 --> 00:07:00,460
+call the screen from the BFF. Then
+
+142
+00:06:57,039 --> 00:07:03,220
+lets copy here the startActivity, in the
+
+143
+00:07:00,460 --> 00:07:05,650
+mainActivity class, lets paste the 
+
+144
+00:07:03,220 --> 00:07:08,320
+startActivity we have already copied from 
+
+145
+00:07:05,650 --> 00:07:10,840
+the documentation. What does this line do? It
+
+146
+00:07:08,320 --> 00:07:13,449
+calls the screen from the 
+
+147
+00:07:10,840 --> 00:07:16,960
+backend that it will render a 
+
+148
+00:07:13,449 --> 00:07:20,050
+screen coming from the BFF where there are all
+
+149
+00:07:16,960 --> 00:07:21,470
+Beagle's components. So after this
+
+150
+00:07:20,050 --> 00:07:26,240
+process lets click on 
+
+151
+00:07:21,470 --> 00:07:28,910
+'Run app' and it will render our
+
+152
+00:07:26,240 --> 00:07:31,520
+first screen in this emulator. So let's
+
+153
+00:07:28,910 --> 00:07:34,730
+open here the emulator and wait
+
+154
+00:07:31,520 --> 00:07:36,830
+to render. That's it guys we rendered
+
+155
+00:07:34,730 --> 00:07:39,350
+our first screen in an
+
+156
+00:07:36,830 --> 00:07:41,600
+Android project. If you have any doubts
+
+157
+00:07:39,350 --> 00:07:44,060
+comment below and don't forget to
+
+158
+00:07:41,600 --> 00:07:47,770
+like and to subscribe to our channel
+
+159
+00:07:44,060 --> 00:07:47,770
+See you in the next video! 
